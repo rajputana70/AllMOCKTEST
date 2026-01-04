@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "question": "Tell me about yourself.",
+    "options": [
+      "I'll share my professional background, key skills, and career interests relevant to this role",
+      "I'll tell you everything about my personal life and hobbies",
+      "I don't have much to say about myself",
+      "Let me read my entire resume to you"
+    ],
+    "correct": ["I'll share my professional background, key skills, and career interests relevant to this role"],
+    "type": "single",
+    "explanation": "This question assesses your communication skills and professionalism. Focus on relevant professional information concisely."
+  },
+  {
+    "id": 2,
+    "question": "Why should we hire you?",
+    "options": [
+      "I'll highlight my unique skills and how they match your requirements",
+      "I need a job and you're hiring",
+      "I'm better than everyone else",
+      "I don't know, you tell me"
+    ],
+    "correct": ["I'll highlight my unique skills and how they match your requirements"],
+    "type": "single",
+    "explanation": "Demonstrate value by connecting your specific skills and experience to the company's needs."
+  },
+  {
+    "id": 3,
+    "question": "What are your greatest strengths?",
+    "options": [
+      "I'll mention 2-3 relevant strengths with specific examples",
+      "I'm perfect at everything",
+      "I don't really have any strengths",
+      "I'm good at everything I do"
+    ],
+    "correct": ["I'll mention 2-3 relevant strengths with specific examples"],
+    "type": "single",
+    "explanation": "Choose strengths relevant to the job and back them up with concrete examples from your experience."
+  },
+  {
+    "id": 4,
+    "question": "What is your greatest weakness?",
+    "options": [
+      "I'll mention a genuine weakness and explain how I'm working to improve it",
+      "I don't have any weaknesses",
+      "I'm too perfect for my own good",
+      "I have so many weaknesses I can't count them"
+    ],
+    "correct": ["I'll mention a genuine weakness and explain how I'm working to improve it"],
+    "type": "single",
+    "explanation": "Show self-awareness and commitment to growth by discussing a real weakness and your improvement plan."
+  },
+  {
+    "id": 5,
+    "question": "Where do you see yourself in 5 years?",
+    "options": [
+      "I see myself growing within the company and taking on more responsibilities",
+      "I'll probably be running my own business",
+      "I have no idea about my future",
+      "In your position"
+    ],
+    "correct": ["I see myself growing within the company and taking on more responsibilities"],
+    "type": "single",
+    "explanation": "Show ambition while demonstrating commitment to the company and alignment with career growth opportunities."
+  },
+  {
+    "id": 6,
+    "question": "Why do you want to work for our company?",
+    "options": [
+      "I've researched your company and my values align with your mission and culture",
+      "I need any job I can get",
+      "You're close to my house",
+      "I heard you pay well"
+    ],
+    "correct": ["I've researched your company and my values align with your mission and culture"],
+    "type": "single",
+    "explanation": "Demonstrate genuine interest by showing you've researched the company and explaining why it's a good fit."
+  },
+  {
+    "id": 7,
+    "question": "Why did you leave your last job?",
+    "options": [
+      "I'm seeking new challenges and opportunities for professional growth",
+      "I hated my boss and coworkers",
+      "They treated me unfairly",
+      "The work was too hard"
+    ],
+    "correct": ["I'm seeking new challenges and opportunities for professional growth"],
+    "type": "single",
+    "explanation": "Stay positive and professional. Focus on growth opportunities rather than negative aspects of previous employment."
+  },
+  {
+    "id": 8,
+    "question": "How do you handle stress and pressure?",
+    "options": [
+      "I prioritize tasks, stay organized, and maintain a positive attitude",
+      "I usually break down and can't function",
+      "I avoid stressful situations completely",
+      "I get angry and blame others"
+    ],
+    "correct": ["I prioritize tasks, stay organized, and maintain a positive attitude"],
+    "type": "single",
+    "explanation": "Show resilience by explaining your practical strategies for managing stress effectively."
+  },
+  {
+    "id": 9,
+    "question": "Describe a time when you faced a difficult challenge at work.",
+    "options": [
+      "I'll share a specific situation, my actions, and the positive outcome",
+      "I've never faced any challenges",
+      "Every day is a challenge for me",
+      "I prefer not to discuss past problems"
+    ],
+    "correct": ["I'll share a specific situation, my actions, and the positive outcome"],
+    "type": "single",
+    "explanation": "Use the STAR method (Situation, Task, Action, Result) to provide a structured, compelling example."
+  },
+  {
+    "id": 10,
+    "question": "How do you prioritize your work?",
+    "options": [
+      "I assess urgency and importance, then create a structured plan",
+      "I just do whatever comes first",
+      "I wait for others to tell me what to do",
+      "I work on the easiest tasks first"
+    ],
+    "correct": ["I assess urgency and importance, then create a structured plan"],
+    "type": "single",
+    "explanation": "Demonstrate organizational skills by explaining your systematic approach to managing multiple tasks."
+  },
+  {
+    "id": 11,
+    "question": "Tell me about a time you worked in a team.",
+    "options": [
+      "I'll describe my role, collaboration approach, and team success",
+      "I prefer working alone always",
+      "I usually end up doing all the work",
+      "I don't remember working in teams"
+    ],
+    "correct": ["I'll describe my role, collaboration approach, and team success"],
+    "type": "single",
+    "explanation": "Highlight your teamwork skills by sharing a specific example with concrete results."
+  },
+  {
+    "id": 12,
+    "question": "How do you handle criticism?",
+    "options": [
+      "I listen carefully, reflect on the feedback, and use it to improve",
+      "I get defensive and argue back",
+      "I ignore criticism completely",
+      "I take it personally and get upset"
+    ],
+    "correct": ["I listen carefully, reflect on the feedback, and use it to improve"],
+    "type": "single",
+    "explanation": "Show maturity and growth mindset by demonstrating your ability to accept and learn from feedback."
+  },
+  {
+    "id": 13,
+    "question": "What motivates you?",
+    "options": [
+      "Achieving goals, learning new skills, and making a positive impact",
+      "Just getting a paycheck",
+      "Avoiding getting fired",
+      "Nothing really motivates me"
+    ],
+    "correct": ["Achieving goals, learning new skills, and making a positive impact"],
+    "type": "single",
+    "explanation": "Share genuine motivators that align with professional growth and company success."
+  },
+  {
+    "id": 14,
+    "question": "How do you deal with conflict at work?",
+    "options": [
+      "I address it professionally, listen to all perspectives, and seek win-win solutions",
+      "I avoid conflict at all costs",
+      "I make sure I win the argument",
+      "I complain to management immediately"
+    ],
+    "correct": ["I address it professionally, listen to all perspectives, and seek win-win solutions"],
+    "type": "single",
+    "explanation": "Demonstrate conflict resolution skills by showing your diplomatic and solution-oriented approach."
+  },
+  {
+    "id": 15,
+    "question": "What are your salary expectations?",
+    "options": [
+      "Based on my research and experience, I'm looking for a range of X to Y",
+      "I'll take whatever you offer",
+      "I expect the highest salary possible",
+      "I don't care about money"
+    ],
+    "correct": ["Based on my research and experience, I'm looking for a range of X to Y"],
+    "type": "single",
+    "explanation": "Show you've done research and provide a reasonable range based on market value and your qualifications."
+  },
+  {
+    "id": 16,
+    "question": "Do you prefer working independently or in a team?",
+    "options": [
+      "I'm comfortable with both and can adapt based on project needs",
+      "I only work alone",
+      "I can't work without a team",
+      "I don't have a preference"
+    ],
+    "correct": ["I'm comfortable with both and can adapt based on project needs"],
+    "type": "single",
+    "explanation": "Show flexibility and adaptability, which are valuable traits in any work environment."
+  },
+  {
+    "id": 17,
+    "question": "How do you stay updated in your field?",
+    "options": [
+      "I regularly read industry publications, attend webinars, and take courses",
+      "I don't need to stay updated",
+      "I rely on others to update me",
+      "I'm already knowledgeable enough"
+    ],
+    "correct": ["I regularly read industry publications, attend webinars, and take courses"],
+    "type": "single",
+    "explanation": "Demonstrate commitment to continuous learning and professional development."
+  },
+  {
+    "id": 18,
+    "question": "Describe your ideal work environment.",
+    "options": [
+      "Collaborative, supportive, with clear goals and growth opportunities",
+      "One where I don't have to work hard",
+      "Somewhere I can do whatever I want",
+      "Anywhere that pays well"
+    ],
+    "correct": ["Collaborative, supportive, with clear goals and growth opportunities"],
+    "type": "single",
+    "explanation": "Describe an environment that aligns with the company culture while showing your professional values."
+  },
+  {
+    "id": 19,
+    "question": "What is your management style?",
+    "options": [
+      "I lead by example, communicate clearly, and empower team members",
+      "I micromanage everything",
+      "I let people do whatever they want",
+      "I've never managed anyone"
+    ],
+    "correct": ["I lead by example, communicate clearly, and empower team members"],
+    "type": "single",
+    "explanation": "Even without management experience, you can discuss your leadership philosophy and approach."
+  },
+  {
+    "id": 20,
+    "question": "Tell me about a time you failed.",
+    "options": [
+      "I'll share a specific failure and the valuable lessons I learned from it",
+      "I've never failed at anything",
+      "I fail all the time at everything",
+      "I don't want to talk about failures"
+    ],
+    "correct": ["I'll share a specific failure and the valuable lessons I learned from it"],
+    "type": "single",
+    "explanation": "Show self-awareness and resilience by discussing a real failure and how you grew from it."
+  },
+  {
+    "id": 21,
+    "question": "How do you make important decisions?",
+    "options": [
+      "I gather relevant information, consider alternatives, and evaluate outcomes",
+      "I just go with my gut feeling",
+      "I ask others to decide for me",
+      "I avoid making decisions"
+    ],
+    "correct": ["I gather relevant information, consider alternatives, and evaluate outcomes"],
+    "type": "single",
+    "explanation": "Demonstrate critical thinking by explaining your systematic decision-making process."
+  },
+  {
+    "id": 22,
+    "question": "What do you know about our company?",
+    "options": [
+      "I'll share specific details about your mission, products, and recent achievements",
+      "Not much, that's why I'm here",
+      "You're a company that's hiring",
+      "Can you tell me about your company?"
+    ],
+    "correct": ["I'll share specific details about your mission, products, and recent achievements"],
+    "type": "single",
+    "explanation": "Prove you've done your homework by demonstrating knowledge of the company's business and values."
+  },
+  {
+    "id": 23,
+    "question": "How do you handle tight deadlines?",
+    "options": [
+      "I stay focused, prioritize effectively, and communicate proactively",
+      "I panic and shut down",
+      "I miss deadlines regularly",
+      "I blame others when I can't meet them"
+    ],
+    "correct": ["I stay focused, prioritize effectively, and communicate proactively"],
+    "type": "single",
+    "explanation": "Show your time management skills and ability to perform under pressure."
+  },
+  {
+    "id": 24,
+    "question": "What would your previous manager say about you?",
+    "options": [
+      "They'd say I'm reliable, proactive, and a strong team player",
+      "They probably didn't like me",
+      "I have no idea what they'd say",
+      "They'd say I was their biggest problem"
+    ],
+    "correct": ["They'd say I'm reliable, proactive, and a strong team player"],
+    "type": "single",
+    "explanation": "Use this opportunity to highlight positive traits backed up by examples from your work history."
+  },
+  {
+    "id": 25,
+    "question": "How do you handle repetitive tasks?",
+    "options": [
+      "I maintain quality and look for ways to improve efficiency",
+      "I get bored and do poor work",
+      "I refuse to do repetitive work",
+      "I complain about them constantly"
+    ],
+    "correct": ["I maintain quality and look for ways to improve efficiency"],
+    "type": "single",
+    "explanation": "Show professionalism and initiative even when tasks aren't exciting."
+  },
+  {
+    "id": 26,
+    "question": "Describe a time you showed leadership.",
+    "options": [
+      "I'll share when I took initiative, guided others, and achieved results",
+      "I've never been a leader",
+      "I always avoid leadership roles",
+      "Leadership isn't my thing"
+    ],
+    "correct": ["I'll share when I took initiative, guided others, and achieved results"],
+    "type": "single",
+    "explanation": "Leadership can be demonstrated even without a formal title through initiative and influence."
+  },
+  {
+    "id": 27,
+    "question": "How do you respond to change?",
+    "options": [
+      "I embrace change as an opportunity to learn and grow",
+      "I resist all changes",
+      "Change makes me very uncomfortable",
+      "I quit when things change"
+    ],
+    "correct": ["I embrace change as an opportunity to learn and grow"],
+    "type": "single",
+    "explanation": "Adaptability is crucial in modern workplaces. Show your positive attitude toward change."
+  },
+  {
+    "id": 28,
+    "question": "What are your career goals?",
+    "options": [
+      "I want to develop expertise in my field and take on increasing responsibilities",
+      "I just want an easy job",
+      "I have no career goals",
+      "I want your job eventually"
+    ],
+    "correct": ["I want to develop expertise in my field and take on increasing responsibilities"],
+    "type": "single",
+    "explanation": "Share realistic goals that show ambition while aligning with company growth opportunities."
+  },
+  {
+    "id": 29,
+    "question": "How do you build relationships with coworkers?",
+    "options": [
+      "Through respect, communication, and collaborative problem-solving",
+      "I keep to myself completely",
+      "I gossip and create drama",
+      "I don't need relationships at work"
+    ],
+    "correct": ["Through respect, communication, and collaborative problem-solving"],
+    "type": "single",
+    "explanation": "Demonstrate interpersonal skills essential for effective workplace collaboration."
+  },
+  {
+    "id": 30,
+    "question": "Tell me about a time you went above and beyond.",
+    "options": [
+      "I'll share when I exceeded expectations and the positive impact it had",
+      "I only do what's required",
+      "I never do more than I have to",
+      "Going above and beyond isn't worth it"
+    ],
+    "correct": ["I'll share when I exceeded expectations and the positive impact it had"],
+    "type": "single",
+    "explanation": "Show initiative and dedication by providing a concrete example of exceptional performance."
+  },
+  {
+    "id": 31,
+    "question": "How do you handle multiple projects simultaneously?",
+    "options": [
+      "I organize, prioritize, and use time management tools effectively",
+      "I get overwhelmed easily",
+      "I can only focus on one thing at a time",
+      "I ignore the less important projects"
+    ],
+    "correct": ["I organize, prioritize, and use time management tools effectively"],
+    "type": "single",
+    "explanation": "Demonstrate your organizational skills and ability to manage competing priorities."
+  },
+  {
+    "id": 32,
+    "question": "What makes you unique?",
+    "options": [
+      "My unique combination of skills, experience, and perspective",
+      "Nothing really, I'm like everyone else",
+      "I'm the best at everything",
+      "I don't know what makes me special"
+    ],
+    "correct": ["My unique combination of skills, experience, and perspective"],
+    "type": "single",
+    "explanation": "Highlight what differentiates you from other candidates in a professional, confident manner."
+  },
+  {
+    "id": 33,
+    "question": "How do you accept feedback?",
+    "options": [
+      "I listen openly, ask clarifying questions, and implement improvements",
+      "I get defensive immediately",
+      "I ignore feedback I don't like",
+      "I argue with anyone who critiques me"
+    ],
+    "correct": ["I listen openly, ask clarifying questions, and implement improvements"],
+    "type": "single",
+    "explanation": "Show maturity and willingness to grow by demonstrating receptiveness to constructive feedback."
+  },
+  {
+    "id": 34,
+    "question": "Describe your communication style.",
+    "options": [
+      "Clear, professional, and adapted to my audience",
+      "I don't communicate much",
+      "I say whatever comes to mind",
+      "I prefer not to communicate"
+    ],
+    "correct": ["Clear, professional, and adapted to my audience"],
+    "type": "single",
+    "explanation": "Effective communication is essential in any role. Describe your thoughtful approach."
+  },
+  {
+    "id": 35,
+    "question": "How do you handle disagreement with your manager?",
+    "options": [
+      "I respectfully share my perspective and seek to understand theirs",
+      "I always agree with my manager",
+      "I argue until I win",
+      "I go over their head to their boss"
+    ],
+    "correct": ["I respectfully share my perspective and seek to understand theirs"],
+    "type": "single",
+    "explanation": "Show professionalism and good judgment in navigating potentially difficult situations."
+  },
+  {
+    "id": 36,
+    "question": "What professional development have you pursued recently?",
+    "options": [
+      "I've completed courses, certifications, and attended workshops",
+      "I haven't done any professional development",
+      "I don't believe in professional development",
+      "My skills are already good enough"
+    ],
+    "correct": ["I've completed courses, certifications, and attended workshops"],
+    "type": "single",
+    "explanation": "Demonstrate commitment to continuous learning and self-improvement."
+  },
+  {
+    "id": 37,
+    "question": "How do you measure success?",
+    "options": [
+      "By achieving goals, positive impact, and continuous improvement",
+      "By the size of my paycheck",
+      "By doing the minimum required",
+      "I don't measure success"
+    ],
+    "correct": ["By achieving goals, positive impact, and continuous improvement"],
+    "type": "single",
+    "explanation": "Share a balanced view of success that aligns with professional values and growth."
+  },
+  {
+    "id": 38,
+    "question": "Tell me about a time you had to learn something quickly.",
+    "options": [
+      "I'll describe the situation, my learning approach, and successful application",
+      "I'm a slow learner",
+      "I avoid situations requiring quick learning",
+      "I can't learn things quickly"
+    ],
+    "correct": ["I'll describe the situation, my learning approach, and successful application"],
+    "type": "single",
+    "explanation": "Demonstrate adaptability and learning agility with a specific example."
+  },
+  {
+    "id": 39,
+    "question": "How do you ensure quality in your work?",
+    "options": [
+      "I follow processes, double-check my work, and seek feedback",
+      "I just hope for the best",
+      "Quality isn't that important to me",
+      "Others check my work for me"
+    ],
+    "correct": ["I follow processes, double-check my work, and seek feedback"],
+    "type": "single",
+    "explanation": "Show attention to detail and commitment to excellence in your work habits."
+  },
+  {
+    "id": 40,
+    "question": "What would you do if you disagreed with a company policy?",
+    "options": [
+      "I'd seek to understand the reasoning and share concerns through proper channels",
+      "I'd ignore the policy",
+      "I'd complain to everyone about it",
+      "I'd quit immediately"
+    ],
+    "correct": ["I'd seek to understand the reasoning and share concerns through proper channels"],
+    "type": "single",
+    "explanation": "Demonstrate professional judgment and appropriate channels for addressing concerns."
+  },
+  {
+    "id": 41,
+    "question": "How do you contribute to company culture?",
+    "options": [
+      "Through positive attitude, collaboration, and supporting team success",
+      "I don't care about culture",
+      "I focus only on my own work",
+      "Culture isn't my responsibility"
+    ],
+    "correct": ["Through positive attitude, collaboration, and supporting team success"],
+    "type": "single",
+    "explanation": "Show awareness that everyone contributes to workplace culture through their actions and attitude."
+  },
+  {
+    "id": 42,
+    "question": "Describe a time you solved a complex problem.",
+    "options": [
+      "I'll explain the problem, my analytical approach, and effective solution",
+      "I avoid complex problems",
+      "I always need help with problems",
+      "I've never solved anything complex"
+    ],
+    "correct": ["I'll explain the problem, my analytical approach, and effective solution"],
+    "type": "single",
+    "explanation": "Demonstrate problem-solving skills with a structured example showing your analytical abilities."
+  },
+  {
+    "id": 43,
+    "question": "How do you handle work-life balance?",
+    "options": [
+      "I set boundaries, prioritize effectively, and maintain both commitments",
+      "Work always comes first",
+      "I don't work beyond required hours ever",
+      "I struggle with balance constantly"
+    ],
+    "correct": ["I set boundaries, prioritize effectively, and maintain both commitments"],
+    "type": "single",
+    "explanation": "Show maturity in managing professional responsibilities while maintaining personal well-being."
+  },
+  {
+    "id": 44,
+    "question": "What would your colleagues say about working with you?",
+    "options": [
+      "They'd say I'm reliable, collaborative, and supportive",
+      "They probably didn't enjoy working with me",
+      "I never asked them",
+      "I didn't get along with colleagues"
+    ],
+    "correct": ["They'd say I'm reliable, collaborative, and supportive"],
+    "type": "single",
+    "explanation": "Use this to highlight your positive working relationships and team contribution."
+  },
+  {
+    "id": 45,
+    "question": "How do you handle constructive criticism?",
+    "options": [
+      "I appreciate it as an opportunity to improve and act on it",
+      "I take it as a personal attack",
+      "I ignore criticism I don't agree with",
+      "I defend myself immediately"
+    ],
+    "correct": ["I appreciate it as an opportunity to improve and act on it"],
+    "type": "single",
+    "explanation": "Demonstrate emotional intelligence and growth mindset in receiving feedback."
+  },
+  {
+    "id": 46,
+    "question": "Tell me about a time you exceeded expectations.",
+    "options": [
+      "I'll share when I delivered beyond requirements and the positive results",
+      "I only meet minimum expectations",
+      "Exceeding expectations isn't necessary",
+      "I don't remember exceeding expectations"
+    ],
+    "correct": ["I'll share when I delivered beyond requirements and the positive results"],
+    "type": "single",
+    "explanation": "Provide concrete examples of going the extra mile and the impact it had."
+  },
+  {
+    "id": 47,
+    "question": "How do you stay organized?",
+    "options": [
+      "I use tools, create systems, and maintain consistent habits",
+      "I'm naturally disorganized",
+      "I don't really stay organized",
+      "Organization isn't important to me"
+    ],
+    "correct": ["I use tools, create systems, and maintain consistent habits"],
+    "type": "single",
+    "explanation": "Share specific organizational methods that demonstrate your systematic approach to work."
+  },
+  {
+    "id": 48,
+    "question": "What interests you about this position?",
+    "options": [
+      "The opportunity to use my skills, grow professionally, and contribute to your mission",
+      "I just need any job",
+      "The salary and benefits",
+      "It was the only job available"
+    ],
+    "correct": ["The opportunity to use my skills, grow professionally, and contribute to your mission"],
+    "type": "single",
+    "explanation": "Show genuine interest by connecting the role to your career goals and the company's objectives."
+  },
+  {
+    "id": 49,
+    "question": "How do you handle ambiguity?",
+    "options": [
+      "I ask clarifying questions, research, and make informed decisions",
+      "I get frustrated and give up",
+      "I avoid ambiguous situations",
+      "I just guess and hope for the best"
+    ],
+    "correct": ["I ask clarifying questions, research, and make informed decisions"],
+    "type": "single",
+    "explanation": "Show comfort with uncertainty and proactive approach to gaining clarity."
+  },
+  {
+    "id": 50,
+    "question": "Describe your ideal manager.",
+    "options": [
+      "Someone who provides clear direction, feedback, and growth opportunities",
+      "Someone who leaves me completely alone",
+      "Someone who does my work for me",
+      "I don't need a manager"
+    ],
+    "correct": ["Someone who provides clear direction, feedback, and growth opportunities"],
+    "type": "single",
+    "explanation": "Describe qualities that show you value professional development and effective communication."
+  },
+  {
+    "id": 51,
+    "question": "How do you handle a difficult coworker?",
+    "options": [
+      "I address issues professionally, seek common ground, and focus on solutions",
+      "I avoid them completely",
+      "I complain to everyone about them",
+      "I report them to management immediately"
+    ],
+    "correct": ["I address issues professionally, seek common ground, and focus on solutions"],
+    "type": "single",
+    "explanation": "Demonstrate conflict resolution skills and professional maturity in dealing with interpersonal challenges."
+  },
+  {
+    "id": 52,
+    "question": "What is your approach to continuous improvement?",
+    "options": [
+      "I regularly seek feedback, learn new skills, and optimize processes",
+      "I'm already good enough",
+      "I don't believe in continuous improvement",
+      "I improve only when required"
+    ],
+    "correct": ["I regularly seek feedback, learn new skills, and optimize processes"],
+    "type": "single",
+    "explanation": "Show commitment to growth and excellence through specific improvement practices."
+  },
+  {
+    "id": 53,
+    "question": "Tell me about a time you took initiative.",
+    "options": [
+      "I'll describe when I identified a need and took action without being asked",
+      "I only do what I'm told",
+      "I wait for instructions always",
+      "Taking initiative isn't my strength"
+    ],
+    "correct": ["I'll describe when I identified a need and took action without being asked"],
+    "type": "single",
+    "explanation": "Demonstrate proactive behavior with a specific example of self-directed action."
+  },
+  {
+    "id": 54,
+    "question": "How do you handle receiving unclear instructions?",
+    "options": [
+      "I ask specific questions to clarify expectations and deliverables",
+      "I just do my best guess",
+      "I get frustrated and do nothing",
+      "I blame the person giving instructions"
+    ],
+    "correct": ["I ask specific questions to clarify expectations and deliverables"],
+    "type": "single",
+    "explanation": "Show initiative and communication skills in ensuring you understand requirements."
+  },
+  {
+    "id": 55,
+    "question": "What do you do when you don't know the answer to something?",
+    "options": [
+      "I research, ask knowledgeable colleagues, and learn the correct information",
+      "I make up an answer",
+      "I ignore the question",
+      "I pretend I know the answer"
+    ],
+    "correct": ["I research, ask knowledgeable colleagues, and learn the correct information"],
+    "type": "single",
+    "explanation": "Demonstrate resourcefulness and honesty in addressing knowledge gaps."
+  },
+  {
+    "id": 56,
+    "question": "How do you celebrate team successes?",
+    "options": [
+      "I acknowledge contributions, share credit, and reinforce positive outcomes",
+      "I take all the credit",
+      "I don't celebrate successes",
+      "Success doesn't need celebration"
+    ],
+    "correct": ["I acknowledge contributions, share credit, and reinforce positive outcomes"],
+    "type": "single",
+    "explanation": "Show team orientation and recognition of collaborative achievement."
+  },
+  {
+    "id": 57,
+    "question": "Describe a time you had to adapt to a significant change.",
+    "options": [
+      "I'll explain the change, my adaptation process, and positive results",
+      "I resist all changes",
+      "Changes always affect me negatively",
+      "I can't adapt to changes"
+    ],
+    "correct": ["I'll explain the change, my adaptation process, and positive results"],
+    "type": "single",
+    "explanation": "Demonstrate flexibility and resilience with a concrete example of successful adaptation."
+  },
+  {
+    "id": 58,
+    "question": "How do you ensure effective communication in virtual settings?",
+    "options": [
+      "I use appropriate tools, check for understanding, and maintain regular contact",
+      "I prefer not to communicate virtually",
+      "Virtual communication isn't important",
+      "I only use email"
+    ],
+    "correct": ["I use appropriate tools, check for understanding, and maintain regular contact"],
+    "type": "single",
+    "explanation": "Show awareness of remote work best practices and effective digital communication."
+  },
+  {
+    "id": 59,
+    "question": "What would you do in your first 90 days?",
+    "options": [
+      "Learn systems, build relationships, and identify early wins",
+      "Just try to survive",
+      "Do the minimum required",
+      "I haven't thought about it"
+    ],
+    "correct": ["Learn systems, build relationships, and identify early wins"],
+    "type": "single",
+    "explanation": "Show you've thought strategically about onboarding and making an early impact."
+  },
+  {
+    "id": 60,
+    "question": "How do you maintain motivation during routine tasks?",
+    "options": [
+      "I focus on quality, find purpose in the work, and seek efficiency improvements",
+      "I lose motivation easily with routine",
+      "Routine tasks are unbearable",
+      "I just zone out during routine work"
+    ],
+    "correct": ["I focus on quality, find purpose in the work, and seek efficiency improvements"],
+    "type": "single",
+    "explanation": "Demonstrate professionalism and ability to maintain standards even in repetitive work."
+  },
+  {
+    "id": 61,
+    "question": "Tell me about a time you missed a deadline.",
+    "options": [
+      "I'll explain the situation, what I learned, and steps I took to prevent recurrence",
+      "I miss deadlines all the time",
+      "It wasn't my fault",
+      "I've never missed a deadline"
+    ],
+    "correct": ["I'll explain the situation, what I learned, and steps I took to prevent recurrence"],
+    "type": "single",
+    "explanation": "Show accountability and learning from mistakes with a honest, growth-oriented response."
+  },
+  {
+    "id": 62,
+    "question": "How do you handle competing priorities?",
+    "options": [
+      "I assess impact, communicate with stakeholders, and allocate resources strategically",
+      "I just pick randomly",
+      "I get overwhelmed and freeze",
+      "I ignore the less urgent ones"
+    ],
+    "correct": ["I assess impact, communicate with stakeholders, and allocate resources strategically"],
+    "type": "single",
+    "explanation": "Demonstrate decision-making skills and strategic thinking in managing multiple demands."
+  },
+  {
+    "id": 63,
+    "question": "What is your approach to giving feedback to others?",
+    "options": [
+      "I provide specific, timely, constructive feedback in a supportive manner",
+      "I avoid giving feedback",
+      "I'm very blunt and direct",
+      "I only give negative feedback"
+    ],
+    "correct": ["I provide specific, timely, constructive feedback in a supportive manner"],
+    "type": "single",
+    "explanation": "Show emotional intelligence and communication skills in providing effective feedback."
+  },
+  {
+    "id": 64,
+    "question": "How do you approach learning new technologies or tools?",
+    "options": [
+      "I break it down, practice hands-on, and leverage available resources",
+      "I avoid new technologies",
+      "I expect others to teach me everything",
+      "I'm not good with technology"
+    ],
+    "correct": ["I break it down, practice hands-on, and leverage available resources"],
+    "type": "single",
+    "explanation": "Demonstrate learning agility and self-directed approach to skill development."
+  },
+  {
+    "id": 65,
+    "question": "Describe your approach to problem prevention.",
+    "options": [
+      "I identify potential issues early, implement safeguards, and monitor proactively",
+      "I only deal with problems after they occur",
+      "Prevention isn't possible",
+      "I don't think about prevention"
+    ],
+    "correct": ["I identify potential issues early, implement safeguards, and monitor proactively"],
+    "type": "single",
+    "explanation": "Show strategic thinking and proactive approach to avoiding problems before they occur."
+  },
+  {
+    "id": 66,
+    "question": "How do you build trust with new team members?",
+    "options": [
+      "Through consistency, reliability, open communication, and following through",
+      "I don't worry about building trust",
+      "Trust takes too long to build",
+      "I expect people to trust me automatically"
+    ],
+    "correct": ["Through consistency, reliability, open communication, and following through"],
+    "type": "single",
+    "explanation": "Demonstrate understanding of relationship-building fundamentals in professional settings."
+  },
+  {
+    "id": 67,
+    "question": "What do you do when you make a mistake?",
+    "options": [
+      "I acknowledge it, take responsibility, fix it, and learn from it",
+      "I hide my mistakes",
+      "I blame others",
+      "I deny making mistakes"
+    ],
+    "correct": ["I acknowledge it, take responsibility, fix it, and learn from it"],
+    "type": "single",
+    "explanation": "Show integrity and maturity in handling mistakes professionally."
+  },
+  {
+    "id": 68,
+    "question": "How do you ensure inclusivity in team settings?",
+    "options": [
+      "I actively listen, value diverse perspectives, and create space for all voices",
+      "Inclusivity isn't my concern",
+      "I treat everyone the same without thinking about it",
+      "I focus only on my own contributions"
+    ],
+    "correct": ["I actively listen, value diverse perspectives, and create space for all voices"],
+    "type": "single",
+    "explanation": "Demonstrate awareness and commitment to creating inclusive work environments."
+  },
+  {
+    "id": 69,
+    "question": "Tell me about a time you had to persuade someone.",
+    "options": [
+      "I'll describe my approach using data, empathy, and understanding their perspective",
+      "I force people to agree with me",
+      "I've never persuaded anyone",
+      "I give up if people don't agree immediately"
+    ],
+    "correct": ["I'll describe my approach using data, empathy, and understanding their perspective"],
+    "type": "single",
+    "explanation": "Show influence and communication skills through a specific persuasion example."
+  },
+  {
+    "id": 70,
+    "question": "How do you handle information overload?",
+    "options": [
+      "I prioritize, organize systematically, and focus on what's most relevant",
+      "I shut down when overwhelmed",
+      "I try to process everything at once",
+      "I ignore most information"
+    ],
+    "correct": ["I prioritize, organize systematically, and focus on what's most relevant"],
+    "type": "single",
+    "explanation": "Demonstrate cognitive management skills and ability to filter information effectively."
+  },
+  {
+    "id": 71,
+    "question": "What is your approach to mentoring others?",
+    "options": [
+      "I share knowledge, provide guidance, and support their growth journey",
+      "I don't have time to mentor",
+      "Mentoring isn't my responsibility",
+      "I only focus on my own development"
+    ],
+    "correct": ["I share knowledge, provide guidance, and support their growth journey"],
+    "type": "single",
+    "explanation": "Show leadership potential and commitment to team development."
+  },
+  {
+    "id": 72,
+    "question": "How do you respond when your ideas are rejected?",
+    "options": [
+      "I seek to understand the reasoning and remain open to alternative approaches",
+      "I get upset and shut down",
+      "I argue until they accept my idea",
+      "I take it as a personal rejection"
+    ],
+    "correct": ["I seek to understand the reasoning and remain open to alternative approaches"],
+    "type": "single",
+    "explanation": "Demonstrate resilience and professionalism in handling rejection of ideas."
+  },
+  {
+    "id": 73,
+    "question": "Describe your approach to time management.",
+    "options": [
+      "I plan ahead, use productivity tools, and regularly review priorities",
+      "I just go with the flow",
+      "Time management isn't important to me",
+      "I'm always running late"
+    ],
+    "correct": ["I plan ahead, use productivity tools, and regularly review priorities"],
+    "type": "single",
+    "explanation": "Show organizational skills through specific time management strategies."
+  },
+  {
+    "id": 74,
+    "question": "How do you ensure you meet quality standards?",
+    "options": [
+      "I understand requirements, follow best practices, and review my work thoroughly",
+      "I hope my work is good enough",
+      "Quality control isn't my job",
+      "I do the minimum required"
+    ],
+    "correct": ["I understand requirements, follow best practices, and review my work thoroughly"],
+    "type": "single",
+    "explanation": "Demonstrate commitment to excellence and systematic quality assurance approach."
+  },
+  {
+    "id": 75,
+    "question": "Tell me about a time you had to learn from failure.",
+    "options": [
+      "I'll share the failure, my reflection process, and how I applied those lessons",
+      "I don't learn from failures",
+      "My failures define me negatively",
+      "I prefer not to discuss failures"
+    ],
+    "correct": ["I'll share the failure, my reflection process, and how I applied those lessons"],
+    "type": "single",
+    "explanation": "Show growth mindset and resilience by demonstrating learning from setbacks."
+  },
+  {
+    "id": 76,
+    "question": "How do you maintain professional relationships?",
+    "options": [
+      "Through consistent communication, mutual respect, and reliability",
+      "I don't maintain professional relationships",
+      "Relationships aren't important at work",
+      "I only contact people when I need something"
+    ],
+    "correct": ["Through consistent communication, mutual respect, and reliability"],
+    "type": "single",
+    "explanation": "Demonstrate understanding of professional networking and relationship management."
+  },
+  {
+    "id": 77,
+    "question": "What do you do when you disagree with a decision?",
+    "options": [
+      "I voice my concerns respectfully, then support the final decision",
+      "I refuse to cooperate",
+      "I complain to everyone about it",
+      "I undermine the decision passively"
+    ],
+    "correct": ["I voice my concerns respectfully, then support the final decision"],
+    "type": "single",
+    "explanation": "Show professional maturity in navigating disagreement while maintaining team unity."
+  },
+  {
+    "id": 78,
+    "question": "How do you approach ethical dilemmas at work?",
+    "options": [
+      "I consult policies, seek guidance, and prioritize integrity",
+      "I do whatever benefits me most",
+      "I avoid thinking about ethics",
+      "I follow what everyone else does"
+    ],
+    "correct": ["I consult policies, seek guidance, and prioritize integrity"],
+    "type": "single",
+    "explanation": "Demonstrate strong ethical foundation and decision-making process."
+  },
+  {
+    "id": 79,
+    "question": "Describe your approach to receiving negative feedback.",
+    "options": [
+      "I listen without defensiveness, reflect, and create an action plan",
+      "I immediately defend myself",
+      "I ignore negative feedback",
+      "I take it personally and get upset"
+    ],
+    "correct": ["I listen without defensiveness, reflect, and create an action plan"],
+    "type": "single",
+    "explanation": "Show emotional intelligence and commitment to professional growth."
+  },
+  {
+    "id": 80,
+    "question": "How do you contribute to a positive work environment?",
+    "options": [
+      "Through positive attitude, supporting colleagues, and constructive communication",
+      "Work environment isn't my concern",
+      "I focus only on my tasks",
+      "I just do my job"
+    ],
+    "correct": ["Through positive attitude, supporting colleagues, and constructive communication"],
+    "type": "single",
+    "explanation": "Demonstrate awareness of individual impact on workplace culture and morale."
+  },
+  {
+    "id": 81,
+    "question": "Tell me about a time you handled confidential information.",
+    "options": [
+      "I'll describe how I maintained discretion and followed proper protocols",
+      "I share information with trusted friends",
+      "Confidentiality isn't that important",
+      "I've never handled confidential information"
+    ],
+    "correct": ["I'll describe how I maintained discretion and followed proper protocols"],
+    "type": "single",
+    "explanation": "Show trustworthiness and understanding of professional confidentiality requirements."
+  },
+  {
+    "id": 82,
+    "question": "How do you handle burnout or work fatigue?",
+    "options": [
+      "I recognize signs early, take breaks, and practice self-care strategies",
+      "I just push through until I break",
+      "I ignore signs of burnout",
+      "Burnout is a sign of weakness"
+    ],
+    "correct": ["I recognize signs early, take breaks, and practice self-care strategies"],
+    "type": "single",
+    "explanation": "Demonstrate self-awareness and healthy approach to maintaining long-term productivity."
+  },
+  {
+    "id": 83,
+    "question": "What is your approach to innovative thinking?",
+    "options": [
+      "I challenge assumptions, explore alternatives, and embrace creative solutions",
+      "I stick to what's always been done",
+      "Innovation isn't necessary",
+      "I wait for others to be innovative"
+    ],
+    "correct": ["I challenge assumptions, explore alternatives, and embrace creative solutions"],
+    "type": "single",
+    "explanation": "Show creativity and willingness to think beyond conventional approaches."
+  },
+  {
+    "id": 84,
+    "question": "How do you ensure effective collaboration in diverse teams?",
+    "options": [
+      "I respect differences, leverage varied strengths, and promote open dialogue",
+      "I prefer working with similar people",
+      "Diversity makes collaboration harder",
+      "I don't adjust my approach for different people"
+    ],
+    "correct": ["I respect differences, leverage varied strengths, and promote open dialogue"],
+    "type": "single",
+    "explanation": "Demonstrate cultural intelligence and ability to work effectively across differences."
+  },
+  {
+    "id": 85,
+    "question": "Describe a time you had to deliver difficult news.",
+    "options": [
+      "I'll explain my thoughtful, empathetic, and clear communication approach",
+      "I avoid delivering bad news",
+      "I'm very blunt when delivering bad news",
+      "I let someone else deliver difficult news"
+    ],
+    "correct": ["I'll explain my thoughtful, empathetic, and clear communication approach"],
+    "type": "single",
+    "explanation": "Show communication skills and emotional intelligence in handling sensitive situations."
+  },
+  {
+    "id": 86,
+    "question": "How do you balance attention to detail with meeting deadlines?",
+    "options": [
+      "I prioritize critical details while managing time efficiently",
+      "I sacrifice quality for speed",
+      "I miss deadlines to be perfect",
+      "I can't balance both"
+    ],
+    "correct": ["I prioritize critical details while managing time efficiently"],
+    "type": "single",
+    "explanation": "Demonstrate ability to maintain quality standards while working within time constraints."
+  },
+  {
+    "id": 87,
+    "question": "What motivates you to do your best work?",
+    "options": [
+      "Making meaningful impact, achieving excellence, and continuous growth",
+      "Fear of getting in trouble",
+      "Just collecting a paycheck",
+      "External recognition only"
+    ],
+    "correct": ["Making meaningful impact, achieving excellence, and continuous growth"],
+    "type": "single",
+    "explanation": "Share intrinsic motivators that demonstrate genuine professional drive."
+  },
+  {
+    "id": 88,
+    "question": "How do you approach delegation?",
+    "options": [
+      "I assess capabilities, provide clear guidance, and offer appropriate support",
+      "I do everything myself",
+      "I dump work on others without explanation",
+      "I don't know how to delegate"
+    ],
+    "correct": ["I assess capabilities, provide clear guidance, and offer appropriate support"],
+    "type": "single",
+    "explanation": "Show leadership skills and trust in empowering others effectively."
+  },
+  {
+    "id": 89,
+    "question": "Tell me about a time you had to adapt your communication style.",
+    "options": [
+      "I'll describe recognizing the need and successfully adjusting my approach",
+      "I communicate the same way with everyone",
+      "I don't adapt my communication",
+      "People should adapt to my style"
+    ],
+    "correct": ["I'll describe recognizing the need and successfully adjusting my approach"],
+    "type": "single",
+    "explanation": "Demonstrate communication flexibility and awareness of different audience needs."
+  },
+  {
+    "id": 90,
+    "question": "How do you handle situations where you lack authority but need results?",
+    "options": [
+      "I use influence, build relationships, and demonstrate value to gain cooperation",
+      "I give up if I don't have authority",
+      "I demand compliance anyway",
+      "I complain about lack of authority"
+    ],
+    "correct": ["I use influence, build relationships, and demonstrate value to gain cooperation"],
+    "type": "single",
+    "explanation": "Show leadership beyond formal authority through influence and collaboration skills."
+  },
+  {
+    "id": 91,
+    "question": "What is your approach to personal accountability?",
+    "options": [
+      "I own my responsibilities, commitments, and outcomes without excuses",
+      "I blame circumstances for failures",
+      "Accountability is shared by everyone",
+      "I avoid taking personal responsibility"
+    ],
+    "correct": ["I own my responsibilities, commitments, and outcomes without excuses"],
+    "type": "single",
+    "explanation": "Demonstrate integrity and maturity through strong personal accountability."
+  },
+  {
+    "id": 92,
+    "question": "How do you approach projects with unclear requirements?",
+    "options": [
+      "I ask clarifying questions, document assumptions, and confirm understanding",
+      "I make random assumptions",
+      "I wait until requirements become clear",
+      "I do whatever seems right"
+    ],
+    "correct": ["I ask clarifying questions, document assumptions, and confirm understanding"],
+    "type": "single",
+    "explanation": "Show proactive problem-solving and communication in ambiguous situations."
+  },
+  {
+    "id": 93,
+    "question": "Describe your approach to professional networking.",
+    "options": [
+      "I build genuine relationships, offer value, and maintain authentic connections",
+      "I only network when I need something",
+      "Networking feels fake to me",
+      "I don't believe in networking"
+    ],
+    "correct": ["I build genuine relationships, offer value, and maintain authentic connections"],
+    "type": "single",
+    "explanation": "Demonstrate understanding of mutually beneficial professional relationship building."
+  },
+  {
+    "id": 94,
+    "question": "How do you ensure you stay aligned with company goals?",
+    "options": [
+      "I regularly review objectives, seek clarification, and adjust priorities accordingly",
+      "I focus only on my immediate tasks",
+      "Company goals aren't my concern",
+      "I assume I'm aligned"
+    ],
+    "correct": ["I regularly review objectives, seek clarification, and adjust priorities accordingly"],
+    "type": "single",
+    "explanation": "Show strategic thinking and commitment to organizational success."
+  },
+  {
+    "id": 95,
+    "question": "Tell me about a time you had to work with limited resources.",
+    "options": [
+      "I'll describe how I prioritized, optimized, and still achieved results",
+      "I can't work without full resources",
+      "Limited resources mean failure",
+      "I complained about the limitations"
+    ],
+    "correct": ["I'll describe how I prioritized, optimized, and still achieved results"],
+    "type": "single",
+    "explanation": "Demonstrate resourcefulness and creativity in overcoming constraints."
+  },
+  {
+    "id": 96,
+    "question": "How do you measure your own performance?",
+    "options": [
+      "Against clear objectives, quality standards, and continuous improvement",
+      "I don't measure my performance",
+      "By comparing myself to others",
+      "Performance measurement isn't important"
+    ],
+    "correct": ["Against clear objectives, quality standards, and continuous improvement"],
+    "type": "single",
+    "explanation": "Show self-awareness and commitment to measurable excellence."
+  },
+  {
+    "id": 97,
+    "question": "What is your approach to knowledge sharing?",
+    "options": [
+      "I document, train others, and create resources for team benefit",
+      "I keep knowledge to myself",
+      "Knowledge sharing threatens my value",
+      "Others should figure things out themselves"
+    ],
+    "correct": ["I document, train others, and create resources for team benefit"],
+    "type": "single",
+    "explanation": "Demonstrate collaborative mindset and commitment to team capability building."
+  },
+  {
+    "id": 98,
+    "question": "How do you handle situations where you're asked to do something outside your job description?",
+    "options": [
+      "I assess if it's appropriate, discuss expectations, and approach flexibly",
+      "I refuse immediately",
+      "I do it without question every time",
+      "I complain about it"
+    ],
+    "correct": ["I assess if it's appropriate, discuss expectations, and approach flexibly"],
+    "type": "single",
+    "explanation": "Show flexibility while maintaining appropriate professional boundaries."
+  },
+  {
+    "id": 99,
+    "question": "Describe your approach to giving presentations or public speaking.",
+    "options": [
+      "I prepare thoroughly, know my audience, and practice effective delivery",
+      "I avoid presentations at all costs",
+      "I wing it without preparation",
+      "Public speaking terrifies me"
+    ],
+    "correct": ["I prepare thoroughly, know my audience, and practice effective delivery"],
+    "type": "single",
+    "explanation": "Demonstrate communication skills and professional preparation for formal presentations."
+  },
+  {
+    "id": 100,
+    "question": "What would you do if you witnessed unethical behavior at work?",
+    "options": [
+      "I'd report it through proper channels while following company policy",
+      "I'd ignore it to avoid trouble",
+      "I'd confront the person aggressively",
+      "I'd gossip about it with colleagues"
+    ],
+    "correct": ["I'd report it through proper channels while following company policy"],
+    "type": "single",
+    "explanation": "Demonstrate integrity and understanding of appropriate escalation procedures."
+  }
+]

@@ -1,0 +1,907 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary function of the OSI model?",
+    "options": [
+      "To provide a framework for network communication",
+      "To encrypt network traffic",
+      "To manage IP addresses",
+      "To configure routers"
+    ],
+    "correct": ["To provide a framework for network communication"],
+    "type": "single",
+    "explanation": "The OSI model provides a standardized framework for understanding network communication between different systems."
+  },
+  {
+    "id": 2,
+    "question": "Which layers are part of the OSI model? (Select all that apply)",
+    "options": ["Application Layer", "Transport Layer", "Security Layer", "Physical Layer"],
+    "correct": ["Application Layer", "Transport Layer", "Physical Layer"],
+    "type": "multi",
+    "explanation": "The OSI model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application."
+  },
+  {
+    "id": 3,
+    "question": "What does TCP stand for?",
+    "options": [
+      "Transmission Control Protocol",
+      "Transfer Control Process",
+      "Technical Communication Protocol",
+      "Transport Communication Process"
+    ],
+    "correct": ["Transmission Control Protocol"],
+    "type": "single",
+    "explanation": "TCP stands for Transmission Control Protocol, which provides reliable, ordered delivery of data."
+  },
+  {
+    "id": 4,
+    "question": "What is the default subnet mask for a Class C network?",
+    "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.255"],
+    "correct": ["255.255.255.0"],
+    "type": "single",
+    "explanation": "Class C networks use 255.255.255.0 as the default subnet mask, allowing for 254 host addresses."
+  },
+  {
+    "id": 5,
+    "question": "Which protocols operate at the Transport Layer? (Select all that apply)",
+    "options": ["TCP", "UDP", "HTTP", "ICMP"],
+    "correct": ["TCP", "UDP"],
+    "type": "multi",
+    "explanation": "TCP and UDP are Transport Layer protocols. HTTP is Application Layer, and ICMP is Network Layer."
+  },
+  {
+    "id": 6,
+    "question": "What does IP stand for?",
+    "options": ["Internet Protocol", "Internal Process", "Integrated Protocol", "Internet Process"],
+    "correct": ["Internet Protocol"],
+    "type": "single",
+    "explanation": "IP stands for Internet Protocol, which is responsible for addressing and routing packets across networks."
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of DHCP?",
+    "options": ["Automatically assign IP addresses", "Encrypt network traffic", "Route packets", "Manage DNS records"],
+    "correct": ["Automatically assign IP addresses"],
+    "type": "single",
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses to devices on a network."
+  },
+  {
+    "id": 8,
+    "question": "Which are routing protocols? (Select all that apply)",
+    "options": ["OSPF", "RIP", "HTTP", "EIGRP"],
+    "correct": ["OSPF", "RIP", "EIGRP"],
+    "type": "multi",
+    "explanation": "OSPF, RIP, and EIGRP are routing protocols. HTTP is an application layer protocol."
+  },
+  {
+    "id": 9,
+    "question": "What does DNS do?",
+    "options": ["Translates domain names to IP addresses", "Assigns IP addresses", "Encrypts data", "Routes packets"],
+    "correct": ["Translates domain names to IP addresses"],
+    "type": "single",
+    "explanation": "DNS (Domain Name System) translates human-readable domain names into IP addresses."
+  },
+  {
+    "id": 10,
+    "question": "What is a VLAN?",
+    "options": [
+      "Virtual Local Area Network",
+      "Very Large Area Network",
+      "Virtual Long Access Network",
+      "Verified Local Area Network"
+    ],
+    "correct": ["Virtual Local Area Network"],
+    "type": "single",
+    "explanation": "VLAN stands for Virtual Local Area Network, which segments a network into logical groups."
+  },
+  {
+    "id": 11,
+    "question": "What port does HTTP use by default?",
+    "options": ["80", "443", "21", "22"],
+    "correct": ["80"],
+    "type": "single",
+    "explanation": "HTTP uses port 80 by default for web traffic."
+  },
+  {
+    "id": 12,
+    "question": "What is the maximum number of hosts in a /24 subnet?",
+    "options": ["254", "256", "128", "512"],
+    "correct": ["254"],
+    "type": "single",
+    "explanation": "A /24 subnet has 256 total addresses, minus 2 for network and broadcast addresses, leaving 254 usable host addresses."
+  },
+  {
+    "id": 13,
+    "question": "Which cable types use RJ-45 connectors? (Select all that apply)",
+    "options": ["Cat5e", "Cat6", "Fiber Optic", "Coaxial"],
+    "correct": ["Cat5e", "Cat6"],
+    "type": "multi",
+    "explanation": "Cat5e and Cat6 cables use RJ-45 connectors. Fiber optic uses SC/LC connectors, and coaxial uses BNC."
+  },
+  {
+    "id": 14,
+    "question": "What does NAT stand for?",
+    "options": [
+      "Network Address Translation",
+      "Network Access Technology",
+      "Node Authentication Token",
+      "Network Application Tool"
+    ],
+    "correct": ["Network Address Translation"],
+    "type": "single",
+    "explanation": "NAT translates private IP addresses to public IP addresses for internet communication."
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of ARP?",
+    "options": ["Maps IP addresses to MAC addresses", "Routes packets", "Encrypts data", "Assigns IP addresses"],
+    "correct": ["Maps IP addresses to MAC addresses"],
+    "type": "single",
+    "explanation": "ARP (Address Resolution Protocol) maps IP addresses to physical MAC addresses on a local network."
+  },
+  {
+    "id": 16,
+    "question": "Which are valid IPv4 address classes? (Select all that apply)",
+    "options": ["Class A", "Class B", "Class C", "Class F"],
+    "correct": ["Class A", "Class B", "Class C"],
+    "type": "multi",
+    "explanation": "IPv4 uses Classes A, B, C, D (multicast), and E (experimental). Class F does not exist."
+  },
+  {
+    "id": 17,
+    "question": "What is the default administrative distance for OSPF?",
+    "options": ["110", "90", "120", "100"],
+    "correct": ["110"],
+    "type": "single",
+    "explanation": "OSPF has an administrative distance of 110, which determines route preference."
+  },
+  {
+    "id": 18,
+    "question": "What does STP prevent?",
+    "options": ["Switching loops", "Routing loops", "IP conflicts", "DNS failures"],
+    "correct": ["Switching loops"],
+    "type": "single",
+    "explanation": "Spanning Tree Protocol (STP) prevents switching loops in redundant network topologies."
+  },
+  {
+    "id": 19,
+    "question": "Which are distance vector routing protocols? (Select all that apply)",
+    "options": ["RIP", "EIGRP", "OSPF", "BGP"],
+    "correct": ["RIP", "EIGRP"],
+    "type": "multi",
+    "explanation": "RIP and EIGRP are distance vector protocols. OSPF is link-state, and BGP is path vector."
+  },
+  {
+    "id": 20,
+    "question": "What is the purpose of a default gateway?",
+    "options": [
+      "Route traffic outside the local subnet",
+      "Assign IP addresses",
+      "Resolve domain names",
+      "Prevent loops"
+    ],
+    "correct": ["Route traffic outside the local subnet"],
+    "type": "single",
+    "explanation": "A default gateway routes traffic destined for networks outside the local subnet."
+  },
+  {
+    "id": 21,
+    "question": "What is the IPv6 address length?",
+    "options": ["128 bits", "64 bits", "32 bits", "256 bits"],
+    "correct": ["128 bits"],
+    "type": "single",
+    "explanation": "IPv6 addresses are 128 bits long, compared to IPv4's 32 bits."
+  },
+  {
+    "id": 22,
+    "question": "Which protocols are connectionless? (Select all that apply)",
+    "options": ["UDP", "ICMP", "TCP", "TFTP"],
+    "correct": ["UDP", "ICMP", "TFTP"],
+    "type": "multi",
+    "explanation": "UDP, ICMP, and TFTP are connectionless protocols. TCP is connection-oriented."
+  },
+  {
+    "id": 23,
+    "question": "What is the maximum length of a Cat6 cable for Gigabit Ethernet?",
+    "options": ["100 meters", "185 meters", "500 meters", "50 meters"],
+    "correct": ["100 meters"],
+    "type": "single",
+    "explanation": "Cat6 cables can reliably transmit Gigabit Ethernet up to 100 meters."
+  },
+  {
+    "id": 24,
+    "question": "What does CIDR stand for?",
+    "options": [
+      "Classless Inter-Domain Routing",
+      "Class Internet Domain Routing",
+      "Central IP Domain Registry",
+      "Certified Internet Data Routing"
+    ],
+    "correct": ["Classless Inter-Domain Routing"],
+    "type": "single",
+    "explanation": "CIDR allows more flexible allocation of IP addresses than traditional class-based addressing."
+  },
+  {
+    "id": 25,
+    "question": "Which are characteristics of TCP? (Select all that apply)",
+    "options": ["Connection-oriented", "Reliable", "Connectionless", "Ordered delivery"],
+    "correct": ["Connection-oriented", "Reliable", "Ordered delivery"],
+    "type": "multi",
+    "explanation": "TCP is connection-oriented, reliable, and provides ordered delivery. It is not connectionless."
+  },
+  {
+    "id": 26,
+    "question": "What is the purpose of VTP?",
+    "options": ["Propagate VLAN configuration", "Route packets", "Assign IP addresses", "Prevent loops"],
+    "correct": ["Propagate VLAN configuration"],
+    "type": "single",
+    "explanation": "VLAN Trunking Protocol (VTP) propagates VLAN configuration across switches in a domain."
+  },
+  {
+    "id": 27,
+    "question": "What does QoS stand for?",
+    "options": ["Quality of Service", "Queue of Services", "Quick Operating System", "Quantified Output Standard"],
+    "correct": ["Quality of Service"],
+    "type": "single",
+    "explanation": "QoS manages network resources to provide different priorities to different traffic types."
+  },
+  {
+    "id": 28,
+    "question": "Which are WAN technologies? (Select all that apply)",
+    "options": ["MPLS", "Frame Relay", "Ethernet", "PPP"],
+    "correct": ["MPLS", "Frame Relay", "PPP"],
+    "type": "multi",
+    "explanation": "MPLS, Frame Relay, and PPP are WAN technologies. Ethernet is primarily used in LANs."
+  },
+  {
+    "id": 29,
+    "question": "What is the default lease time for DHCP in Cisco routers?",
+    "options": ["24 hours", "1 hour", "8 hours", "12 hours"],
+    "correct": ["24 hours"],
+    "type": "single",
+    "explanation": "The default DHCP lease time on Cisco routers is 24 hours."
+  },
+  {
+    "id": 30,
+    "question": "What does HSRP provide?",
+    "options": ["Gateway redundancy", "Load balancing", "VLAN routing", "Port security"],
+    "correct": ["Gateway redundancy"],
+    "type": "single",
+    "explanation": "Hot Standby Router Protocol (HSRP) provides gateway redundancy for high availability."
+  },
+  {
+    "id": 31,
+    "question": "What is the purpose of port security?",
+    "options": ["Limit MAC addresses on a port", "Encrypt traffic", "Route VLANs", "Balance load"],
+    "correct": ["Limit MAC addresses on a port"],
+    "type": "single",
+    "explanation": "Port security limits the number and identity of MAC addresses that can connect to a switch port."
+  },
+  {
+    "id": 32,
+    "question": "Which are EtherChannel protocols? (Select all that apply)",
+    "options": ["LACP", "PAgP", "STP", "VTP"],
+    "correct": ["LACP", "PAgP"],
+    "type": "multi",
+    "explanation": "LACP and PAgP are EtherChannel protocols for link aggregation. STP prevents loops, VTP manages VLANs."
+  },
+  {
+    "id": 33,
+    "question": "What is the IPv4 loopback address?",
+    "options": ["127.0.0.1", "192.168.1.1", "10.0.0.1", "0.0.0.0"],
+    "correct": ["127.0.0.1"],
+    "type": "single",
+    "explanation": "127.0.0.1 is the IPv4 loopback address used for testing local network functionality."
+  },
+  {
+    "id": 34,
+    "question": "What does MTU stand for?",
+    "options": [
+      "Maximum Transmission Unit",
+      "Minimum Transfer Unit",
+      "Multiple Transmission Update",
+      "Master Terminal Unit"
+    ],
+    "correct": ["Maximum Transmission Unit"],
+    "type": "single",
+    "explanation": "MTU is the largest packet size that can be transmitted on a network."
+  },
+  {
+    "id": 35,
+    "question": "Which are characteristics of OSPF? (Select all that apply)",
+    "options": ["Link-state protocol", "Uses Dijkstra algorithm", "Distance vector protocol", "Fast convergence"],
+    "correct": ["Link-state protocol", "Uses Dijkstra algorithm", "Fast convergence"],
+    "type": "multi",
+    "explanation": "OSPF is a link-state protocol that uses Dijkstra's algorithm and converges quickly."
+  },
+  {
+    "id": 36,
+    "question": "What is the purpose of ACLs?",
+    "options": ["Filter traffic", "Route packets", "Assign addresses", "Create VLANs"],
+    "correct": ["Filter traffic"],
+    "type": "single",
+    "explanation": "Access Control Lists (ACLs) filter network traffic based on defined rules."
+  },
+  {
+    "id": 37,
+    "question": "What is the default priority for STP?",
+    "options": ["32768", "1024", "4096", "16384"],
+    "correct": ["32768"],
+    "type": "single",
+    "explanation": "The default STP bridge priority is 32768."
+  },
+  {
+    "id": 38,
+    "question": "Which are private IPv4 address ranges? (Select all that apply)",
+    "options": ["10.0.0.0/8", "172.16.0.0/12", "8.8.8.0/24", "192.168.0.0/16"],
+    "correct": ["10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"],
+    "type": "multi",
+    "explanation": "RFC 1918 defines three private address ranges: 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16."
+  },
+  {
+    "id": 39,
+    "question": "What does VRRP stand for?",
+    "options": [
+      "Virtual Router Redundancy Protocol",
+      "VLAN Routing Redundancy Protocol",
+      "Virtual Route Registration Protocol",
+      "Verified Router Routing Protocol"
+    ],
+    "correct": ["Virtual Router Redundancy Protocol"],
+    "type": "single",
+    "explanation": "VRRP provides automatic assignment of available IP routers to participating hosts."
+  },
+  {
+    "id": 40,
+    "question": "What is the purpose of SNMP?",
+    "options": ["Network monitoring and management", "Routing packets", "Assigning addresses", "Encrypting traffic"],
+    "correct": ["Network monitoring and management"],
+    "type": "single",
+    "explanation": "Simple Network Management Protocol (SNMP) is used for network monitoring and management."
+  },
+  {
+    "id": 41,
+    "question": "Which are characteristics of UDP? (Select all that apply)",
+    "options": ["Connectionless", "Unreliable", "Connection-oriented", "Low overhead"],
+    "correct": ["Connectionless", "Unreliable", "Low overhead"],
+    "type": "multi",
+    "explanation": "UDP is connectionless, unreliable (no guaranteed delivery), and has low overhead."
+  },
+  {
+    "id": 42,
+    "question": "What is the purpose of CDP?",
+    "options": ["Discover directly connected Cisco devices", "Route packets", "Encrypt traffic", "Manage VLANs"],
+    "correct": ["Discover directly connected Cisco devices"],
+    "type": "single",
+    "explanation": "Cisco Discovery Protocol (CDP) discovers and displays information about directly connected Cisco devices."
+  },
+  {
+    "id": 43,
+    "question": "What does BGP stand for?",
+    "options": [
+      "Border Gateway Protocol",
+      "Basic Gateway Protocol",
+      "Bandwidth Gateway Process",
+      "Bridge Gateway Protocol"
+    ],
+    "correct": ["Border Gateway Protocol"],
+    "type": "single",
+    "explanation": "BGP is the protocol used to exchange routing information between autonomous systems on the internet."
+  },
+  {
+    "id": 44,
+    "question": "Which are Layer 2 switching methods? (Select all that apply)",
+    "options": ["Store-and-forward", "Cut-through", "Fragment-free", "Fast-forward"],
+    "correct": ["Store-and-forward", "Cut-through", "Fragment-free"],
+    "type": "multi",
+    "explanation": "Store-and-forward, cut-through, and fragment-free are Layer 2 switching methods."
+  },
+  {
+    "id": 45,
+    "question": "What is the purpose of NTP?",
+    "options": ["Synchronize time across network devices", "Transfer files", "Resolve names", "Assign addresses"],
+    "correct": ["Synchronize time across network devices"],
+    "type": "single",
+    "explanation": "Network Time Protocol (NTP) synchronizes clocks across network devices."
+  },
+  {
+    "id": 46,
+    "question": "What is the maximum number of VLANs supported on Cisco switches?",
+    "options": ["4094", "1024", "2048", "8192"],
+    "correct": ["4094"],
+    "type": "single",
+    "explanation": "Cisco switches support VLAN IDs from 1-4094, with some reserved for special purposes."
+  },
+  {
+    "id": 47,
+    "question": "Which are PPP authentication methods? (Select all that apply)",
+    "options": ["PAP", "CHAP", "MD5", "EAP"],
+    "correct": ["PAP", "CHAP", "EAP"],
+    "type": "multi",
+    "explanation": "PAP, CHAP, and EAP are PPP authentication methods. MD5 is a hashing algorithm."
+  },
+  {
+    "id": 48,
+    "question": "What does ICMP stand for?",
+    "options": [
+      "Internet Control Message Protocol",
+      "Internet Connection Management Protocol",
+      "Internal Communication Management Protocol",
+      "IP Control Messaging Protocol"
+    ],
+    "correct": ["Internet Control Message Protocol"],
+    "type": "single",
+    "explanation": "ICMP is used for diagnostic and error reporting in IP networks."
+  },
+  {
+    "id": 49,
+    "question": "What is the purpose of trunking?",
+    "options": ["Carry multiple VLANs over a single link", "Load balance traffic", "Encrypt traffic", "Filter packets"],
+    "correct": ["Carry multiple VLANs over a single link"],
+    "type": "single",
+    "explanation": "Trunking allows multiple VLANs to traverse a single physical link between switches."
+  },
+  {
+    "id": 50,
+    "question": "Which are valid IPv6 address types? (Select all that apply)",
+    "options": ["Unicast", "Multicast", "Anycast", "Broadcast"],
+    "correct": ["Unicast", "Multicast", "Anycast"],
+    "type": "multi",
+    "explanation": "IPv6 supports unicast, multicast, and anycast. It does not use broadcast."
+  },
+  {
+    "id": 51,
+    "question": "What is the purpose of DTP?",
+    "options": ["Negotiate trunk links", "Route packets", "Discover neighbors", "Prevent loops"],
+    "correct": ["Negotiate trunk links"],
+    "type": "single",
+    "explanation": "Dynamic Trunking Protocol (DTP) automatically negotiates trunk links between switches."
+  },
+  {
+    "id": 52,
+    "question": "What does FHRP stand for?",
+    "options": [
+      "First Hop Redundancy Protocol",
+      "Fast Host Routing Protocol",
+      "Frame Header Routing Protocol",
+      "Fault Handler Redundancy Protocol"
+    ],
+    "correct": ["First Hop Redundancy Protocol"],
+    "type": "single",
+    "explanation": "FHRP provides gateway redundancy through protocols like HSRP, VRRP, and GLBP."
+  },
+  {
+    "id": 53,
+    "question": "Which are characteristics of link-state routing protocols? (Select all that apply)",
+    "options": [
+      "Maintain topology database",
+      "Fast convergence",
+      "Send complete routing table",
+      "Use Dijkstra algorithm"
+    ],
+    "correct": ["Maintain topology database", "Fast convergence", "Use Dijkstra algorithm"],
+    "type": "multi",
+    "explanation": "Link-state protocols maintain a topology database, converge quickly, and use Dijkstra's algorithm."
+  },
+  {
+    "id": 54,
+    "question": "What is the default encapsulation for Cisco trunks?",
+    "options": ["802.1Q", "ISL", "VTP", "DTP"],
+    "correct": ["802.1Q"],
+    "type": "single",
+    "explanation": "802.1Q is the industry-standard and default encapsulation for VLAN trunks on modern Cisco switches."
+  },
+  {
+    "id": 55,
+    "question": "What is the purpose of TFTP?",
+    "options": ["Transfer files", "Route packets", "Assign addresses", "Resolve names"],
+    "correct": ["Transfer files"],
+    "type": "single",
+    "explanation": "Trivial File Transfer Protocol (TFTP) is used for simple file transfers, often for device configuration."
+  },
+  {
+    "id": 56,
+    "question": "Which are valid OSPF network types? (Select all that apply)",
+    "options": ["Broadcast", "Point-to-point", "Non-broadcast", "Point-to-multipoint"],
+    "correct": ["Broadcast", "Point-to-point", "Non-broadcast", "Point-to-multipoint"],
+    "type": "multi",
+    "explanation": "OSPF supports broadcast, point-to-point, non-broadcast, and point-to-multipoint network types."
+  },
+  {
+    "id": 57,
+    "question": "What is the purpose of inter-VLAN routing?",
+    "options": ["Route traffic between VLANs", "Create VLANs", "Prevent loops", "Encrypt traffic"],
+    "correct": ["Route traffic between VLANs"],
+    "type": "single",
+    "explanation": "Inter-VLAN routing enables communication between different VLANs using a router or Layer 3 switch."
+  },
+  {
+    "id": 58,
+    "question": "What does GLBP stand for?",
+    "options": [
+      "Gateway Load Balancing Protocol",
+      "Global Link Backup Protocol",
+      "General Load Balancer Process",
+      "Gateway Link Bridge Protocol"
+    ],
+    "correct": ["Gateway Load Balancing Protocol"],
+    "type": "single",
+    "explanation": "GLBP provides both redundancy and load balancing for default gateways."
+  },
+  {
+    "id": 59,
+    "question": "Which are characteristics of EIGRP? (Select all that apply)",
+    "options": ["Hybrid protocol", "Fast convergence", "Uses DUAL algorithm", "Link-state protocol"],
+    "correct": ["Hybrid protocol", "Fast convergence", "Uses DUAL algorithm"],
+    "type": "multi",
+    "explanation": "EIGRP is a hybrid (advanced distance vector) protocol with fast convergence using the DUAL algorithm."
+  },
+  {
+    "id": 60,
+    "question": "What is the purpose of port channels?",
+    "options": ["Aggregate multiple links", "Create VLANs", "Filter traffic", "Encrypt data"],
+    "correct": ["Aggregate multiple links"],
+    "type": "single",
+    "explanation": "Port channels (EtherChannel) aggregate multiple physical links into a single logical link."
+  },
+  {
+    "id": 61,
+    "question": "What does TACACS+ provide?",
+    "options": ["AAA services", "Routing", "Switching", "VPN connectivity"],
+    "correct": ["AAA services"],
+    "type": "single",
+    "explanation": "TACACS+ provides centralized Authentication, Authorization, and Accounting (AAA) services."
+  },
+  {
+    "id": 62,
+    "question": "Which are characteristics of RIP? (Select all that apply)",
+    "options": [
+      "Maximum hop count of 15",
+      "Distance vector protocol",
+      "Uses bandwidth as metric",
+      "Sends updates every 30 seconds"
+    ],
+    "correct": ["Maximum hop count of 15", "Distance vector protocol", "Sends updates every 30 seconds"],
+    "type": "multi",
+    "explanation": "RIP is a distance vector protocol with a max hop count of 15 and sends updates every 30 seconds. It uses hop count, not bandwidth."
+  },
+  {
+    "id": 63,
+    "question": "What is the purpose of GRE?",
+    "options": ["Tunnel protocols over IP", "Encrypt traffic", "Route packets", "Assign addresses"],
+    "correct": ["Tunnel protocols over IP"],
+    "type": "single",
+    "explanation": "Generic Routing Encapsulation (GRE) tunnels protocols over IP networks."
+  },
+  {
+    "id": 64,
+    "question": "What is the default STP mode on Cisco switches?",
+    "options": ["PVST+", "RSTP", "MST", "STP"],
+    "correct": ["PVST+"],
+    "type": "single",
+    "explanation": "Per-VLAN Spanning Tree Plus (PVST+) is the default STP mode on Cisco switches."
+  },
+  {
+    "id": 65,
+    "question": "Which are valid wildcard mask components? (Select all that apply)",
+    "options": ["0", "255", "128", "1"],
+    "correct": ["0", "255"],
+    "type": "multi",
+    "explanation": "Wildcard masks use 0 (must match) and 255 (ignore). Individual bits can be set, but typical values are 0 and 255."
+  },
+  {
+    "id": 66,
+    "question": "What does LLDP stand for?",
+    "options": [
+      "Link Layer Discovery Protocol",
+      "Local Link Data Protocol",
+      "Logical Layer Discovery Process",
+      "Link Level Detection Protocol"
+    ],
+    "correct": ["Link Layer Discovery Protocol"],
+    "type": "single",
+    "explanation": "LLDP is a vendor-neutral protocol for discovering directly connected network devices."
+  },
+  {
+    "id": 67,
+    "question": "What is the purpose of route summarization?",
+    "options": ["Reduce routing table size", "Increase bandwidth", "Encrypt traffic", "Filter packets"],
+    "correct": ["Reduce routing table size"],
+    "type": "single",
+    "explanation": "Route summarization (aggregation) combines multiple routes into a single entry to reduce routing table size."
+  },
+  {
+    "id": 68,
+    "question": "Which are valid EIGRP packet types? (Select all that apply)",
+    "options": ["Hello", "Update", "Query", "Acknowledgment"],
+    "correct": ["Hello", "Update", "Query", "Acknowledgment"],
+    "type": "multi",
+    "explanation": "EIGRP uses Hello, Update, Query, Reply, and Acknowledgment packet types."
+  },
+  {
+    "id": 69,
+    "question": "What is the purpose of syslog?",
+    "options": ["Centralized logging", "Routing", "Address assignment", "Time synchronization"],
+    "correct": ["Centralized logging"],
+    "type": "single",
+    "explanation": "Syslog provides centralized logging for network devices and systems."
+  },
+  {
+    "id": 70,
+    "question": "What does PoE stand for?",
+    "options": ["Power over Ethernet", "Protocol over Ethernet", "Port Operator Enable", "Packet Order Encryption"],
+    "correct": ["Power over Ethernet"],
+    "type": "single",
+    "explanation": "PoE allows network cables to carry electrical power to devices like IP phones and wireless access points."
+  },
+  {
+    "id": 71,
+    "question": "Which are characteristics of static routing? (Select all that apply)",
+    "options": [
+      "Manually configured",
+      "No bandwidth overhead",
+      "Does not adapt to topology changes",
+      "Automatic failover"
+    ],
+    "correct": ["Manually configured", "No bandwidth overhead", "Does not adapt to topology changes"],
+    "type": "multi",
+    "explanation": "Static routes are manually configured, have no protocol overhead, but don't adapt to changes automatically."
+  },
+  {
+    "id": 72,
+    "question": "What is the purpose of RADIUS?",
+    "options": ["AAA services", "Routing", "VPN encryption", "Load balancing"],
+    "correct": ["AAA services"],
+    "type": "single",
+    "explanation": "RADIUS provides centralized Authentication, Authorization, and Accounting services."
+  },
+  {
+    "id": 73,
+    "question": "What is the default VLAN on Cisco switches?",
+    "options": ["VLAN 1", "VLAN 0", "VLAN 100", "VLAN 999"],
+    "correct": ["VLAN 1"],
+    "type": "single",
+    "explanation": "VLAN 1 is the default VLAN on Cisco switches and cannot be deleted."
+  },
+  {
+    "id": 74,
+    "question": "Which are WAN encapsulation protocols? (Select all that apply)",
+    "options": ["PPP", "HDLC", "Frame Relay", "Ethernet"],
+    "correct": ["PPP", "HDLC", "Frame Relay"],
+    "type": "multi",
+    "explanation": "PPP, HDLC, and Frame Relay are WAN encapsulation protocols. Ethernet is typically used in LANs."
+  },
+  {
+    "id": 75,
+    "question": "What is the purpose of a loopback interface?",
+    "options": ["Logical interface for management", "Physical port", "Backup link", "Access port"],
+    "correct": ["Logical interface for management"],
+    "type": "single",
+    "explanation": "A loopback interface is a logical interface used for management and routing protocol operations."
+  },
+  {
+    "id": 76,
+    "question": "What does SD-WAN stand for?",
+    "options": ["Software-Defined WAN", "Standard Domain WAN", "Secure Data WAN", "Switched Domain WAN"],
+    "correct": ["Software-Defined WAN"],
+    "type": "single",
+    "explanation": "SD-WAN uses software to control WAN connectivity and services."
+  },
+  {
+    "id": 77,
+    "question": "Which are OSPF router types? (Select all that apply)",
+    "options": ["DR", "BDR", "ABR", "ASBR"],
+    "correct": ["DR", "BDR", "ABR", "ASBR"],
+    "type": "multi",
+    "explanation": "OSPF has Designated Router (DR), Backup DR (BDR), Area Border Router (ABR), and Autonomous System Boundary Router (ASBR)."
+  },
+  {
+    "id": 78,
+    "question": "What is the purpose of SSH?",
+    "options": ["Secure remote access", "File transfer", "Name resolution", "Address assignment"],
+    "correct": ["Secure remote access"],
+    "type": "single",
+    "explanation": "Secure Shell (SSH) provides encrypted remote access to network devices."
+  },
+  {
+    "id": 79,
+    "question": "What is the default SSH port?",
+    "options": ["22", "23", "80", "443"],
+    "correct": ["22"],
+    "type": "single",
+    "explanation": "SSH uses TCP port 22 by default."
+  },
+  {
+    "id": 80,
+    "question": "Which are characteristics of multicast? (Select all that apply)",
+    "options": [
+      "One-to-many communication",
+      "Uses Class D addresses",
+      "One-to-one communication",
+      "Efficient bandwidth usage"
+    ],
+    "correct": ["One-to-many communication", "Uses Class D addresses", "Efficient bandwidth usage"],
+    "type": "multi",
+    "explanation": "Multicast enables one-to-many communication using Class D addresses (224.0.0.0-239.255.255.255) efficiently."
+  },
+  {
+    "id": 81,
+    "question": "What is the purpose of HSRP preemption?",
+    "options": ["Allow higher priority router to become active", "Prevent loops", "Balance load", "Filter traffic"],
+    "correct": ["Allow higher priority router to become active"],
+    "type": "single",
+    "explanation": "HSRP preemption allows a router with higher priority to take over as the active router."
+  },
+  {
+    "id": 82,
+    "question": "What does APIPA stand for?",
+    "options": [
+      "Automatic Private IP Addressing",
+      "Advanced Protocol IP Assignment",
+      "Automated Public IP Allocation",
+      "Access Point IP Association"
+    ],
+    "correct": ["Automatic Private IP Addressing"],
+    "type": "single",
+    "explanation": "APIPA automatically assigns IP addresses in the 169.254.0.0/16 range when DHCP fails."
+  },
+  {
+    "id": 83,
+    "question": "Which are valid ACL number ranges for standard ACLs? (Select all that apply)",
+    "options": ["1-99", "1300-1999", "100-199", "2000-2699"],
+    "correct": ["1-99", "1300-1999"],
+    "type": "multi",
+    "explanation": "Standard ACLs use ranges 1-99 and 1300-1999. Extended ACLs use 100-199 and 2000-2699."
+  },
+  {
+    "id": 84,
+    "question": "What is the purpose of split horizon?",
+    "options": ["Prevent routing loops", "Balance load", "Encrypt traffic", "Assign addresses"],
+    "correct": ["Prevent routing loops"],
+    "type": "single",
+    "explanation": "Split horizon prevents routing loops by not advertising routes back out the interface they were learned on."
+  },
+  {
+    "id": 85,
+    "question": "What is the default administrative distance for directly connected routes?",
+    "options": ["0", "1", "90", "110"],
+    "correct": ["0"],
+    "type": "single",
+    "explanation": "Directly connected routes have an administrative distance of 0, the most trusted."
+  },
+  {
+    "id": 86,
+    "question": "Which are OSPF LSA types? (Select all that apply)",
+    "options": ["Type 1 Router LSA", "Type 2 Network LSA", "Type 3 Summary LSA", "Type 4 ASBR Summary LSA"],
+    "correct": ["Type 1 Router LSA", "Type 2 Network LSA", "Type 3 Summary LSA", "Type 4 ASBR Summary LSA"],
+    "type": "multi",
+    "explanation": "OSPF uses various LSA types including Types 1-5 for different routing information."
+  },
+  {
+    "id": 87,
+    "question": "What is the purpose of BPDU Guard?",
+    "options": ["Protect against rogue switches", "Prevent loops", "Balance load", "Encrypt traffic"],
+    "correct": ["Protect against rogue switches"],
+    "type": "single",
+    "explanation": "BPDU Guard disables a port if it receives a BPDU, protecting against unauthorized switches."
+  },
+  {
+    "id": 88,
+    "question": "What does VPN stand for?",
+    "options": [
+      "Virtual Private Network",
+      "Verified Public Network",
+      "Virtual Protocol Network",
+      "Validated Private Node"
+    ],
+    "correct": ["Virtual Private Network"],
+    "type": "single",
+    "explanation": "VPN creates secure, encrypted connections over public networks."
+  },
+  {
+    "id": 89,
+    "question": "Which are characteristics of PPP? (Select all that apply)",
+    "options": ["Layer 2 protocol", "Supports authentication", "Multiprotocol support", "Layer 3 protocol"],
+    "correct": ["Layer 2 protocol", "Supports authentication", "Multiprotocol support"],
+    "type": "multi",
+    "explanation": "PPP is a Layer 2 protocol that supports authentication and multiple Layer 3 protocols."
+  },
+  {
+    "id": 90,
+    "question": "What is the purpose of DHCP relay?",
+    "options": ["Forward DHCP requests across subnets", "Assign static IPs", "Resolve names", "Route packets"],
+    "correct": ["Forward DHCP requests across subnets"],
+    "type": "single",
+    "explanation": "DHCP relay (IP helper) forwards DHCP broadcasts across router boundaries to remote DHCP servers."
+  },
+  {
+    "id": 91,
+    "question": "What is the maximum hop count for RIPv2?",
+    "options": ["15", "16", "255", "100"],
+    "correct": ["15"],
+    "type": "single",
+    "explanation": "RIPv2 has a maximum hop count of 15; 16 is considered unreachable."
+  },
+  {
+    "id": 92,
+    "question": "Which are characteristics of RSTP? (Select all that apply)",
+    "options": [
+      "Faster convergence than STP",
+      "Backward compatible with STP",
+      "Uses same port states as STP",
+      "IEEE 802.1w standard"
+    ],
+    "correct": ["Faster convergence than STP", "Backward compatible with STP", "IEEE 802.1w standard"],
+    "type": "multi",
+    "explanation": "RSTP (802.1w) converges faster than STP, is backward compatible, but uses different port states."
+  },
+  {
+    "id": 93,
+    "question": "What is the purpose of route poisoning?",
+    "options": ["Mark unreachable routes", "Balance load", "Encrypt traffic", "Filter packets"],
+    "correct": ["Mark unreachable routes"],
+    "type": "single",
+    "explanation": "Route poisoning marks unreachable routes with infinite metric to prevent routing loops."
+  },
+  {
+    "id": 94,
+    "question": "What does DMZ stand for?",
+    "options": ["Demilitarized Zone", "Data Management Zone", "Dual Mode Zone", "Direct Memory Zone"],
+    "correct": ["Demilitarized Zone"],
+    "type": "single",
+    "explanation": "A DMZ is a network segment that sits between trusted internal and untrusted external networks."
+  },
+  {
+    "id": 95,
+    "question": "Which are valid Ethernet frame types? (Select all that apply)",
+    "options": ["Ethernet II", "802.3", "802.11", "SNAP"],
+    "correct": ["Ethernet II", "802.3", "SNAP"],
+    "type": "multi",
+    "explanation": "Ethernet II, 802.3, and SNAP are valid Ethernet frame types. 802.11 is wireless."
+  },
+  {
+    "id": 96,
+    "question": "What is the purpose of root guard?",
+    "options": ["Prevent unexpected root bridge changes", "Balance load", "Filter traffic", "Assign addresses"],
+    "correct": ["Prevent unexpected root bridge changes"],
+    "type": "single",
+    "explanation": "Root guard prevents a port from becoming a root port, protecting the root bridge election."
+  },
+  {
+    "id": 97,
+    "question": "What is the default OSPF hello interval on broadcast networks?",
+    "options": ["10 seconds", "30 seconds", "40 seconds", "5 seconds"],
+    "correct": ["10 seconds"],
+    "type": "single",
+    "explanation": "OSPF sends hello packets every 10 seconds on broadcast and point-to-point networks."
+  },
+  {
+    "id": 98,
+    "question": "Which are characteristics of BGP? (Select all that apply)",
+    "options": ["Path vector protocol", "Used between ASes", "Fast convergence", "Uses TCP port 179"],
+    "correct": ["Path vector protocol", "Used between ASes", "Uses TCP port 179"],
+    "type": "multi",
+    "explanation": "BGP is a path vector protocol used between autonomous systems on TCP port 179. It converges slowly."
+  },
+  {
+    "id": 99,
+    "question": "What is the purpose of PortFast?",
+    "options": ["Skip STP listening and learning states", "Increase bandwidth", "Encrypt traffic", "Filter packets"],
+    "correct": ["Skip STP listening and learning states"],
+    "type": "single",
+    "explanation": "PortFast allows access ports to immediately transition to forwarding state, bypassing STP states."
+  },
+  {
+    "id": 100,
+    "question": "What does AAA stand for in network security?",
+    "options": [
+      "Authentication, Authorization, Accounting",
+      "Access, Approval, Auditing",
+      "Authentication, Access, Authorization",
+      "Approval, Accounting, Access"
+    ],
+    "correct": ["Authentication, Authorization, Accounting"],
+    "type": "single",
+    "explanation": "AAA stands for Authentication (who are you), Authorization (what can you do), and Accounting (what did you do)."
+  }
+]

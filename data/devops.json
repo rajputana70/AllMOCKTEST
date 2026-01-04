@@ -1,0 +1,1032 @@
+[
+  {
+    "id": 1,
+    "question": "What does CI/CD stand for?",
+    "options": [
+      "Continuous Integration/Continuous Deployment",
+      "Code Integration/Code Deployment",
+      "Cloud Integration/Cloud Deployment",
+      "Continuous Innovation/Continuous Development"
+    ],
+    "correct": ["Continuous Integration/Continuous Deployment"],
+    "type": "single",
+    "explanation": "CI/CD stands for Continuous Integration and Continuous Deployment, fundamental practices in modern DevOps."
+  },
+  {
+    "id": 2,
+    "question": "Which are popular CI/CD tools? (Select all that apply)",
+    "options": ["Jenkins", "GitLab CI", "GitHub Actions", "CircleCI"],
+    "correct": ["Jenkins", "GitLab CI", "GitHub Actions", "CircleCI"],
+    "type": "multi",
+    "explanation": "Jenkins, GitLab CI, GitHub Actions, and CircleCI are all widely used CI/CD automation platforms."
+  },
+  {
+    "id": 3,
+    "question": "What is the primary purpose of Docker?",
+    "options": ["Containerization", "Version control", "Testing automation", "Database management"],
+    "correct": ["Containerization"],
+    "type": "single",
+    "explanation": "Docker enables containerization, packaging applications with their dependencies into portable containers."
+  },
+  {
+    "id": 4,
+    "question": "What is a Docker image?",
+    "options": [
+      "A read-only template for creating containers",
+      "A running container",
+      "A virtual machine",
+      "A configuration file"
+    ],
+    "correct": ["A read-only template for creating containers"],
+    "type": "single",
+    "explanation": "A Docker image is a read-only template containing instructions for creating a Docker container."
+  },
+  {
+    "id": 5,
+    "question": "Which commands are used in Docker? (Select all that apply)",
+    "options": ["docker build", "docker run", "docker push", "docker commit"],
+    "correct": ["docker build", "docker run", "docker push", "docker commit"],
+    "type": "multi",
+    "explanation": "All these are valid Docker commands: build creates images, run starts containers, push uploads to registry, commit creates image from container."
+  },
+  {
+    "id": 6,
+    "question": "What is Kubernetes?",
+    "options": [
+      "A container orchestration platform",
+      "A version control system",
+      "A programming language",
+      "A database system"
+    ],
+    "correct": ["A container orchestration platform"],
+    "type": "single",
+    "explanation": "Kubernetes is an open-source platform for automating deployment, scaling, and management of containerized applications."
+  },
+  {
+    "id": 7,
+    "question": "What is a Kubernetes Pod?",
+    "options": [
+      "Smallest deployable unit containing one or more containers",
+      "A single container",
+      "A cluster node",
+      "A configuration file"
+    ],
+    "correct": ["Smallest deployable unit containing one or more containers"],
+    "type": "single",
+    "explanation": "A Pod is the smallest deployable unit in Kubernetes, containing one or more tightly coupled containers."
+  },
+  {
+    "id": 8,
+    "question": "Which Kubernetes objects exist? (Select all that apply)",
+    "options": ["Pod", "Deployment", "Service", "ReplicaSet"],
+    "correct": ["Pod", "Deployment", "Service", "ReplicaSet"],
+    "type": "multi",
+    "explanation": "Pod, Deployment, Service, and ReplicaSet are all fundamental Kubernetes objects for managing applications."
+  },
+  {
+    "id": 9,
+    "question": "What is Infrastructure as Code (IaC)?",
+    "options": [
+      "Managing infrastructure through code",
+      "Writing application code",
+      "Documenting infrastructure",
+      "Testing infrastructure"
+    ],
+    "correct": ["Managing infrastructure through code"],
+    "type": "single",
+    "explanation": "IaC is the practice of managing and provisioning infrastructure through machine-readable definition files rather than manual processes."
+  },
+  {
+    "id": 10,
+    "question": "Which are IaC tools? (Select all that apply)",
+    "options": ["Terraform", "Ansible", "CloudFormation", "Puppet"],
+    "correct": ["Terraform", "Ansible", "CloudFormation", "Puppet"],
+    "type": "multi",
+    "explanation": "Terraform, Ansible, CloudFormation, and Puppet are all popular Infrastructure as Code tools."
+  },
+  {
+    "id": 11,
+    "question": "What is Terraform primarily used for?",
+    "options": [
+      "Infrastructure provisioning",
+      "Configuration management",
+      "Continuous integration",
+      "Container orchestration"
+    ],
+    "correct": ["Infrastructure provisioning"],
+    "type": "single",
+    "explanation": "Terraform is primarily used for infrastructure provisioning across multiple cloud providers using declarative configuration."
+  },
+  {
+    "id": 12,
+    "question": "What language does Terraform use?",
+    "options": ["HCL (HashiCorp Configuration Language)", "YAML", "JSON", "Python"],
+    "correct": ["HCL (HashiCorp Configuration Language)"],
+    "type": "single",
+    "explanation": "Terraform uses HCL (HashiCorp Configuration Language), a declarative language designed for infrastructure configuration."
+  },
+  {
+    "id": 13,
+    "question": "Which Terraform commands are part of the workflow? (Select all that apply)",
+    "options": ["terraform init", "terraform plan", "terraform apply", "terraform destroy"],
+    "correct": ["terraform init", "terraform plan", "terraform apply", "terraform destroy"],
+    "type": "multi",
+    "explanation": "The core Terraform workflow includes init (initialize), plan (preview changes), apply (execute changes), and destroy (remove resources)."
+  },
+  {
+    "id": 14,
+    "question": "What is Ansible?",
+    "options": [
+      "Configuration management and automation tool",
+      "Container platform",
+      "Version control system",
+      "Monitoring tool"
+    ],
+    "correct": ["Configuration management and automation tool"],
+    "type": "single",
+    "explanation": "Ansible is an open-source automation tool for configuration management, application deployment, and task automation."
+  },
+  {
+    "id": 15,
+    "question": "What format does Ansible use for playbooks?",
+    "options": ["YAML", "JSON", "XML", "HCL"],
+    "correct": ["YAML"],
+    "type": "single",
+    "explanation": "Ansible playbooks are written in YAML format, making them human-readable and easy to write."
+  },
+  {
+    "id": 16,
+    "question": "What is an Ansible inventory?",
+    "options": ["List of managed hosts", "Collection of playbooks", "Configuration file", "Module repository"],
+    "correct": ["List of managed hosts"],
+    "type": "single",
+    "explanation": "An Ansible inventory is a list of managed nodes (hosts) that Ansible can work with."
+  },
+  {
+    "id": 17,
+    "question": "Which components are part of Jenkins? (Select all that apply)",
+    "options": ["Master", "Agent/Node", "Pipeline", "Job"],
+    "correct": ["Master", "Agent/Node", "Pipeline", "Job"],
+    "type": "multi",
+    "explanation": "Jenkins architecture includes Master (controller), Agents/Nodes (workers), Pipelines, and Jobs."
+  },
+  {
+    "id": 18,
+    "question": "What is a Jenkins Pipeline?",
+    "options": [
+      "Suite of plugins for implementing CI/CD workflows",
+      "Single build job",
+      "Container image",
+      "Testing framework"
+    ],
+    "correct": ["Suite of plugins for implementing CI/CD workflows"],
+    "type": "single",
+    "explanation": "Jenkins Pipeline is a suite of plugins supporting implementing and integrating continuous delivery pipelines."
+  },
+  {
+    "id": 19,
+    "question": "Which languages can be used for Jenkins Pipeline? (Select all that apply)",
+    "options": ["Declarative", "Scripted (Groovy)", "YAML", "Python"],
+    "correct": ["Declarative", "Scripted (Groovy)"],
+    "type": "multi",
+    "explanation": "Jenkins supports Declarative and Scripted (Groovy) syntax for defining pipelines."
+  },
+  {
+    "id": 20,
+    "question": "What is Git?",
+    "options": ["Distributed version control system", "CI/CD tool", "Containerization platform", "Cloud provider"],
+    "correct": ["Distributed version control system"],
+    "type": "single",
+    "explanation": "Git is a distributed version control system for tracking changes in source code during software development."
+  },
+  {
+    "id": 21,
+    "question": "Which Git commands are used for branching? (Select all that apply)",
+    "options": ["git branch", "git checkout", "git merge", "git rebase"],
+    "correct": ["git branch", "git checkout", "git merge", "git rebase"],
+    "type": "multi",
+    "explanation": "All these commands are used for branch operations: creating, switching, merging, and rebasing branches."
+  },
+  {
+    "id": 22,
+    "question": "What is a Git merge conflict?",
+    "options": [
+      "When Git cannot automatically resolve differences between commits",
+      "Network connection error",
+      "Authentication failure",
+      "Repository corruption"
+    ],
+    "correct": ["When Git cannot automatically resolve differences between commits"],
+    "type": "single",
+    "explanation": "A merge conflict occurs when Git cannot automatically resolve differences in code between two commits."
+  },
+  {
+    "id": 23,
+    "question": "What is the difference between 'git pull' and 'git fetch'?",
+    "options": [
+      "Pull fetches and merges, fetch only downloads",
+      "They are identical",
+      "Pull is faster",
+      "Fetch is deprecated"
+    ],
+    "correct": ["Pull fetches and merges, fetch only downloads"],
+    "type": "single",
+    "explanation": "Git pull fetches changes and automatically merges, while git fetch only downloads changes without merging."
+  },
+  {
+    "id": 24,
+    "question": "What is GitHub Actions?",
+    "options": [
+      "CI/CD platform integrated with GitHub",
+      "Version control system",
+      "Container registry",
+      "Monitoring tool"
+    ],
+    "correct": ["CI/CD platform integrated with GitHub"],
+    "type": "single",
+    "explanation": "GitHub Actions is a CI/CD platform that automates build, test, and deployment workflows directly in GitHub."
+  },
+  {
+    "id": 25,
+    "question": "What triggers a GitHub Actions workflow?",
+    "options": [
+      "Events like push, pull request, or schedule",
+      "Only manual execution",
+      "System cron jobs",
+      "External webhooks only"
+    ],
+    "correct": ["Events like push, pull request, or schedule"],
+    "type": "single",
+    "explanation": "GitHub Actions workflows can be triggered by various events including push, pull requests, issues, schedules, or manual triggers."
+  },
+  {
+    "id": 26,
+    "question": "What is Prometheus?",
+    "options": ["Monitoring and alerting toolkit", "Container platform", "CI/CD tool", "Version control system"],
+    "correct": ["Monitoring and alerting toolkit"],
+    "type": "single",
+    "explanation": "Prometheus is an open-source monitoring and alerting toolkit designed for reliability and scalability."
+  },
+  {
+    "id": 27,
+    "question": "What is Grafana used for?",
+    "options": ["Data visualization and dashboarding", "Log aggregation", "Container orchestration", "Code deployment"],
+    "correct": ["Data visualization and dashboarding"],
+    "type": "single",
+    "explanation": "Grafana is an open-source platform for monitoring and observability, focusing on data visualization and dashboards."
+  },
+  {
+    "id": 28,
+    "question": "Which monitoring tools are commonly used together? (Select all that apply)",
+    "options": ["Prometheus", "Grafana", "ELK Stack", "Nagios"],
+    "correct": ["Prometheus", "Grafana", "ELK Stack"],
+    "type": "multi",
+    "explanation": "Prometheus and Grafana are often used together, and ELK Stack is another popular monitoring solution."
+  },
+  {
+    "id": 29,
+    "question": "What does ELK stand for?",
+    "options": [
+      "Elasticsearch, Logstash, Kibana",
+      "Elastic Load Kubernetes",
+      "Enterprise Linux Kernel",
+      "Extended Log Kit"
+    ],
+    "correct": ["Elasticsearch, Logstash, Kibana"],
+    "type": "single",
+    "explanation": "ELK stands for Elasticsearch (search engine), Logstash (log processing), and Kibana (visualization)."
+  },
+  {
+    "id": 30,
+    "question": "What is the primary purpose of Elasticsearch?",
+    "options": ["Search and analytics engine", "Container runtime", "CI/CD platform", "Configuration management"],
+    "correct": ["Search and analytics engine"],
+    "type": "single",
+    "explanation": "Elasticsearch is a distributed search and analytics engine for all types of data, including logs and metrics."
+  },
+  {
+    "id": 31,
+    "question": "What is a microservices architecture?",
+    "options": [
+      "Architecture with small independent services",
+      "Monolithic application",
+      "Database design pattern",
+      "Cloud storage solution"
+    ],
+    "correct": ["Architecture with small independent services"],
+    "type": "single",
+    "explanation": "Microservices architecture structures applications as collections of small, independent services that communicate via APIs."
+  },
+  {
+    "id": 32,
+    "question": "What are advantages of microservices? (Select all that apply)",
+    "options": ["Independent deployment", "Technology flexibility", "Better scalability", "Simpler architecture"],
+    "correct": ["Independent deployment", "Technology flexibility", "Better scalability"],
+    "type": "multi",
+    "explanation": "Microservices offer independent deployment, technology flexibility, and better scalability, but the architecture is more complex."
+  },
+  {
+    "id": 33,
+    "question": "What is Docker Compose?",
+    "options": [
+      "Tool for defining multi-container applications",
+      "Container registry",
+      "Orchestration platform",
+      "Monitoring tool"
+    ],
+    "correct": ["Tool for defining multi-container applications"],
+    "type": "single",
+    "explanation": "Docker Compose is a tool for defining and running multi-container Docker applications using YAML configuration."
+  },
+  {
+    "id": 34,
+    "question": "What is a Dockerfile?",
+    "options": [
+      "Text file with instructions to build Docker image",
+      "Running container",
+      "Registry repository",
+      "Network configuration"
+    ],
+    "correct": ["Text file with instructions to build Docker image"],
+    "type": "single",
+    "explanation": "A Dockerfile is a text document containing commands to assemble a Docker image."
+  },
+  {
+    "id": 35,
+    "question": "Which Dockerfile instructions are commonly used? (Select all that apply)",
+    "options": ["FROM", "RUN", "COPY", "CMD", "EXPOSE"],
+    "correct": ["FROM", "RUN", "COPY", "CMD", "EXPOSE"],
+    "type": "multi",
+    "explanation": "FROM, RUN, COPY, CMD, and EXPOSE are all fundamental Dockerfile instructions."
+  },
+  {
+    "id": 36,
+    "question": "What is the difference between CMD and ENTRYPOINT in Dockerfile?",
+    "options": [
+      "CMD provides defaults, ENTRYPOINT configures container as executable",
+      "They are identical",
+      "CMD is deprecated",
+      "ENTRYPOINT is optional"
+    ],
+    "correct": ["CMD provides defaults, ENTRYPOINT configures container as executable"],
+    "type": "single",
+    "explanation": "CMD provides default arguments that can be overridden, while ENTRYPOINT configures a container to run as an executable."
+  },
+  {
+    "id": 37,
+    "question": "What is a Kubernetes Deployment?",
+    "options": ["Declarative way to manage Pod replicas", "Single Pod", "Configuration file", "Monitoring tool"],
+    "correct": ["Declarative way to manage Pod replicas"],
+    "type": "single",
+    "explanation": "A Deployment provides declarative updates for Pods and ReplicaSets, managing the desired state of replicas."
+  },
+  {
+    "id": 38,
+    "question": "What is a Kubernetes Service?",
+    "options": [
+      "Abstract way to expose applications as network service",
+      "Single Pod",
+      "Container image",
+      "Configuration file"
+    ],
+    "correct": ["Abstract way to expose applications as network service"],
+    "type": "single",
+    "explanation": "A Service is an abstract way to expose an application running on a set of Pods as a network service."
+  },
+  {
+    "id": 39,
+    "question": "Which Kubernetes Service types exist? (Select all that apply)",
+    "options": ["ClusterIP", "NodePort", "LoadBalancer", "ExternalName"],
+    "correct": ["ClusterIP", "NodePort", "LoadBalancer", "ExternalName"],
+    "type": "multi",
+    "explanation": "Kubernetes supports ClusterIP, NodePort, LoadBalancer, and ExternalName service types."
+  },
+  {
+    "id": 40,
+    "question": "What is a Kubernetes Namespace?",
+    "options": ["Virtual cluster for resource isolation", "Network segment", "Storage volume", "Pod replica"],
+    "correct": ["Virtual cluster for resource isolation"],
+    "type": "single",
+    "explanation": "Namespaces provide a mechanism for isolating groups of resources within a single cluster."
+  },
+  {
+    "id": 41,
+    "question": "What is kubectl?",
+    "options": ["Command-line tool for Kubernetes", "Kubernetes cluster", "Container runtime", "Monitoring tool"],
+    "correct": ["Command-line tool for Kubernetes"],
+    "type": "single",
+    "explanation": "kubectl is the command-line tool for interacting with Kubernetes clusters."
+  },
+  {
+    "id": 42,
+    "question": "Which kubectl commands are commonly used? (Select all that apply)",
+    "options": ["kubectl get", "kubectl apply", "kubectl delete", "kubectl describe"],
+    "correct": ["kubectl get", "kubectl apply", "kubectl delete", "kubectl describe"],
+    "type": "multi",
+    "explanation": "Common kubectl commands include get (list resources), apply (create/update), delete (remove), and describe (show details)."
+  },
+  {
+    "id": 43,
+    "question": "What is Helm?",
+    "options": ["Package manager for Kubernetes", "Container runtime", "CI/CD tool", "Monitoring platform"],
+    "correct": ["Package manager for Kubernetes"],
+    "type": "single",
+    "explanation": "Helm is a package manager for Kubernetes that helps you manage Kubernetes applications using Helm charts."
+  },
+  {
+    "id": 44,
+    "question": "What is a Helm Chart?",
+    "options": ["Package of Kubernetes resources", "Monitoring graph", "Performance metric", "Container image"],
+    "correct": ["Package of Kubernetes resources"],
+    "type": "single",
+    "explanation": "A Helm Chart is a package containing all resource definitions necessary to run an application in Kubernetes."
+  },
+  {
+    "id": 45,
+    "question": "What is DevSecOps?",
+    "options": [
+      "Integrating security practices into DevOps",
+      "Security-only operations",
+      "Development without operations",
+      "Separate security team"
+    ],
+    "correct": ["Integrating security practices into DevOps"],
+    "type": "single",
+    "explanation": "DevSecOps integrates security practices into the DevOps process, making security a shared responsibility."
+  },
+  {
+    "id": 46,
+    "question": "Which security practices are part of DevSecOps? (Select all that apply)",
+    "options": ["Security scanning in CI/CD", "Vulnerability assessment", "Code analysis", "Compliance automation"],
+    "correct": ["Security scanning in CI/CD", "Vulnerability assessment", "Code analysis", "Compliance automation"],
+    "type": "multi",
+    "explanation": "DevSecOps includes security scanning, vulnerability assessment, static/dynamic code analysis, and compliance automation."
+  },
+  {
+    "id": 47,
+    "question": "What is a Blue-Green deployment?",
+    "options": [
+      "Two identical environments with instant switchover",
+      "Gradual rollout to users",
+      "A/B testing strategy",
+      "Backup and restore method"
+    ],
+    "correct": ["Two identical environments with instant switchover"],
+    "type": "single",
+    "explanation": "Blue-Green deployment uses two identical environments, switching traffic instantly from old (blue) to new (green) version."
+  },
+  {
+    "id": 48,
+    "question": "What is Canary deployment?",
+    "options": [
+      "Gradual rollout to subset of users",
+      "Instant full deployment",
+      "Backup strategy",
+      "Testing in production"
+    ],
+    "correct": ["Gradual rollout to subset of users"],
+    "type": "single",
+    "explanation": "Canary deployment gradually rolls out changes to a small subset of users before full deployment."
+  },
+  {
+    "id": 49,
+    "question": "What is a Rolling deployment?",
+    "options": [
+      "Gradual replacement of instances",
+      "Instant switchover",
+      "Simultaneous update all instances",
+      "Testing deployment"
+    ],
+    "correct": ["Gradual replacement of instances"],
+    "type": "single",
+    "explanation": "Rolling deployment gradually replaces instances of the previous version with the new version one at a time."
+  },
+  {
+    "id": 50,
+    "question": "What is GitOps?",
+    "options": [
+      "Git as single source of truth for infrastructure and applications",
+      "Git hosting service",
+      "Git GUI tool",
+      "Git training program"
+    ],
+    "correct": ["Git as single source of truth for infrastructure and applications"],
+    "type": "single",
+    "explanation": "GitOps uses Git repositories as the single source of truth for declarative infrastructure and applications."
+  },
+  {
+    "id": 51,
+    "question": "Which tools are popular for GitOps? (Select all that apply)",
+    "options": ["ArgoCD", "Flux", "Jenkins X", "GitLab"],
+    "correct": ["ArgoCD", "Flux", "Jenkins X"],
+    "type": "multi",
+    "explanation": "ArgoCD, Flux, and Jenkins X are popular GitOps tools. GitLab is a Git platform but not specifically a GitOps tool."
+  },
+  {
+    "id": 52,
+    "question": "What is ArgoCD?",
+    "options": [
+      "Declarative GitOps continuous delivery tool for Kubernetes",
+      "Container registry",
+      "Monitoring tool",
+      "Version control system"
+    ],
+    "correct": ["Declarative GitOps continuous delivery tool for Kubernetes"],
+    "type": "single",
+    "explanation": "ArgoCD is a declarative, GitOps continuous delivery tool for Kubernetes applications."
+  },
+  {
+    "id": 53,
+    "question": "What is the purpose of load balancing?",
+    "options": [
+      "Distribute traffic across multiple servers",
+      "Store data",
+      "Encrypt communications",
+      "Version control"
+    ],
+    "correct": ["Distribute traffic across multiple servers"],
+    "type": "single",
+    "explanation": "Load balancing distributes incoming network traffic across multiple servers to ensure reliability and performance."
+  },
+  {
+    "id": 54,
+    "question": "Which load balancing algorithms exist? (Select all that apply)",
+    "options": ["Round Robin", "Least Connections", "IP Hash", "Random"],
+    "correct": ["Round Robin", "Least Connections", "IP Hash", "Random"],
+    "type": "multi",
+    "explanation": "Common load balancing algorithms include Round Robin, Least Connections, IP Hash, and Random distribution."
+  },
+  {
+    "id": 55,
+    "question": "What is a reverse proxy?",
+    "options": [
+      "Server that sits between clients and backend servers",
+      "VPN connection",
+      "Firewall",
+      "Load balancer only"
+    ],
+    "correct": ["Server that sits between clients and backend servers"],
+    "type": "single",
+    "explanation": "A reverse proxy sits in front of backend servers, forwarding client requests and often providing load balancing and caching."
+  },
+  {
+    "id": 56,
+    "question": "What is Nginx commonly used for?",
+    "options": ["Web server and reverse proxy", "Database server", "Container runtime", "Version control"],
+    "correct": ["Web server and reverse proxy"],
+    "type": "single",
+    "explanation": "Nginx is a high-performance web server, reverse proxy, and load balancer."
+  },
+  {
+    "id": 57,
+    "question": "What is the purpose of caching in DevOps?",
+    "options": [
+      "Improve performance by storing frequently accessed data",
+      "Backup data",
+      "Encrypt data",
+      "Version data"
+    ],
+    "correct": ["Improve performance by storing frequently accessed data"],
+    "type": "single",
+    "explanation": "Caching stores frequently accessed data in fast storage to improve application performance and reduce backend load."
+  },
+  {
+    "id": 58,
+    "question": "What is Redis commonly used for?",
+    "options": ["In-memory data store and cache", "Relational database", "File storage", "Container registry"],
+    "correct": ["In-memory data store and cache"],
+    "type": "single",
+    "explanation": "Redis is an in-memory data structure store used as a database, cache, and message broker."
+  },
+  {
+    "id": 59,
+    "question": "What is the purpose of a message queue?",
+    "options": [
+      "Asynchronous communication between services",
+      "Synchronous API calls",
+      "File storage",
+      "User authentication"
+    ],
+    "correct": ["Asynchronous communication between services"],
+    "type": "single",
+    "explanation": "Message queues enable asynchronous communication between services, decoupling producers and consumers."
+  },
+  {
+    "id": 60,
+    "question": "Which message queue systems are popular? (Select all that apply)",
+    "options": ["RabbitMQ", "Apache Kafka", "Redis", "ActiveMQ"],
+    "correct": ["RabbitMQ", "Apache Kafka", "Redis", "ActiveMQ"],
+    "type": "multi",
+    "explanation": "RabbitMQ, Apache Kafka, Redis (with pub/sub), and ActiveMQ are popular message queue systems."
+  },
+  {
+    "id": 61,
+    "question": "What is Apache Kafka?",
+    "options": ["Distributed event streaming platform", "Web server", "Database", "Container runtime"],
+    "correct": ["Distributed event streaming platform"],
+    "type": "single",
+    "explanation": "Apache Kafka is a distributed event streaming platform for high-performance data pipelines and streaming analytics."
+  },
+  {
+    "id": 62,
+    "question": "What is continuous monitoring?",
+    "options": [
+      "Ongoing observation of systems and applications",
+      "One-time system check",
+      "Manual log review",
+      "Annual audit"
+    ],
+    "correct": ["Ongoing observation of systems and applications"],
+    "type": "single",
+    "explanation": "Continuous monitoring is the ongoing observation and analysis of systems, applications, and infrastructure for issues and performance."
+  },
+  {
+    "id": 63,
+    "question": "What metrics are important to monitor? (Select all that apply)",
+    "options": ["CPU usage", "Memory usage", "Response time", "Error rate"],
+    "correct": ["CPU usage", "Memory usage", "Response time", "Error rate"],
+    "type": "multi",
+    "explanation": "Key metrics include CPU, memory, disk I/O, network, response time, error rate, and throughput."
+  },
+  {
+    "id": 64,
+    "question": "What is log aggregation?",
+    "options": [
+      "Collecting logs from multiple sources in central location",
+      "Deleting old logs",
+      "Encrypting logs",
+      "Compressing logs"
+    ],
+    "correct": ["Collecting logs from multiple sources in central location"],
+    "type": "single",
+    "explanation": "Log aggregation collects logs from multiple sources into a central location for analysis and troubleshooting."
+  },
+  {
+    "id": 65,
+    "question": "What is Fluentd?",
+    "options": [
+      "Open-source data collector for unified logging",
+      "Monitoring tool",
+      "Container runtime",
+      "CI/CD platform"
+    ],
+    "correct": ["Open-source data collector for unified logging"],
+    "type": "single",
+    "explanation": "Fluentd is an open-source data collector that unifies log collection and consumption for better use and understanding."
+  },
+  {
+    "id": 66,
+    "question": "What is distributed tracing?",
+    "options": ["Tracking requests across microservices", "Version control", "Load balancing", "Data replication"],
+    "correct": ["Tracking requests across microservices"],
+    "type": "single",
+    "explanation": "Distributed tracing tracks requests as they flow through microservices, helping identify performance bottlenecks."
+  },
+  {
+    "id": 67,
+    "question": "Which distributed tracing tools are popular? (Select all that apply)",
+    "options": ["Jaeger", "Zipkin", "OpenTelemetry", "New Relic"],
+    "correct": ["Jaeger", "Zipkin", "OpenTelemetry", "New Relic"],
+    "type": "multi",
+    "explanation": "Jaeger, Zipkin, OpenTelemetry, and New Relic are popular distributed tracing solutions."
+  },
+  {
+    "id": 68,
+    "question": "What is the purpose of a service mesh?",
+    "options": ["Manage microservice communication", "Container orchestration", "CI/CD automation", "Version control"],
+    "correct": ["Manage microservice communication"],
+    "type": "single",
+    "explanation": "A service mesh manages service-to-service communication, providing features like load balancing, security, and observability."
+  },
+  {
+    "id": 69,
+    "question": "Which service mesh implementations exist? (Select all that apply)",
+    "options": ["Istio", "Linkerd", "Consul", "Envoy"],
+    "correct": ["Istio", "Linkerd", "Consul"],
+    "type": "multi",
+    "explanation": "Istio, Linkerd, and Consul are service mesh implementations. Envoy is a proxy often used within service meshes."
+  },
+  {
+    "id": 70,
+    "question": "What is Istio?",
+    "options": ["Open-source service mesh platform", "Container runtime", "CI/CD tool", "Monitoring platform"],
+    "correct": ["Open-source service mesh platform"],
+    "type": "single",
+    "explanation": "Istio is an open-source service mesh that provides traffic management, security, and observability for microservices."
+  },
+  {
+    "id": 71,
+    "question": "What is infrastructure monitoring?",
+    "options": [
+      "Monitoring servers, networks, and infrastructure components",
+      "Application code review",
+      "User behavior tracking",
+      "Security auditing"
+    ],
+    "correct": ["Monitoring servers, networks, and infrastructure components"],
+    "type": "single",
+    "explanation": "Infrastructure monitoring tracks the health and performance of servers, networks, storage, and other infrastructure components."
+  },
+  {
+    "id": 72,
+    "question": "What is application performance monitoring (APM)?",
+    "options": [
+      "Monitoring application behavior and performance",
+      "Infrastructure monitoring",
+      "Network monitoring",
+      "Security monitoring"
+    ],
+    "correct": ["Monitoring application behavior and performance"],
+    "type": "single",
+    "explanation": "APM monitors application performance, user experience, and behavior to identify and resolve issues."
+  },
+  {
+    "id": 73,
+    "question": "Which APM tools are popular? (Select all that apply)",
+    "options": ["New Relic", "Datadog", "AppDynamics", "Dynatrace"],
+    "correct": ["New Relic", "Datadog", "AppDynamics", "Dynatrace"],
+    "type": "multi",
+    "explanation": "New Relic, Datadog, AppDynamics, and Dynatrace are leading APM solutions."
+  },
+  {
+    "id": 74,
+    "question": "What is the purpose of alerting in monitoring?",
+    "options": ["Notify teams when issues occur", "Store logs", "Visualize data", "Backup data"],
+    "correct": ["Notify teams when issues occur"],
+    "type": "single",
+    "explanation": "Alerting notifies teams when predefined thresholds are exceeded or issues are detected, enabling quick response."
+  },
+  {
+    "id": 75,
+    "question": "What is on-call rotation?",
+    "options": [
+      "Schedule for team members to respond to incidents",
+      "Server rotation",
+      "Deployment schedule",
+      "Training program"
+    ],
+    "correct": ["Schedule for team members to respond to incidents"],
+    "type": "single",
+    "explanation": "On-call rotation is a schedule ensuring team members are available to respond to incidents outside business hours."
+  },
+  {
+    "id": 76,
+    "question": "What is PagerDuty?",
+    "options": ["Incident management platform", "Monitoring tool", "CI/CD platform", "Container registry"],
+    "correct": ["Incident management platform"],
+    "type": "single",
+    "explanation": "PagerDuty is an incident management platform that helps teams respond to and resolve incidents quickly."
+  },
+  {
+    "id": 77,
+    "question": "What is chaos engineering?",
+    "options": [
+      "Testing system resilience by introducing failures",
+      "Random code changes",
+      "Performance testing",
+      "Security testing"
+    ],
+    "correct": ["Testing system resilience by introducing failures"],
+    "type": "single",
+    "explanation": "Chaos engineering tests system resilience by intentionally introducing failures to identify weaknesses."
+  },
+  {
+    "id": 78,
+    "question": "What is the purpose of backup and disaster recovery?",
+    "options": [
+      "Protect data and ensure business continuity",
+      "Improve performance",
+      "Monitor systems",
+      "Deploy applications"
+    ],
+    "correct": ["Protect data and ensure business continuity"],
+    "type": "single",
+    "explanation": "Backup and disaster recovery protect data from loss and ensure business continuity in case of failures or disasters."
+  },
+  {
+    "id": 79,
+    "question": "What is RTO (Recovery Time Objective)?",
+    "options": ["Maximum acceptable downtime", "Backup frequency", "Storage capacity", "Network speed"],
+    "correct": ["Maximum acceptable downtime"],
+    "type": "single",
+    "explanation": "RTO is the maximum acceptable time a system can be down after a failure before business impact becomes unacceptable."
+  },
+  {
+    "id": 80,
+    "question": "What is RPO (Recovery Point Objective)?",
+    "options": ["Maximum acceptable data loss", "Backup size", "Recovery speed", "Storage location"],
+    "correct": ["Maximum acceptable data loss"],
+    "type": "single",
+    "explanation": "RPO is the maximum acceptable amount of data loss measured in time (e.g., data from last 1 hour can be lost)."
+  },
+  {
+    "id": 81,
+    "question": "What is immutable infrastructure?",
+    "options": [
+      "Infrastructure that is replaced rather than modified",
+      "Permanent infrastructure",
+      "Virtual infrastructure",
+      "Cloud infrastructure"
+    ],
+    "correct": ["Infrastructure that is replaced rather than modified"],
+    "type": "single",
+    "explanation": "Immutable infrastructure is never modified after deployment; instead, new instances are created with changes."
+  },
+  {
+    "id": 82,
+    "question": "What is configuration drift?",
+    "options": [
+      "Inconsistencies between infrastructure instances over time",
+      "Network latency",
+      "Performance degradation",
+      "Security vulnerability"
+    ],
+    "correct": ["Inconsistencies between infrastructure instances over time"],
+    "type": "single",
+    "explanation": "Configuration drift occurs when infrastructure instances become inconsistent due to manual changes or updates."
+  },
+  {
+    "id": 83,
+    "question": "What is the purpose of secrets management?",
+    "options": [
+      "Securely store and manage sensitive information",
+      "Monitor applications",
+      "Deploy code",
+      "Test applications"
+    ],
+    "correct": ["Securely store and manage sensitive information"],
+    "type": "single",
+    "explanation": "Secrets management securely stores and manages sensitive information like passwords, API keys, and certificates."
+  },
+  {
+    "id": 84,
+    "question": "Which secrets management tools exist? (Select all that apply)",
+    "options": ["HashiCorp Vault", "AWS Secrets Manager", "Azure Key Vault", "Google Secret Manager"],
+    "correct": ["HashiCorp Vault", "AWS Secrets Manager", "Azure Key Vault", "Google Secret Manager"],
+    "type": "multi",
+    "explanation": "Popular secrets management tools include HashiCorp Vault, AWS Secrets Manager, Azure Key Vault, and Google Secret Manager."
+  },
+  {
+    "id": 85,
+    "question": "What is HashiCorp Vault?",
+    "options": [
+      "Secrets management and data protection tool",
+      "Container registry",
+      "CI/CD platform",
+      "Monitoring tool"
+    ],
+    "correct": ["Secrets management and data protection tool"],
+    "type": "single",
+    "explanation": "HashiCorp Vault secures, stores, and tightly controls access to secrets and sensitive data."
+  },
+  {
+    "id": 86,
+    "question": "What is container security?",
+    "options": [
+      "Securing container images and runtime",
+      "Network security",
+      "Application security",
+      "Physical security"
+    ],
+    "correct": ["Securing container images and runtime"],
+    "type": "single",
+    "explanation": "Container security involves securing container images, registries, runtime, and orchestration platforms."
+  },
+  {
+    "id": 87,
+    "question": "Which container security practices are important? (Select all that apply)",
+    "options": ["Image scanning", "Using minimal base images", "Running as non-root", "Regular updates"],
+    "correct": ["Image scanning", "Using minimal base images", "Running as non-root", "Regular updates"],
+    "type": "multi",
+    "explanation": "Key container security practices include image scanning, minimal base images, non-root execution, and regular updates."
+  },
+  {
+    "id": 88,
+    "question": "What is the purpose of code quality tools?",
+    "options": ["Ensure code meets quality standards", "Deploy code", "Monitor applications", "Store code"],
+    "correct": ["Ensure code meets quality standards"],
+    "type": "single",
+    "explanation": "Code quality tools analyze code for bugs, vulnerabilities, code smells, and adherence to coding standards."
+  },
+  {
+    "id": 89,
+    "question": "Which code quality tools are popular? (Select all that apply)",
+    "options": ["SonarQube", "ESLint", "Checkmarx", "Veracode"],
+    "correct": ["SonarQube", "ESLint", "Checkmarx", "Veracode"],
+    "type": "multi",
+    "explanation": "Popular code quality tools include SonarQube, ESLint (JavaScript), Checkmarx, and Veracode."
+  },
+  {
+    "id": 90,
+    "question": "What is SonarQube?",
+    "options": ["Code quality and security analysis platform", "CI/CD tool", "Container platform", "Monitoring tool"],
+    "correct": ["Code quality and security analysis platform"],
+    "type": "single",
+    "explanation": "SonarQube provides continuous inspection of code quality and security vulnerabilities."
+  },
+  {
+    "id": 91,
+    "question": "What is test automation?",
+    "options": ["Automating execution of tests", "Manual testing", "Performance testing only", "Security testing only"],
+    "correct": ["Automating execution of tests"],
+    "type": "single",
+    "explanation": "Test automation uses software tools to execute tests automatically, improving efficiency and coverage."
+  },
+  {
+    "id": 92,
+    "question": "Which types of automated tests exist? (Select all that apply)",
+    "options": ["Unit tests", "Integration tests", "End-to-end tests", "Performance tests"],
+    "correct": ["Unit tests", "Integration tests", "End-to-end tests", "Performance tests"],
+    "type": "multi",
+    "explanation": "Automated testing includes unit, integration, end-to-end, performance, security, and other test types."
+  },
+  {
+    "id": 93,
+    "question": "What is the testing pyramid?",
+    "options": [
+      "Testing strategy with more unit tests than integration and E2E",
+      "Performance testing tool",
+      "Test case organization",
+      "Bug tracking method"
+    ],
+    "correct": ["Testing strategy with more unit tests than integration and E2E"],
+    "type": "single",
+    "explanation": "The testing pyramid recommends having many fast unit tests, fewer integration tests, and even fewer slow E2E tests."
+  },
+  {
+    "id": 94,
+    "question": "What is shift-left testing?",
+    "options": [
+      "Testing earlier in development lifecycle",
+      "Testing in production",
+      "Manual testing",
+      "Testing after deployment"
+    ],
+    "correct": ["Testing earlier in development lifecycle"],
+    "type": "single",
+    "explanation": "Shift-left testing moves testing earlier in the development lifecycle to find and fix issues sooner."
+  },
+  {
+    "id": 95,
+    "question": "What is the purpose of artifact repository?",
+    "options": ["Store and manage build artifacts", "Source code storage", "Log storage", "Configuration storage"],
+    "correct": ["Store and manage build artifacts"],
+    "type": "single",
+    "explanation": "Artifact repositories store and manage build artifacts like compiled binaries, libraries, and container images."
+  },
+  {
+    "id": 96,
+    "question": "Which artifact repositories are popular? (Select all that apply)",
+    "options": ["Artifactory", "Nexus", "Docker Hub", "GitHub Packages"],
+    "correct": ["Artifactory", "Nexus", "Docker Hub", "GitHub Packages"],
+    "type": "multi",
+    "explanation": "Popular artifact repositories include JFrog Artifactory, Sonatype Nexus, Docker Hub, and GitHub Packages."
+  },
+  {
+    "id": 97,
+    "question": "What is feature flagging?",
+    "options": [
+      "Enabling/disabling features without deploying",
+      "Code commenting",
+      "Version control branching",
+      "Testing method"
+    ],
+    "correct": ["Enabling/disabling features without deploying"],
+    "type": "single",
+    "explanation": "Feature flags enable or disable features at runtime without deploying new code, enabling gradual rollouts and A/B testing."
+  },
+  {
+    "id": 98,
+    "question": "What is trunk-based development?",
+    "options": [
+      "All developers work on single branch with short-lived feature branches",
+      "Multiple long-lived branches",
+      "No version control",
+      "Manual integration"
+    ],
+    "correct": ["All developers work on single branch with short-lived feature branches"],
+    "type": "single",
+    "explanation": "Trunk-based development has developers work on a single branch (trunk) with very short-lived feature branches."
+  },
+  {
+    "id": 99,
+    "question": "What is the purpose of post-mortem analysis?",
+    "options": ["Learn from incidents and prevent recurrence", "Assign blame", "Document success", "Plan features"],
+    "correct": ["Learn from incidents and prevent recurrence"],
+    "type": "single",
+    "explanation": "Post-mortem (or retrospective) analysis reviews incidents to understand what happened and prevent future occurrences."
+  },
+  {
+    "id": 100,
+    "question": "What is site reliability engineering (SRE)?",
+    "options": [
+      "Applying software engineering to operations",
+      "Network engineering",
+      "Security engineering",
+      "Database administration"
+    ],
+    "correct": ["Applying software engineering to operations"],
+    "type": "single",
+    "explanation": "SRE applies software engineering practices to infrastructure and operations problems, focusing on reliability and scalability."
+  }
+]

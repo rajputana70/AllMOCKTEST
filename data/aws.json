@@ -1,0 +1,847 @@
+[
+  {
+    "id": 1,
+    "question": "What does EC2 stand for?",
+    "options": [
+      "Elastic Compute Cloud",
+      "Enhanced Cloud Computing",
+      "Elastic Container Cloud",
+      "Enterprise Cloud Computing"
+    ],
+    "correct": ["Elastic Compute Cloud"],
+    "type": "single",
+    "explanation": "EC2 stands for Elastic Compute Cloud, which provides scalable computing capacity in the AWS cloud."
+  },
+  {
+    "id": 2,
+    "question": "Which AWS services provide storage? (Select all that apply)",
+    "options": ["S3", "EC2", "EBS", "Lambda"],
+    "correct": ["S3", "EBS"],
+    "type": "multi",
+    "explanation": "S3 provides object storage and EBS provides block storage. EC2 is compute, and Lambda is serverless."
+  },
+  {
+    "id": 3,
+    "question": "What is AWS Lambda primarily used for?",
+    "options": ["Running serverless code", "Managing databases", "Configuring networks", "Storing files"],
+    "correct": ["Running serverless code"],
+    "type": "single",
+    "explanation": "AWS Lambda allows you to run code without provisioning or managing servers."
+  },
+  {
+    "id": 4,
+    "question": "What does S3 stand for?",
+    "options": [
+      "Simple Storage Service",
+      "Secure Storage System",
+      "Scalable Storage Solution",
+      "Standard Storage Service"
+    ],
+    "correct": ["Simple Storage Service"],
+    "type": "single",
+    "explanation": "S3 stands for Simple Storage Service, providing object storage with high availability and durability."
+  },
+  {
+    "id": 5,
+    "question": "Which services are part of AWS compute offerings? (Select all that apply)",
+    "options": ["EC2", "Lambda", "RDS", "ECS"],
+    "correct": ["EC2", "Lambda", "ECS"],
+    "type": "multi",
+    "explanation": "EC2, Lambda, and ECS provide compute capabilities. RDS is a managed database service."
+  },
+  {
+    "id": 6,
+    "question": "What is Amazon RDS?",
+    "options": [
+      "Relational Database Service",
+      "Remote Data Storage",
+      "Rapid Deployment System",
+      "Resource Distribution Service"
+    ],
+    "correct": ["Relational Database Service"],
+    "type": "single",
+    "explanation": "Amazon RDS is a managed relational database service that supports multiple database engines."
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of AWS IAM?",
+    "options": [
+      "Identity and Access Management",
+      "Infrastructure Asset Management",
+      "Internet Application Monitoring",
+      "Integrated API Management"
+    ],
+    "correct": ["Identity and Access Management"],
+    "type": "single",
+    "explanation": "AWS IAM (Identity and Access Management) controls access to AWS services and resources securely."
+  },
+  {
+    "id": 8,
+    "question": "Which are AWS database services? (Select all that apply)",
+    "options": ["RDS", "DynamoDB", "S3", "Aurora"],
+    "correct": ["RDS", "DynamoDB", "Aurora"],
+    "type": "multi",
+    "explanation": "RDS, DynamoDB, and Aurora are database services. S3 is object storage."
+  },
+  {
+    "id": 9,
+    "question": "What is Amazon VPC?",
+    "options": [
+      "Virtual Private Cloud",
+      "Virtual Public Cloud",
+      "Verified Private Connection",
+      "Virtual Processing Center"
+    ],
+    "correct": ["Virtual Private Cloud"],
+    "type": "single",
+    "explanation": "Amazon VPC allows you to provision a logically isolated section of the AWS cloud."
+  },
+  {
+    "id": 10,
+    "question": "What is AWS CloudFormation used for?",
+    "options": ["Infrastructure as Code", "Monitoring services", "Data storage", "Load balancing"],
+    "correct": ["Infrastructure as Code"],
+    "type": "single",
+    "explanation": "AWS CloudFormation allows you to model and provision AWS resources using Infrastructure as Code."
+  },
+  {
+    "id": 11,
+    "question": "What does EBS stand for?",
+    "options": ["Elastic Block Store", "Elastic Backup Service", "Enhanced Block Storage", "Enterprise Backup System"],
+    "correct": ["Elastic Block Store"],
+    "type": "single",
+    "explanation": "EBS provides persistent block storage volumes for use with EC2 instances."
+  },
+  {
+    "id": 12,
+    "question": "Which are AWS networking services? (Select all that apply)",
+    "options": ["VPC", "Route 53", "CloudFront", "RDS"],
+    "correct": ["VPC", "Route 53", "CloudFront"],
+    "type": "multi",
+    "explanation": "VPC, Route 53, and CloudFront are networking services. RDS is a database service."
+  },
+  {
+    "id": 13,
+    "question": "What is Amazon CloudWatch used for?",
+    "options": ["Monitoring and observability", "Code deployment", "Database management", "File storage"],
+    "correct": ["Monitoring and observability"],
+    "type": "single",
+    "explanation": "CloudWatch provides monitoring and observability for AWS resources and applications."
+  },
+  {
+    "id": 14,
+    "question": "What is the purpose of AWS Auto Scaling?",
+    "options": ["Automatically adjust capacity", "Store data", "Route traffic", "Encrypt files"],
+    "correct": ["Automatically adjust capacity"],
+    "type": "single",
+    "explanation": "Auto Scaling automatically adjusts compute capacity to maintain performance and optimize costs."
+  },
+  {
+    "id": 15,
+    "question": "Which are AWS container services? (Select all that apply)",
+    "options": ["ECS", "EKS", "Fargate", "EC2"],
+    "correct": ["ECS", "EKS", "Fargate"],
+    "type": "multi",
+    "explanation": "ECS, EKS, and Fargate are container services. EC2 is general compute."
+  },
+  {
+    "id": 16,
+    "question": "What does SNS stand for?",
+    "options": [
+      "Simple Notification Service",
+      "Secure Network Service",
+      "Standard Notification System",
+      "Simple Network Storage"
+    ],
+    "correct": ["Simple Notification Service"],
+    "type": "single",
+    "explanation": "SNS is a fully managed messaging service for pub/sub messaging."
+  },
+  {
+    "id": 17,
+    "question": "What is Amazon Route 53?",
+    "options": ["DNS web service", "Database service", "Storage service", "Compute service"],
+    "correct": ["DNS web service"],
+    "type": "single",
+    "explanation": "Route 53 is a scalable DNS web service that routes end users to applications."
+  },
+  {
+    "id": 18,
+    "question": "Which are AWS security services? (Select all that apply)",
+    "options": ["IAM", "WAF", "Shield", "S3"],
+    "correct": ["IAM", "WAF", "Shield"],
+    "type": "multi",
+    "explanation": "IAM, WAF, and Shield are security services. S3 is storage."
+  },
+  {
+    "id": 19,
+    "question": "What is AWS Elastic Beanstalk?",
+    "options": ["PaaS for deploying applications", "Database service", "Storage service", "Networking service"],
+    "correct": ["PaaS for deploying applications"],
+    "type": "single",
+    "explanation": "Elastic Beanstalk is a PaaS that makes it easy to deploy and scale web applications."
+  },
+  {
+    "id": 20,
+    "question": "What does SQS stand for?",
+    "options": ["Simple Queue Service", "Secure Query System", "Standard Queue Storage", "Simple Query Service"],
+    "correct": ["Simple Queue Service"],
+    "type": "single",
+    "explanation": "SQS is a fully managed message queuing service."
+  },
+  {
+    "id": 21,
+    "question": "Which are AWS database engine options for RDS? (Select all that apply)",
+    "options": ["MySQL", "PostgreSQL", "Oracle", "MongoDB"],
+    "correct": ["MySQL", "PostgreSQL", "Oracle"],
+    "type": "multi",
+    "explanation": "RDS supports MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB. MongoDB is available via DocumentDB."
+  },
+  {
+    "id": 22,
+    "question": "What is Amazon CloudFront?",
+    "options": ["Content Delivery Network", "Database service", "Compute service", "Identity service"],
+    "correct": ["Content Delivery Network"],
+    "type": "single",
+    "explanation": "CloudFront is a CDN that delivers content with low latency and high transfer speeds."
+  },
+  {
+    "id": 23,
+    "question": "What is the purpose of AWS KMS?",
+    "options": ["Key management and encryption", "Network routing", "Data storage", "Compute provisioning"],
+    "correct": ["Key management and encryption"],
+    "type": "single",
+    "explanation": "KMS (Key Management Service) creates and controls encryption keys for AWS services."
+  },
+  {
+    "id": 24,
+    "question": "Which are characteristics of S3? (Select all that apply)",
+    "options": ["Object storage", "11 9s durability", "Block storage", "Unlimited storage"],
+    "correct": ["Object storage", "11 9s durability", "Unlimited storage"],
+    "type": "multi",
+    "explanation": "S3 provides object storage (not block) with 99.999999999% durability and virtually unlimited storage."
+  },
+  {
+    "id": 25,
+    "question": "What is Amazon DynamoDB?",
+    "options": ["NoSQL database service", "Relational database", "File storage", "CDN service"],
+    "correct": ["NoSQL database service"],
+    "type": "single",
+    "explanation": "DynamoDB is a fully managed NoSQL database service with single-digit millisecond performance."
+  },
+  {
+    "id": 26,
+    "question": "What does ELB stand for?",
+    "options": ["Elastic Load Balancing", "Enhanced Load Balancer", "Enterprise Level Backup", "Elastic Link Bridge"],
+    "correct": ["Elastic Load Balancing"],
+    "type": "single",
+    "explanation": "ELB automatically distributes incoming application traffic across multiple targets."
+  },
+  {
+    "id": 27,
+    "question": "Which are types of ELB? (Select all that apply)",
+    "options": ["Application Load Balancer", "Network Load Balancer", "Gateway Load Balancer", "Classic Load Balancer"],
+    "correct": ["Application Load Balancer", "Network Load Balancer", "Gateway Load Balancer", "Classic Load Balancer"],
+    "type": "multi",
+    "explanation": "AWS offers Application, Network, Gateway, and Classic Load Balancers."
+  },
+  {
+    "id": 28,
+    "question": "What is AWS CodePipeline?",
+    "options": ["CI/CD service", "Database service", "Storage service", "Monitoring service"],
+    "correct": ["CI/CD service"],
+    "type": "single",
+    "explanation": "CodePipeline is a continuous delivery service for fast and reliable application updates."
+  },
+  {
+    "id": 29,
+    "question": "What is the purpose of AWS Systems Manager?",
+    "options": ["Operational management", "Database management", "File storage", "Content delivery"],
+    "correct": ["Operational management"],
+    "type": "single",
+    "explanation": "Systems Manager provides unified interface for viewing and controlling AWS infrastructure."
+  },
+  {
+    "id": 30,
+    "question": "Which are AWS analytics services? (Select all that apply)",
+    "options": ["Athena", "EMR", "Kinesis", "EC2"],
+    "correct": ["Athena", "EMR", "Kinesis"],
+    "type": "multi",
+    "explanation": "Athena, EMR, and Kinesis are analytics services. EC2 is compute."
+  },
+  {
+    "id": 31,
+    "question": "What is Amazon Redshift?",
+    "options": ["Data warehouse service", "Object storage", "NoSQL database", "CDN service"],
+    "correct": ["Data warehouse service"],
+    "type": "single",
+    "explanation": "Redshift is a fast, fully managed data warehouse for analytics."
+  },
+  {
+    "id": 32,
+    "question": "What does AMI stand for?",
+    "options": [
+      "Amazon Machine Image",
+      "AWS Management Interface",
+      "Automated Migration Instance",
+      "Advanced Machine Integration"
+    ],
+    "correct": ["Amazon Machine Image"],
+    "type": "single",
+    "explanation": "An AMI provides the information required to launch an EC2 instance."
+  },
+  {
+    "id": 33,
+    "question": "Which are AWS migration services? (Select all that apply)",
+    "options": ["Database Migration Service", "Snow Family", "Transfer Family", "CloudWatch"],
+    "correct": ["Database Migration Service", "Snow Family", "Transfer Family"],
+    "type": "multi",
+    "explanation": "DMS, Snow Family, and Transfer Family help with migrations. CloudWatch is monitoring."
+  },
+  {
+    "id": 34,
+    "question": "What is AWS Glue?",
+    "options": ["ETL service", "Database service", "Compute service", "Storage service"],
+    "correct": ["ETL service"],
+    "type": "single",
+    "explanation": "Glue is a fully managed extract, transform, and load (ETL) service."
+  },
+  {
+    "id": 35,
+    "question": "What is the purpose of AWS Trusted Advisor?",
+    "options": ["Best practices recommendations", "Code deployment", "File storage", "Network routing"],
+    "correct": ["Best practices recommendations"],
+    "type": "single",
+    "explanation": "Trusted Advisor provides real-time guidance to help provision resources following AWS best practices."
+  },
+  {
+    "id": 36,
+    "question": "Which are AWS serverless services? (Select all that apply)",
+    "options": ["Lambda", "Fargate", "API Gateway", "EC2"],
+    "correct": ["Lambda", "Fargate", "API Gateway"],
+    "type": "multi",
+    "explanation": "Lambda, Fargate, and API Gateway are serverless. EC2 requires server management."
+  },
+  {
+    "id": 37,
+    "question": "What is Amazon Aurora?",
+    "options": ["MySQL and PostgreSQL compatible database", "NoSQL database", "Data warehouse", "Object storage"],
+    "correct": ["MySQL and PostgreSQL compatible database"],
+    "type": "single",
+    "explanation": "Aurora is a fully managed relational database compatible with MySQL and PostgreSQL."
+  },
+  {
+    "id": 38,
+    "question": "What does AWS WAF protect against?",
+    "options": ["Web exploits", "Data loss", "Network outages", "Configuration drift"],
+    "correct": ["Web exploits"],
+    "type": "single",
+    "explanation": "WAF (Web Application Firewall) protects web applications from common web exploits."
+  },
+  {
+    "id": 39,
+    "question": "Which are AWS cost management tools? (Select all that apply)",
+    "options": ["Cost Explorer", "Budgets", "Cost and Usage Report", "CloudTrail"],
+    "correct": ["Cost Explorer", "Budgets", "Cost and Usage Report"],
+    "type": "multi",
+    "explanation": "Cost Explorer, Budgets, and Cost and Usage Report help manage costs. CloudTrail tracks API calls."
+  },
+  {
+    "id": 40,
+    "question": "What is Amazon EFS?",
+    "options": ["Elastic File System", "Elastic Function Service", "Enhanced File Storage", "Enterprise File System"],
+    "correct": ["Elastic File System"],
+    "type": "single",
+    "explanation": "EFS provides scalable file storage for use with AWS Cloud and on-premises resources."
+  },
+  {
+    "id": 41,
+    "question": "What is the purpose of AWS CloudTrail?",
+    "options": ["API activity logging", "Performance monitoring", "Cost management", "File storage"],
+    "correct": ["API activity logging"],
+    "type": "single",
+    "explanation": "CloudTrail logs AWS API calls for compliance, security analysis, and troubleshooting."
+  },
+  {
+    "id": 42,
+    "question": "Which are characteristics of Lambda? (Select all that apply)",
+    "options": ["Event-driven", "Pay per request", "Requires server management", "Auto-scaling"],
+    "correct": ["Event-driven", "Pay per request", "Auto-scaling"],
+    "type": "multi",
+    "explanation": "Lambda is event-driven, serverless (no server management), auto-scales, and you pay only per request."
+  },
+  {
+    "id": 43,
+    "question": "What is Amazon Cognito used for?",
+    "options": [
+      "User authentication and authorization",
+      "Database management",
+      "File storage",
+      "Network configuration"
+    ],
+    "correct": ["User authentication and authorization"],
+    "type": "single",
+    "explanation": "Cognito provides authentication, authorization, and user management for web and mobile apps."
+  },
+  {
+    "id": 44,
+    "question": "What does AWS Secrets Manager do?",
+    "options": ["Manages secrets and credentials", "Balances load", "Routes traffic", "Stores files"],
+    "correct": ["Manages secrets and credentials"],
+    "type": "single",
+    "explanation": "Secrets Manager helps protect access to applications, services, and IT resources."
+  },
+  {
+    "id": 45,
+    "question": "Which are AWS hybrid cloud services? (Select all that apply)",
+    "options": ["Outposts", "Storage Gateway", "Direct Connect", "S3"],
+    "correct": ["Outposts", "Storage Gateway", "Direct Connect"],
+    "type": "multi",
+    "explanation": "Outposts, Storage Gateway, and Direct Connect enable hybrid cloud. S3 is cloud-only storage."
+  },
+  {
+    "id": 46,
+    "question": "What is Amazon SageMaker?",
+    "options": ["Machine learning service", "Database service", "Storage service", "Networking service"],
+    "correct": ["Machine learning service"],
+    "type": "single",
+    "explanation": "SageMaker helps build, train, and deploy machine learning models."
+  },
+  {
+    "id": 47,
+    "question": "What is the purpose of AWS Config?",
+    "options": ["Resource configuration tracking", "Code deployment", "Load balancing", "File storage"],
+    "correct": ["Resource configuration tracking"],
+    "type": "single",
+    "explanation": "Config assesses, audits, and evaluates configurations of AWS resources."
+  },
+  {
+    "id": 48,
+    "question": "Which are S3 storage classes? (Select all that apply)",
+    "options": ["Standard", "Glacier", "Intelligent-Tiering", "Premium"],
+    "correct": ["Standard", "Glacier", "Intelligent-Tiering"],
+    "type": "multi",
+    "explanation": "S3 offers Standard, Glacier, Intelligent-Tiering, and other classes. Premium doesn't exist."
+  },
+  {
+    "id": 49,
+    "question": "What is AWS Step Functions?",
+    "options": ["Workflow orchestration service", "Database service", "Storage service", "Monitoring service"],
+    "correct": ["Workflow orchestration service"],
+    "type": "single",
+    "explanation": "Step Functions orchestrates multiple AWS services into serverless workflows."
+  },
+  {
+    "id": 50,
+    "question": "What does AWS Shield protect against?",
+    "options": ["DDoS attacks", "SQL injection", "Malware", "Phishing"],
+    "correct": ["DDoS attacks"],
+    "type": "single",
+    "explanation": "Shield provides DDoS protection for applications running on AWS."
+  },
+  {
+    "id": 51,
+    "question": "Which are AWS IoT services? (Select all that apply)",
+    "options": ["IoT Core", "IoT Greengrass", "IoT Analytics", "IoT S3"],
+    "correct": ["IoT Core", "IoT Greengrass", "IoT Analytics"],
+    "type": "multi",
+    "explanation": "AWS offers IoT Core, Greengrass, and Analytics. IoT S3 doesn't exist."
+  },
+  {
+    "id": 52,
+    "question": "What is Amazon EventBridge?",
+    "options": ["Serverless event bus", "Load balancer", "Database", "File storage"],
+    "correct": ["Serverless event bus"],
+    "type": "single",
+    "explanation": "EventBridge is a serverless event bus for connecting applications using events."
+  },
+  {
+    "id": 53,
+    "question": "What is the purpose of AWS Organizations?",
+    "options": ["Centrally manage multiple AWS accounts", "Deploy code", "Store data", "Monitor resources"],
+    "correct": ["Centrally manage multiple AWS accounts"],
+    "type": "single",
+    "explanation": "Organizations helps centrally manage and govern multiple AWS accounts."
+  },
+  {
+    "id": 54,
+    "question": "Which are AWS developer tools? (Select all that apply)",
+    "options": ["CodeCommit", "CodeBuild", "CodeDeploy", "CodeStorage"],
+    "correct": ["CodeCommit", "CodeBuild", "CodeDeploy"],
+    "type": "multi",
+    "explanation": "CodeCommit, CodeBuild, and CodeDeploy are developer tools. CodeStorage doesn't exist."
+  },
+  {
+    "id": 55,
+    "question": "What is Amazon QuickSight?",
+    "options": ["Business intelligence service", "Database", "Storage", "Compute service"],
+    "correct": ["Business intelligence service"],
+    "type": "single",
+    "explanation": "QuickSight is a cloud-powered business intelligence service."
+  },
+  {
+    "id": 56,
+    "question": "What does AWS Backup do?",
+    "options": ["Centralized backup management", "Load balancing", "Network routing", "Code deployment"],
+    "correct": ["Centralized backup management"],
+    "type": "single",
+    "explanation": "AWS Backup centralizes and automates data backup across AWS services."
+  },
+  {
+    "id": 57,
+    "question": "Which are characteristics of DynamoDB? (Select all that apply)",
+    "options": ["Fully managed", "NoSQL", "Millisecond latency", "Relational"],
+    "correct": ["Fully managed", "NoSQL", "Millisecond latency"],
+    "type": "multi",
+    "explanation": "DynamoDB is fully managed NoSQL with millisecond latency. It's not relational."
+  },
+  {
+    "id": 58,
+    "question": "What is AWS X-Ray used for?",
+    "options": ["Application tracing and debugging", "Cost management", "File storage", "Load balancing"],
+    "correct": ["Application tracing and debugging"],
+    "type": "single",
+    "explanation": "X-Ray helps debug and analyze distributed applications."
+  },
+  {
+    "id": 59,
+    "question": "What is Amazon AppStream?",
+    "options": ["Application streaming service", "Video streaming", "Database service", "Storage service"],
+    "correct": ["Application streaming service"],
+    "type": "single",
+    "explanation": "AppStream 2.0 streams desktop applications to users from AWS."
+  },
+  {
+    "id": 60,
+    "question": "Which are AWS AI services? (Select all that apply)",
+    "options": ["Rekognition", "Polly", "Lex", "S3"],
+    "correct": ["Rekognition", "Polly", "Lex"],
+    "type": "multi",
+    "explanation": "Rekognition (vision), Polly (text-to-speech), and Lex (chatbots) are AI services. S3 is storage."
+  },
+  {
+    "id": 61,
+    "question": "What is AWS Direct Connect?",
+    "options": ["Dedicated network connection to AWS", "VPN service", "Load balancer", "CDN service"],
+    "correct": ["Dedicated network connection to AWS"],
+    "type": "single",
+    "explanation": "Direct Connect provides a dedicated network connection from premises to AWS."
+  },
+  {
+    "id": 62,
+    "question": "What is the purpose of Amazon Inspector?",
+    "options": ["Security assessment", "Cost optimization", "Performance monitoring", "Data backup"],
+    "correct": ["Security assessment"],
+    "type": "single",
+    "explanation": "Inspector automatically assesses applications for security vulnerabilities."
+  },
+  {
+    "id": 63,
+    "question": "Which are characteristics of EC2? (Select all that apply)",
+    "options": ["Virtual servers", "Multiple instance types", "Serverless", "Auto-scaling capable"],
+    "correct": ["Virtual servers", "Multiple instance types", "Auto-scaling capable"],
+    "type": "multi",
+    "explanation": "EC2 provides virtual servers with multiple instance types and auto-scaling. It's not serverless."
+  },
+  {
+    "id": 64,
+    "question": "What is AWS Fargate?",
+    "options": ["Serverless compute for containers", "Database service", "Storage service", "Networking service"],
+    "correct": ["Serverless compute for containers"],
+    "type": "single",
+    "explanation": "Fargate is a serverless compute engine for containers with ECS and EKS."
+  },
+  {
+    "id": 65,
+    "question": "What does AWS GuardDuty do?",
+    "options": ["Threat detection", "Cost management", "Load balancing", "File storage"],
+    "correct": ["Threat detection"],
+    "type": "single",
+    "explanation": "GuardDuty is a threat detection service that monitors for malicious activity."
+  },
+  {
+    "id": 66,
+    "question": "Which are AWS edge services? (Select all that apply)",
+    "options": ["CloudFront", "Route 53", "Lambda@Edge", "RDS"],
+    "correct": ["CloudFront", "Route 53", "Lambda@Edge"],
+    "type": "multi",
+    "explanation": "CloudFront, Route 53, and Lambda@Edge are edge services. RDS is regional database."
+  },
+  {
+    "id": 67,
+    "question": "What is Amazon Elastic Transcoder?",
+    "options": ["Media transcoding service", "Database service", "Storage service", "Compute service"],
+    "correct": ["Media transcoding service"],
+    "type": "single",
+    "explanation": "Elastic Transcoder converts media files between formats."
+  },
+  {
+    "id": 68,
+    "question": "What is the purpose of AWS License Manager?",
+    "options": ["Manage software licenses", "Deploy code", "Store data", "Balance load"],
+    "correct": ["Manage software licenses"],
+    "type": "single",
+    "explanation": "License Manager helps manage software licenses from vendors like Microsoft and SAP."
+  },
+  {
+    "id": 69,
+    "question": "Which are AWS messaging services? (Select all that apply)",
+    "options": ["SNS", "SQS", "MQ", "EC2"],
+    "correct": ["SNS", "SQS", "MQ"],
+    "type": "multi",
+    "explanation": "SNS, SQS, and MQ are messaging services. EC2 is compute."
+  },
+  {
+    "id": 70,
+    "question": "What is AWS Outposts?",
+    "options": ["AWS infrastructure on-premises", "CDN service", "Database service", "Monitoring service"],
+    "correct": ["AWS infrastructure on-premises"],
+    "type": "single",
+    "explanation": "Outposts brings AWS infrastructure and services to on-premises facilities."
+  },
+  {
+    "id": 71,
+    "question": "What is Amazon Macie used for?",
+    "options": ["Data security and privacy", "Cost optimization", "Load balancing", "Code deployment"],
+    "correct": ["Data security and privacy"],
+    "type": "single",
+    "explanation": "Macie discovers and protects sensitive data using machine learning."
+  },
+  {
+    "id": 72,
+    "question": "Which are AWS database types? (Select all that apply)",
+    "options": ["Relational", "Key-value", "Document", "Email"],
+    "correct": ["Relational", "Key-value", "Document"],
+    "type": "multi",
+    "explanation": "AWS supports relational, key-value, document, and other database types. Email isn't a database type."
+  },
+  {
+    "id": 73,
+    "question": "What is AWS App Runner?",
+    "options": ["Fully managed container service", "Database service", "Storage service", "Monitoring service"],
+    "correct": ["Fully managed container service"],
+    "type": "single",
+    "explanation": "App Runner makes it easy to deploy containerized web applications and APIs."
+  },
+  {
+    "id": 74,
+    "question": "What is the purpose of AWS Certificate Manager?",
+    "options": ["Provision and manage SSL/TLS certificates", "Store data", "Balance load", "Route traffic"],
+    "correct": ["Provision and manage SSL/TLS certificates"],
+    "type": "single",
+    "explanation": "Certificate Manager provisions and manages SSL/TLS certificates for AWS services."
+  },
+  {
+    "id": 75,
+    "question": "Which are characteristics of CloudFront? (Select all that apply)",
+    "options": ["Global CDN", "Low latency", "DDoS protection", "Database service"],
+    "correct": ["Global CDN", "Low latency", "DDoS protection"],
+    "type": "multi",
+    "explanation": "CloudFront is a global CDN with low latency and DDoS protection. It's not a database."
+  },
+  {
+    "id": 76,
+    "question": "What is AWS DataSync?",
+    "options": ["Data transfer service", "Database service", "Compute service", "Monitoring service"],
+    "correct": ["Data transfer service"],
+    "type": "single",
+    "explanation": "DataSync automates moving data between on-premises and AWS storage."
+  },
+  {
+    "id": 77,
+    "question": "What is Amazon Neptune?",
+    "options": ["Graph database", "Relational database", "Object storage", "CDN service"],
+    "correct": ["Graph database"],
+    "type": "single",
+    "explanation": "Neptune is a fast, reliable graph database service."
+  },
+  {
+    "id": 78,
+    "question": "Which are AWS Well-Architected Framework pillars? (Select all that apply)",
+    "options": ["Operational Excellence", "Security", "Cost Optimization", "Marketing"],
+    "correct": ["Operational Excellence", "Security", "Cost Optimization"],
+    "type": "multi",
+    "explanation": "The framework includes Operational Excellence, Security, Reliability, Performance Efficiency, and Cost Optimization."
+  },
+  {
+    "id": 79,
+    "question": "What is AWS Amplify?",
+    "options": ["Full-stack development platform", "Database service", "Storage service", "Monitoring service"],
+    "correct": ["Full-stack development platform"],
+    "type": "single",
+    "explanation": "Amplify provides tools and services for building full-stack web and mobile applications."
+  },
+  {
+    "id": 80,
+    "question": "What is the purpose of AWS Snowball?",
+    "options": ["Physical data transfer device", "Virtual migration tool", "Database service", "Monitoring tool"],
+    "correct": ["Physical data transfer device"],
+    "type": "single",
+    "explanation": "Snowball is a physical device for transferring large amounts of data to AWS."
+  },
+  {
+    "id": 81,
+    "question": "Which are AWS compute instance purchasing options? (Select all that apply)",
+    "options": ["On-Demand", "Reserved", "Spot", "Premium"],
+    "correct": ["On-Demand", "Reserved", "Spot"],
+    "type": "multi",
+    "explanation": "EC2 offers On-Demand, Reserved, Spot, and Savings Plans. Premium doesn't exist."
+  },
+  {
+    "id": 82,
+    "question": "What is Amazon Timestream?",
+    "options": ["Time series database", "Relational database", "Object storage", "CDN service"],
+    "correct": ["Time series database"],
+    "type": "single",
+    "explanation": "Timestream is a fast, scalable time series database service."
+  },
+  {
+    "id": 83,
+    "question": "What is AWS Control Tower used for?",
+    "options": ["Set up and govern multi-account environment", "Deploy code", "Store data", "Monitor performance"],
+    "correct": ["Set up and govern multi-account environment"],
+    "type": "single",
+    "explanation": "Control Tower sets up and governs a secure multi-account AWS environment."
+  },
+  {
+    "id": 84,
+    "question": "Which are AWS compute services? (Select all that apply)",
+    "options": ["EC2", "Lambda", "Lightsail", "S3"],
+    "correct": ["EC2", "Lambda", "Lightsail"],
+    "type": "multi",
+    "explanation": "EC2, Lambda, and Lightsail are compute services. S3 is storage."
+  },
+  {
+    "id": 85,
+    "question": "What is Amazon Kendra?",
+    "options": ["Enterprise search service", "Database service", "Storage service", "Compute service"],
+    "correct": ["Enterprise search service"],
+    "type": "single",
+    "explanation": "Kendra is an intelligent enterprise search service powered by machine learning."
+  },
+  {
+    "id": 86,
+    "question": "What is the purpose of AWS Resource Access Manager?",
+    "options": ["Share resources across accounts", "Store data", "Balance load", "Deploy code"],
+    "correct": ["Share resources across accounts"],
+    "type": "single",
+    "explanation": "Resource Access Manager helps share AWS resources across accounts."
+  },
+  {
+    "id": 87,
+    "question": "Which are characteristics of Aurora? (Select all that apply)",
+    "options": ["MySQL compatible", "PostgreSQL compatible", "5x faster than MySQL", "NoSQL database"],
+    "correct": ["MySQL compatible", "PostgreSQL compatible", "5x faster than MySQL"],
+    "type": "multi",
+    "explanation": "Aurora is compatible with MySQL and PostgreSQL, and up to 5x faster. It's not NoSQL."
+  },
+  {
+    "id": 88,
+    "question": "What is AWS Batch?",
+    "options": ["Run batch computing jobs", "Stream processing", "Real-time analytics", "Database service"],
+    "correct": ["Run batch computing jobs"],
+    "type": "single",
+    "explanation": "Batch enables running batch computing workloads on AWS."
+  },
+  {
+    "id": 89,
+    "question": "What is Amazon FSx?",
+    "options": ["Fully managed third-party file systems", "Object storage", "Database service", "CDN service"],
+    "correct": ["Fully managed third-party file systems"],
+    "type": "single",
+    "explanation": "FSx provides fully managed file systems like Windows File Server and Lustre."
+  },
+  {
+    "id": 90,
+    "question": "Which are AWS monitoring services? (Select all that apply)",
+    "options": ["CloudWatch", "X-Ray", "CloudTrail", "S3"],
+    "correct": ["CloudWatch", "X-Ray", "CloudTrail"],
+    "type": "multi",
+    "explanation": "CloudWatch, X-Ray, and CloudTrail are monitoring services. S3 is storage."
+  },
+  {
+    "id": 91,
+    "question": "What is AWS Transit Gateway?",
+    "options": ["Connect VPCs and on-premises networks", "Load balancer", "Database service", "Storage service"],
+    "correct": ["Connect VPCs and on-premises networks"],
+    "type": "single",
+    "explanation": "Transit Gateway connects VPCs and on-premises networks through a central hub."
+  },
+  {
+    "id": 92,
+    "question": "What is the purpose of AWS Service Catalog?",
+    "options": ["Create and manage IT service catalogs", "Store data", "Monitor resources", "Deploy code"],
+    "correct": ["Create and manage IT service catalogs"],
+    "type": "single",
+    "explanation": "Service Catalog allows organizations to create and manage approved IT service catalogs."
+  },
+  {
+    "id": 93,
+    "question": "Which are characteristics of Redshift? (Select all that apply)",
+    "options": ["Columnar storage", "Petabyte scale", "OLTP optimized", "Data warehouse"],
+    "correct": ["Columnar storage", "Petabyte scale", "Data warehouse"],
+    "type": "multi",
+    "explanation": "Redshift uses columnar storage, scales to petabytes, and is a data warehouse (OLAP, not OLTP)."
+  },
+  {
+    "id": 94,
+    "question": "What is AWS App Mesh?",
+    "options": ["Service mesh for microservices", "Database service", "Storage service", "Monitoring service"],
+    "correct": ["Service mesh for microservices"],
+    "type": "single",
+    "explanation": "App Mesh provides application-level networking for microservices."
+  },
+  {
+    "id": 95,
+    "question": "What is Amazon Managed Blockchain?",
+    "options": ["Managed blockchain network service", "Database service", "Storage service", "Compute service"],
+    "correct": ["Managed blockchain network service"],
+    "type": "single",
+    "explanation": "Managed Blockchain makes it easy to create and manage blockchain networks."
+  },
+  {
+    "id": 96,
+    "question": "Which are AWS governance services? (Select all that apply)",
+    "options": ["Organizations", "Control Tower", "Config", "S3"],
+    "correct": ["Organizations", "Control Tower", "Config"],
+    "type": "multi",
+    "explanation": "Organizations, Control Tower, and Config are governance services. S3 is storage."
+  },
+  {
+    "id": 97,
+    "question": "What is AWS Proton?",
+    "options": [
+      "Infrastructure provisioning for containers",
+      "Database service",
+      "Storage service",
+      "Monitoring service"
+    ],
+    "correct": ["Infrastructure provisioning for containers"],
+    "type": "single",
+    "explanation": "Proton automates infrastructure provisioning for container and serverless applications."
+  },
+  {
+    "id": 98,
+    "question": "What is the purpose of AWS CloudShell?",
+    "options": ["Browser-based shell", "Virtual desktop", "Database interface", "Storage browser"],
+    "correct": ["Browser-based shell"],
+    "type": "single",
+    "explanation": "CloudShell provides a browser-based shell to manage AWS resources."
+  },
+  {
+    "id": 99,
+    "question": "Which are AWS deployment services? (Select all that apply)",
+    "options": ["CodeDeploy", "CloudFormation", "Elastic Beanstalk", "S3"],
+    "correct": ["CodeDeploy", "CloudFormation", "Elastic Beanstalk"],
+    "type": "multi",
+    "explanation": "CodeDeploy, CloudFormation, and Elastic Beanstalk handle deployments. S3 is storage."
+  },
+  {
+    "id": 100,
+    "question": "What is AWS AppSync?",
+    "options": ["Managed GraphQL service", "REST API service", "Database service", "Storage service"],
+    "correct": ["Managed GraphQL service"],
+    "type": "single",
+    "explanation": "AppSync is a managed service for building GraphQL APIs."
+  }
+]
