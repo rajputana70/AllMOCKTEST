@@ -81,9 +81,9 @@ export function getCourseInfo(courseId: string) {
       description: "Amazon Web Services",
       color: "from-orange-500 to-amber-500",
     },
-    azure: {
-      name: "Azure",
-      description: "Microsoft Azure",
+    az104: {
+      name: "Microsoft Azure Administrator (AZ-104)",
+      description: "Azure Administrator Certification",
       color: "from-blue-600 to-sky-500",
     },
     devops: {
