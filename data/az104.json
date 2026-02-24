@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "question": "You need to assign a user permission to manage virtual machines in a specific resource group. What should you use?",
+    "options": [
+      "Azure Policy",
+      "Role-Based Access Control (RBAC)",
+      "Management Groups",
+      "Resource Locks"
+    ],
+    "correct": ["Role-Based Access Control (RBAC)"],
+    "explanation": "RBAC allows you to assign specific roles such as Virtual Machine Contributor at resource group scope.",
+    "type": "single"
+  },
+  {
+    "id": 2,
+    "question": "Your company requires all storage accounts to use HTTPS traffic only. What should you configure?",
+    "options": [
+      "Azure Monitor",
+      "Azure Policy",
+      "NSG Rule",
+      "Azure Firewall"
+    ],
+    "correct": ["Azure Policy"],
+    "explanation": "Azure Policy can enforce compliance rules such as requiring secure transfer (HTTPS) on storage accounts.",
+    "type": "single"
+  },
+  {
+    "id": 3,
+    "question": "You need to ensure high availability for virtual machines within a region. What should you use?",
+    "options": [
+      "Availability Set",
+      "Azure Backup",
+      "Azure Site Recovery",
+      "Resource Group"
+    ],
+    "correct": ["Availability Set"],
+    "explanation": "Availability Sets distribute VMs across fault and update domains within a datacenter for high availability.",
+    "type": "single"
+  },
+  {
+    "id": 4,
+    "question": "You need to replicate virtual machines to another Azure region for disaster recovery. Which service should you use?",
+    "options": [
+      "Azure Backup",
+      "Azure Site Recovery",
+      "Azure Monitor",
+      "Azure Advisor"
+    ],
+    "correct": ["Azure Site Recovery"],
+    "explanation": "Azure Site Recovery replicates workloads to another Azure region for disaster recovery purposes.",
+    "type": "single"
+  },
+  {
+    "id": 5,
+    "question": "You have a virtual machine that needs a public IP address. Which resource must you create?",
+    "options": [
+      "Network Interface",
+      "Public IP Address",
+      "Network Security Group",
+      "Route Table"
+    ],
+    "correct": ["Public IP Address"],
+    "explanation": "A Public IP Address resource is required to assign a public IP to a VM or network interface.",
+    "type": "single"
+  },
+  {
+    "id": 6,
+    "question": "You need to control inbound and outbound traffic to virtual machines. Which resource should you use?",
+    "options": [
+      "Azure Firewall",
+      "Network Security Group (NSG)",
+      "Route Table",
+      "Virtual Network"
+    ],
+    "correct": ["Network Security Group (NSG)"],
+    "explanation": "NSGs contain security rules to allow or deny network traffic to network interfaces or subnets.",
+    "type": "single"
+  },
+  {
+    "id": 7,
+    "question": "You want to implement encryption for data at rest in Azure Storage. Which approach should you use?",
+    "options": [
+      "TLS encryption",
+      "Azure Storage Service Encryption (SSE)",
+      "Azure Key Vault",
+      "Network Security Group"
+    ],
+    "correct": ["Azure Storage Service Encryption (SSE)"],
+    "explanation": "Azure Storage Service Encryption automatically encrypts data at rest in storage accounts.",
+    "type": "single"
+  },
+  {
+    "id": 8,
+    "question": "You need to manage keys and secrets for your Azure applications. Which service should you use?",
+    "options": [
+      "Azure Policy",
+      "Azure Key Vault",
+      "Azure Backup",
+      "Azure Monitor"
+    ],
+    "correct": ["Azure Key Vault"],
+    "explanation": "Azure Key Vault is used to securely manage cryptographic keys and application secrets.",
+    "type": "single"
+  },
+  {
+    "id": 9,
+    "question": "Your organization needs to create and manage virtual networks. What is the minimum requirement?",
+    "options": [
+      "A resource group and address space",
+      "A storage account and address space",
+      "Only an address space",
+      "A virtual machine"
+    ],
+    "correct": ["A resource group and address space"],
+    "explanation": "To create a virtual network, you need a resource group to contain it and an address space (CIDR block).",
+    "type": "single"
+  },
+  {
+    "id": 10,
+    "question": "You need to segment a virtual network into smaller networks. What should you create?",
+    "options": [
+      "Virtual Network Peering",
+      "Network Security Group",
+      "Subnet",
+      "Route Table"
+    ],
+    "correct": ["Subnet"],
+    "explanation": "Subnets divide a virtual network into smaller networks for better organization and routing.",
+    "type": "single"
+  },
+  {
+    "id": 11,
+    "question": "You want to connect two virtual networks in different regions. Which feature should you use?",
+    "options": [
+      "Virtual Network Peering",
+      "VPN Gateway",
+      "ExpressRoute",
+      "Network Security Group"
+    ],
+    "correct": ["Virtual Network Peering"],
+    "explanation": "VNet peering connects virtual networks in the same or different regions with low latency.",
+    "type": "single"
+  },
+  {
+    "id": 12,
+    "question": "You need to connect your on-premises network to Azure. Which VPN type provides encrypted site-to-site connectivity?",
+    "options": [
+      "Point-to-Site VPN",
+      "Site-to-Site VPN",
+      "ExpressRoute",
+      "Virtual Network Peering"
+    ],
+    "correct": ["Site-to-Site VPN"],
+    "explanation": "Site-to-Site VPN provides encrypted connectivity between on-premises networks and Azure virtual networks.",
+    "type": "single"
+  },
+  {
+    "id": 13,
+    "question": "You need to monitor the health of your Azure resources. Which service should you use?",
+    "options": [
+      "Azure Advisor",
+      "Azure Monitor",
+      "Azure Service Health",
+      "Azure Security Center"
+    ],
+    "correct": ["Azure Monitor"],
+    "explanation": "Azure Monitor collects, analyzes, and acts on telemetry data from your Azure resources.",
+    "type": "single"
+  },
+  {
+    "id": 14,
+    "question": "You need to create a backup of your virtual machine for disaster recovery. Which service should you use?",
+    "options": [
+      "Azure Advisor",
+      "Azure Backup",
+      "Azure Site Recovery",
+      "Azure Monitor"
+    ],
+    "correct": ["Azure Backup"],
+    "explanation": "Azure Backup provides backup and disaster recovery capabilities for Azure VMs and on-premises servers.",
+    "type": "single"
+  },
+  {
+    "id": 15,
+    "question": "You need to organize and tag resources for cost tracking and management. What should you implement?",
+    "options": [
+      "Management Groups",
+      "Resource Groups",
+      "Tags",
+      "Policies"
+    ],
+    "correct": ["Tags"],
+    "explanation": "Tags are key-value pairs that help organize and manage resources for billing and governance.",
+    "type": "single"
+  },
+  {
+    "id": 16,
+    "question": "You need to enforce organizational standards across multiple subscriptions. Which feature should you use?",
+    "options": [
+      "Azure Policy",
+      "RBAC",
+      "Tags",
+      "Resource Locks"
+    ],
+    "correct": ["Azure Policy"],
+    "explanation": "Azure Policy enforces organizational standards and assesses compliance across resources.",
+    "type": "single"
+  },
+  {
+    "id": 17,
+    "question": "You need to prevent accidental deletion of critical resources. Which lock type should you use?",
+    "options": [
+      "Read-Only lock",
+      "Delete lock",
+      "Modify lock",
+      "Prevent lock"
+    ],
+    "correct": ["Delete lock"],
+    "explanation": "A Delete lock prevents accidental deletion while still allowing modifications to the resource.",
+    "type": "single"
+  },
+  {
+    "id": 18,
+    "question": "You need to grant temporary access to a user for specific tasks. Which method should you use?",
+    "options": [
+      "Permanent RBAC assignment",
+      "Privileged Identity Management (PIM)",
+      "Azure Policy",
+      "Management Groups"
+    ],
+    "correct": ["Privileged Identity Management (PIM)"],
+    "explanation": "PIM provides time-based and approval-based role activation for just-in-time access.",
+    "type": "single"
+  },
+  {
+    "id": 19,
+    "question": "You need to authenticate users using their organizational credentials in Azure AD. What should you enable?",
+    "options": [
+      "Conditional Access",
+      "Multi-Factor Authentication (MFA)",
+      "Single Sign-On (SSO)",
+      "Azure AD B2C"
+    ],
+    "correct": ["Single Sign-On (SSO)"],
+    "explanation": "SSO allows users to authenticate once and access multiple applications using Azure AD credentials.",
+    "type": "single"
+  },
+  {
+    "id": 20,
+    "question": "You need to manage identities and access for external partner organizations. Which solution should you use?",
+    "options": [
+      "Azure AD B2B",
+      "Azure AD B2C",
+      "RBAC",
+      "Azure AD Single Tenant"
+    ],
+    "correct": ["Azure AD B2B"],
+    "explanation": "Azure AD B2B enables secure collaboration with external partners while maintaining identity governance.",
+    "type": "single"
+  },
+  {
+    "id": 21,
+    "question": "You are managing multiple Azure subscriptions. Where can you apply policies and RBAC assignments at scale?",
+    "options": [
+      "Resource Groups",
+      "Virtual Networks",
+      "Management Groups",
+      "Subscriptions"
+    ],
+    "correct": ["Management Groups"],
+    "explanation": "Management Groups provide a level of scope above subscriptions for managing policies and access.",
+    "type": "single"
+  },
+  {
+    "id": 22,
+    "question": "You need to create a load balancer that distributes traffic across VMs in multiple regions. Which load balancer should you use?",
+    "options": [
+      "Azure Load Balancer",
+      "Azure Traffic Manager",
+      "Azure Application Gateway",
+      "Azure Front Door"
+    ],
+    "correct": ["Azure Traffic Manager"],
+    "explanation": "Traffic Manager distributes traffic across endpoints in different regions using DNS-based load balancing.",
+    "type": "single"
+  },
+  {
+    "id": 23,
+    "question": "You need to balance traffic for web applications and provide Web Application Firewall (WAF) protection. Which service should you use?",
+    "options": [
+      "Azure Load Balancer",
+      "Azure Traffic Manager",
+      "Azure Application Gateway",
+      "Azure Front Door"
+    ],
+    "correct": ["Azure Application Gateway"],
+    "explanation": "Application Gateway provides Layer 7 load balancing with integrated WAF capabilities.",
+    "type": "single"
+  },
+  {
+    "id": 24,
+    "question": "You need to distribute content globally with high performance and protect against DDoS attacks. Which service should you use?",
+    "options": [
+      "Azure Load Balancer",
+      "Azure Application Gateway",
+      "Azure Front Door",
+      "Azure Traffic Manager"
+    ],
+    "correct": ["Azure Front Door"],
+    "explanation": "Azure Front Door provides global load balancing with built-in DDoS protection and WAF.",
+    "type": "single"
+  },
+  {
+    "id": 25,
+    "question": "You need to provide layer 4 load balancing for non-HTTP protocols. Which service should you use?",
+    "options": [
+      "Azure Application Gateway",
+      "Azure Load Balancer",
+      "Azure Traffic Manager",
+      "Azure Front Door"
+    ],
+    "correct": ["Azure Load Balancer"],
+    "explanation": "Azure Load Balancer provides Layer 4 (TCP/UDP) load balancing for any protocol.",
+    "type": "single"
+  },
+  {
+    "id": 26,
+    "question": "You need to scale your application automatically based on demand. Which feature should you use?",
+    "options": [
+      "Resource Groups",
+      "Virtual Machine Scale Sets",
+      "Availability Sets",
+      "Auto-scaling policies"
+    ],
+    "correct": ["Virtual Machine Scale Sets"],
+    "explanation": "VM Scale Sets automatically scale the number of VMs based on demand and performance metrics.",
+    "type": "single"
+  },
+  {
+    "id": 27,
+    "question": "You need to create a managed Kubernetes cluster in Azure. Which service should you use?",
+    "options": [
+      "Azure Virtual Machines",
+      "Azure App Service",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Container Instances"
+    ],
+    "correct": ["Azure Kubernetes Service (AKS)"],
+    "explanation": "AKS is a managed Kubernetes service that simplifies deploying and managing Kubernetes clusters.",
+    "type": "single"
+  },
+  {
+    "id": 28,
+    "question": "You need to store files and make them accessible via HTTP/HTTPS. Which Azure service should you use?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure Table Storage",
+      "Azure Queue Storage",
+      "Azure File Share"
+    ],
+    "correct": ["Azure Blob Storage"],
+    "explanation": "Blob Storage is optimized for storing massive amounts of unstructured data like documents and media.",
+    "type": "single"
+  },
+  {
+    "id": 29,
+    "question": "You need to share files over the network using SMB protocol. Which Azure Storage type should you use?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure Table Storage",
+      "Azure File Share",
+      "Azure Queue Storage"
+    ],
+    "correct": ["Azure File Share"],
+    "explanation": "Azure File Share provides SMB protocol access to file shares accessible from VMs and on-premises.",
+    "type": "single"
+  },
+  {
+    "id": 30,
+    "question": "You need to store structured data with high concurrency support. Which Azure Storage type should you use?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure Table Storage",
+      "Azure Queue Storage",
+      "Azure File Share"
+    ],
+    "correct": ["Azure Table Storage"],
+    "explanation": "Table Storage provides NoSQL storage for structured data with high concurrency support.",
+    "type": "single"
+  },
+  {
+    "id": 31,
+    "question": "You need to implement a message queue for decoupled applications. Which service should you use?",
+    "options": [
+      "Azure Service Bus",
+      "Azure Storage Queue",
+      "Azure Event Hub",
+      "Azure Event Grid"
+    ],
+    "correct": ["Azure Service Bus"],
+    "explanation": "Service Bus provides reliable messaging queues with advanced features like duplicate detection.",
+    "type": "single"
+  },
+  {
+    "id": 32,
+    "question": "You need to handle high-volume event streaming from IoT devices. Which service should you use?",
+    "options": [
+      "Azure Service Bus",
+      "Azure Storage Queue",
+      "Azure Event Hub",
+      "Azure Event Grid"
+    ],
+    "correct": ["Azure Event Hub"],
+    "explanation": "Event Hub is designed for high-throughput event streaming from millions of devices.",
+    "type": "single"
+  },
+  {
+    "id": 33,
+    "question": "You need to deploy a web application quickly without managing infrastructure. Which service should you use?",
+    "options": [
+      "Virtual Machines",
+      "Azure App Service",
+      "Azure Container Instances",
+      "Azure Kubernetes Service"
+    ],
+    "correct": ["Azure App Service"],
+    "explanation": "App Service allows you to build and host web apps, mobile backends, and RESTful APIs.",
+    "type": "single"
+  },
+  {
+    "id": 34,
+    "question": "You need to run containerized applications without managing orchestration. Which service should you use?",
+    "options": [
+      "Azure Container Instances",
+      "Azure App Service",
+      "Azure Kubernetes Service",
+      "Virtual Machines"
+    ],
+    "correct": ["Azure Container Instances"],
+    "explanation": "Container Instances runs containers on demand without managing VMs or orchestrators.",
+    "type": "single"
+  },
+  {
+    "id": 35,
+    "question": "You need to create a relational database that automatically scales. Which service should you use?",
+    "options": [
+      "Azure SQL Database",
+      "Azure Database for PostgreSQL",
+      "Azure Cosmos DB",
+      "Azure SQL Server on VM"
+    ],
+    "correct": ["Azure SQL Database"],
+    "explanation": "SQL Database is a fully managed relational database with automatic scaling and patching.",
+    "type": "single"
+  },
+  {
+    "id": 36,
+    "question": "You need to store data with multiple consistency models and global distribution. Which service should you use?",
+    "options": [
+      "Azure SQL Database",
+      "Azure Database for PostgreSQL",
+      "Azure Cosmos DB",
+      "Azure Table Storage"
+    ],
+    "correct": ["Azure Cosmos DB"],
+    "explanation": "Cosmos DB provides globally distributed, multi-model database with multiple consistency options.",
+    "type": "single"
+  },
+  {
+    "id": 37,
+    "question": "You need to move a SQL Server database to Azure with minimal downtime. Which service should you use?",
+    "options": [
+      "Azure SQL Database",
+      "Azure Database Migration Service",
+      "SQL Server on Azure VM",
+      "Azure Backup"
+    ],
+    "correct": ["Azure Database Migration Service"],
+    "explanation": "Database Migration Service provides tools to migrate databases to Azure with minimal downtime.",
+    "type": "single"
+  },
+  {
+    "id": 38,
+    "question": "You need to analyze large amounts of data for business intelligence. Which service should you use?",
+    "options": [
+      "Azure SQL Database",
+      "Azure Cosmos DB",
+      "Azure Synapse Analytics",
+      "Azure Data Lake"
+    ],
+    "correct": ["Azure Synapse Analytics"],
+    "explanation": "Synapse Analytics provides integrated analytics service for data warehousing and big data analytics.",
+    "type": "single"
+  },
+  {
+    "id": 39,
+    "question": "You need to process streaming data in real-time. Which service should you use?",
+    "options": [
+      "Azure Batch",
+      "Azure Stream Analytics",
+      "Azure Data Factory",
+      "Azure Synapse Analytics"
+    ],
+    "correct": ["Azure Stream Analytics"],
+    "explanation": "Stream Analytics processes real-time streaming data from IoT and other sources.",
+    "type": "single"
+  },
+  {
+    "id": 40,
+    "question": "You need to orchestrate data movement and transformation across services. Which service should you use?",
+    "options": [
+      "Azure Stream Analytics",
+      "Azure Data Factory",
+      "Azure Batch",
+      "Azure Synapse Analytics"
+    ],
+    "correct": ["Azure Data Factory"],
+    "explanation": "Data Factory is a cloud-based data integration service for orchestrating data pipelines.",
+    "type": "single"
+  },
+  {
+    "id": 41,
+    "question": "You need to perform large-scale parallel computing jobs. Which service should you use?",
+    "options": [
+      "Azure Stream Analytics",
+      "Azure Batch",
+      "Azure Data Factory",
+      "Virtual Machines"
+    ],
+    "correct": ["Azure Batch"],
+    "explanation": "Batch enables large-scale parallel and high-performance computing applications.",
+    "type": "single"
+  },
+  {
+    "id": 42,
+    "question": "You need to detect anomalies in your application logs. Which Azure service should you use?",
+    "options": [
+      "Azure Monitor",
+      "Azure Log Analytics",
+      "Application Insights",
+      "Azure Advisor"
+    ],
+    "correct": ["Application Insights"],
+    "explanation": "Application Insights provides application performance monitoring and anomaly detection.",
+    "type": "single"
+  },
+  {
+    "id": 43,
+    "question": "You need to query and analyze logs from multiple sources. Which service should you use?",
+    "options": [
+      "Azure Monitor",
+      "Azure Log Analytics",
+      "Application Insights",
+      "Azure Advisor"
+    ],
+    "correct": ["Azure Log Analytics"],
+    "explanation": "Log Analytics allows you to collect and analyze data from multiple sources using KQL queries.",
+    "type": "single"
+  },
+  {
+    "id": 44,
+    "question": "You need to get recommendations to optimize your Azure environment. Which service should you use?",
+    "options": [
+      "Azure Monitor",
+      "Azure Log Analytics",
+      "Application Insights",
+      "Azure Advisor"
+    ],
+    "correct": ["Azure Advisor"],
+    "explanation": "Advisor provides personalized recommendations for optimizing reliability, security, and cost.",
+    "type": "single"
+  },
+  {
+    "id": 45,
+    "question": "You need to protect your application against DDoS attacks. Which service should you use?",
+    "options": [
+      "Network Security Group",
+      "Azure Firewall",
+      "Azure DDoS Protection",
+      "Application Gateway"
+    ],
+    "correct": ["Azure DDoS Protection"],
+    "explanation": "DDoS Protection Standard provides automatic attack detection and mitigation for Azure resources.",
+    "type": "single"
+  },
+  {
+    "id": 46,
+    "question": "You need to monitor and detect threats to your cloud resources. Which service should you use?",
+    "options": [
+      "Azure Advisor",
+      "Azure Security Center",
+      "Azure Monitor",
+      "Application Insights"
+    ],
+    "correct": ["Azure Security Center"],
+    "explanation": "Security Center provides unified security management and threat protection across Azure resources.",
+    "type": "single"
+  },
+  {
+    "id": 47,
+    "question": "You need to implement identity verification with multiple factors. What should you enable?",
+    "options": [
+      "Conditional Access only",
+      "Multi-Factor Authentication (MFA)",
+      "Single Sign-On",
+      "Password Policy"
+    ],
+    "correct": ["Multi-Factor Authentication (MFA)"],
+    "explanation": "MFA requires users to provide multiple forms of identification for enhanced security.",
+    "type": "single"
+  },
+  {
+    "id": 48,
+    "question": "You need to apply access policies based on risk and context. Which Azure AD feature should you use?",
+    "options": [
+      "Multi-Factor Authentication",
+      "Single Sign-On",
+      "Conditional Access",
+      "Azure AD Groups"
+    ],
+    "correct": ["Conditional Access"],
+    "explanation": "Conditional Access applies policies based on user risk, device, location, and other factors.",
+    "type": "single"
+  },
+  {
+    "id": 49,
+    "question": "You need to delegate administrative tasks to team members with minimal privileges. Which RBAC role should you assign?",
+    "options": [
+      "Owner",
+      "Contributor",
+      "Reader",
+      "Custom Role"
+    ],
+    "correct": ["Custom Role"],
+    "explanation": "Custom roles allow you to grant only the specific permissions required for the task.",
+    "type": "single"
+  },
+  {
+    "id": 50,
+    "question": "You need to create a virtual machine from an existing managed image. Which approach should you use?",
+    "options": [
+      "Use Azure Marketplace image",
+      "Capture image from running VM",
+      "Use managed image",
+      "Use unmanaged disk"
+    ],
+    "correct": ["Use managed image"],
+    "explanation": "Managed images simplify creating VMs from existing configurations without managing storage accounts.",
+    "type": "single"
+  },
+  {
+    "id": 51,
+    "question": "You need to move a managed disk to a different subscription. What is the best approach?",
+    "options": [
+      "Copy the VHD file",
+      "Use Azure Resource Mover",
+      "Use Export-Import",
+      "Recreate the disk"
+    ],
+    "correct": ["Use Azure Resource Mover"],
+    "explanation": "Resource Mover simplifies moving resources across subscriptions and regions.",
+    "type": "single"
+  },
+  {
+    "id": 52,
+    "question": "You need to implement a hybrid solution connecting on-premises infrastructure to Azure. Which gateway should you use?",
+    "options": [
+      "Application Gateway",
+      "VPN Gateway",
+      "ExpressRoute Gateway",
+      "NAT Gateway"
+    ],
+    "correct": ["VPN Gateway"],
+    "explanation": "VPN Gateway provides encrypted site-to-site and point-to-site connectivity to Azure.",
+    "type": "single"
+  },
+  {
+    "id": 53,
+    "question": "You need a dedicated, high-bandwidth connection to Azure. Which service should you use?",
+    "options": [
+      "Site-to-Site VPN",
+      "Point-to-Site VPN",
+      "ExpressRoute",
+      "Virtual Network Peering"
+    ],
+    "correct": ["ExpressRoute"],
+    "explanation": "ExpressRoute provides dedicated, private connections to Azure with high bandwidth.",
+    "type": "single"
+  },
+  {
+    "id": 54,
+    "question": "You need to enable Azure services to be accessed privately without exposing them to the internet. Which feature should you use?",
+    "options": [
+      "Network Security Group",
+      "Azure Firewall",
+      "Private Endpoint",
+      "Service Endpoint"
+    ],
+    "correct": ["Private Endpoint"],
+    "explanation": "Private Endpoint connects Azure services privately within your virtual network.",
+    "type": "single"
+  },
+  {
+    "id": 55,
+    "question": "You need to restrict Azure service access to specific virtual networks. Which feature should you use?",
+    "options": [
+      "Network Security Group",
+      "Service Endpoint",
+      "Private Endpoint",
+      "Azure Firewall"
+    ],
+    "correct": ["Service Endpoint"],
+    "explanation": "Service Endpoint restricts Azure service access to specific virtual networks and subnets.",
+    "type": "single"
+  },
+  {
+    "id": 56,
+    "question": "You need to route traffic between subnets and implement network segmentation. What should you configure?",
+    "options": [
+      "Network Security Group",
+      "Route Table",
+      "Virtual Network Peering",
+      "Application Gateway"
+    ],
+    "correct": ["Route Table"],
+    "explanation": "Route tables define how traffic is routed between subnets and networks.",
+    "type": "single"
+  },
+  {
+    "id": 57,
+    "question": "You need to centrally manage and filter traffic across multiple virtual networks. Which service should you use?",
+    "options": [
+      "Network Security Group",
+      "Azure Firewall",
+      "Load Balancer",
+      "Application Gateway"
+    ],
+    "correct": ["Azure Firewall"],
+    "explanation": "Azure Firewall is a managed, cloud-based firewall for protecting virtual networks.",
+    "type": "single"
+  },
+  {
+    "id": 58,
+    "question": "You need to monitor network performance and diagnose connectivity issues. Which tool should you use?",
+    "options": [
+      "Network Watcher",
+      "Azure Monitor",
+      "Application Insights",
+      "Log Analytics"
+    ],
+    "correct": ["Network Watcher"],
+    "explanation": "Network Watcher provides tools to diagnose network issues and monitor network performance.",
+    "type": "single"
+  },
+  {
+    "id": 59,
+    "question": "You need to optimize costs for on-demand virtual machines. Which service should you use?",
+    "options": [
+      "Reserved Instances",
+      "Spot Instances",
+      "Azure Hybrid Benefit",
+      "Azure Cost Management"
+    ],
+    "correct": ["Spot Instances"],
+    "explanation": "Spot Instances allow you to use unused Azure capacity at significantly lower costs.",
+    "type": "single"
+  },
+  {
+    "id": 60,
+    "question": "You need to reduce compute costs for predictable workloads. Which purchasing option should you use?",
+    "options": [
+      "Pay-as-you-go",
+      "Spot Instances",
+      "Reserved Instances",
+      "Hybrid Benefit"
+    ],
+    "correct": ["Reserved Instances"],
+    "explanation": "Reserved Instances provide significant discounts for committed resource usage.",
+    "type": "single"
+  },
+  {
+    "id": 61,
+    "question": "You need to manage and optimize Azure spending. Which service should you use?",
+    "options": [
+      "Azure Advisor",
+      "Azure Cost Management",
+      "Azure Monitor",
+      "Azure Policy"
+    ],
+    "correct": ["Azure Cost Management"],
+    "explanation": "Cost Management provides visibility, analysis, and optimization of Azure spending.",
+    "type": "single"
+  },
+  {
+    "id": 62,
+    "question": "You need to automatically shut down unused resources to save costs. What should you implement?",
+    "options": [
+      "Azure Policy",
+      "Auto-shutdown policies",
+      "Resource locks",
+      "Tags"
+    ],
+    "correct": ["Auto-shutdown policies"],
+    "explanation": "Auto-shutdown policies automatically stop unused resources at scheduled times.",
+    "type": "single"
+  },
+  {
+    "id": 63,
+    "question": "You need to deploy multiple resources consistently. Which template solution should you use?",
+    "options": [
+      "Azure Portal",
+      "Azure CLI",
+      "Azure Resource Manager (ARM) templates",
+      "PowerShell"
+    ],
+    "correct": ["Azure Resource Manager (ARM) templates"],
+    "explanation": "ARM templates provide infrastructure as code for repeatable and consistent deployments.",
+    "type": "single"
+  },
+  {
+    "id": 64,
+    "question": "You need to deploy resources using infrastructure as code with better language support. Which tool should you use?",
+    "options": [
+      "ARM templates",
+      "Bicep",
+      "Terraform",
+      "CloudFormation"
+    ],
+    "correct": ["Bicep"],
+    "explanation": "Bicep is a language that simplifies ARM template creation with cleaner syntax.",
+    "type": "single"
+  },
+  {
+    "id": 65,
+    "question": "You need to manage infrastructure across multiple cloud providers. Which tool should you use?",
+    "options": [
+      "ARM templates",
+      "Bicep",
+      "Terraform",
+      "Azure Portal"
+    ],
+    "correct": ["Terraform"],
+    "explanation": "Terraform supports multiple cloud providers including Azure with consistent syntax.",
+    "type": "single"
+  },
+  {
+    "id": 66,
+    "question": "You need to automate deployment pipelines for your applications. Which service should you use?",
+    "options": [
+      "Azure DevOps",
+      "GitHub Actions",
+      "Jenkins",
+      "GitLab CI"
+    ],
+    "correct": ["Azure DevOps"],
+    "explanation": "Azure DevOps provides integrated CI/CD pipelines for automated deployments.",
+    "type": "single"
+  },
+  {
+    "id": 67,
+    "question": "You need to store source code and implement version control. Which service should you use?",
+    "options": [
+      "Azure Storage",
+      "Azure Repos",
+      "GitHub",
+      "GitLab"
+    ],
+    "correct": ["Azure Repos"],
+    "explanation": "Azure Repos provides Git and TFVC repositories for source code management.",
+    "type": "single"
+  },
+  {
+    "id": 68,
+    "question": "You need to run serverless code triggered by events. Which service should you use?",
+    "options": [
+      "Azure Functions",
+      "Azure Logic Apps",
+      "Azure App Service",
+      "Azure Container Instances"
+    ],
+    "correct": ["Azure Functions"],
+    "explanation": "Functions enable serverless computing for event-driven workloads with automatic scaling.",
+    "type": "single"
+  },
+  {
+    "id": 69,
+    "question": "You need to orchestrate business workflows without writing code. Which service should you use?",
+    "options": [
+      "Azure Functions",
+      "Azure Logic Apps",
+      "Azure Automation",
+      "Azure Runbooks"
+    ],
+    "correct": ["Azure Logic Apps"],
+    "explanation": "Logic Apps provides low-code/no-code workflow orchestration for business processes.",
+    "type": "single"
+  },
+  {
+    "id": 70,
+    "question": "You need to automate repetitive operational tasks. Which service should you use?",
+    "options": [
+      "Azure Functions",
+      "Azure Logic Apps",
+      "Azure Automation",
+      "Azure Event Grid"
+    ],
+    "correct": ["Azure Automation"],
+    "explanation": "Automation provides runbooks for automating Azure administration and operational tasks.",
+    "type": "single"
+  },
+  {
+    "id": 71,
+    "question": "You need to create a scenario-based test for VM deployment. You must deploy a VM with specific networking and security requirements. Which resources must you create?",
+    "options": [
+      "VM and Subnet only",
+      "VM, Virtual Network, Subnet, Network Interface, and NSG",
+      "VM and Storage Account",
+      "VM and Public IP only"
+    ],
+    "correct": ["VM, Virtual Network, Subnet, Network Interface, and NSG"],
+    "explanation": "A complete VM deployment requires virtual network infrastructure with security controls.",
+    "type": "single"
+  },
+  {
+    "id": 72,
+    "question": "Your organization has 50 subscriptions and needs to enforce a policy requiring all storage accounts to have encryption enabled. What is the most efficient approach?",
+    "options": [
+      "Create NSG rules in each subscription",
+      "Apply Azure Policy at Management Group level",
+      "Manually configure each storage account",
+      "Use Resource Locks"
+    ],
+    "correct": ["Apply Azure Policy at Management Group level"],
+    "explanation": "Applying policy at Management Group level ensures consistent enforcement across all subscriptions.",
+    "type": "single"
+  },
+  {
+    "id": 73,
+    "question": "You need to implement disaster recovery for mission-critical databases. Your organization requires RPO of 1 hour and RTO of 4 hours. Which solution should you implement?",
+    "options": [
+      "Azure Backup only",
+      "Azure Site Recovery with continuous replication",
+      "Manual backups",
+      "Azure Advisor recommendations"
+    ],
+    "correct": ["Azure Site Recovery with continuous replication"],
+    "explanation": "Site Recovery provides continuous replication meeting strict RPO and RTO requirements.",
+    "type": "single"
+  },
+  {
+    "id": 74,
+    "question": "Your company is migrating 500+ virtual machines from on-premises to Azure. Which service should lead the migration?",
+    "options": [
+      "Azure Backup",
+      "Azure Migrate",
+      "Azure Site Recovery",
+      "Manual migration"
+    ],
+    "correct": ["Azure Migrate"],
+    "explanation": "Azure Migrate assesses on-premises infrastructure and orchestrates large-scale migrations.",
+    "type": "single"
+  },
+  {
+    "id": 75,
+    "question": "You need to implement role-based access control where users can only manage resources they own. What should you do?",
+    "options": [
+      "Assign Contributor role to everyone",
+      "Create custom RBAC roles with specific permissions",
+      "Use NSG rules",
+      "Implement Conditional Access only"
+    ],
+    "correct": ["Create custom RBAC roles with specific permissions"],
+    "explanation": "Custom RBAC roles enable fine-grained permission control for specific scenarios.",
+    "type": "single"
+  },
+  {
+    "id": 76,
+    "question": "Your application requires data redundancy across multiple regions automatically. Which storage option should you use?",
+    "options": [
+      "Locally Redundant Storage (LRS)",
+      "Geo-Redundant Storage (GRS)",
+      "Zone-Redundant Storage (ZRS)",
+      "Read-Access Geo-Redundant Storage (RA-GRS)"
+    ],
+    "correct": ["Geo-Redundant Storage (GRS)"],
+    "explanation": "GRS automatically replicates data to a secondary region for disaster recovery.",
+    "type": "single"
+  },
+  {
+    "id": 77,
+    "question": "You need high availability within a single region with synchronous replication. Which storage redundancy should you use?",
+    "options": [
+      "Locally Redundant Storage (LRS)",
+      "Geo-Redundant Storage (GRS)",
+      "Zone-Redundant Storage (ZRS)",
+      "Read-Access Geo-Redundant Storage (RA-GRS)"
+    ],
+    "correct": ["Zone-Redundant Storage (ZRS)"],
+    "explanation": "ZRS replicates data synchronously across availability zones within a single region.",
+    "type": "single"
+  },
+  {
+    "id": 78,
+    "question": "You need to provide read access to replicated data in the secondary region. Which storage redundancy option should you use?",
+    "options": [
+      "Geo-Redundant Storage (GRS)",
+      "Read-Access Geo-Redundant Storage (RA-GRS)",
+      "Zone-Redundant Storage (ZRS)",
+      "Locally Redundant Storage (LRS)"
+    ],
+    "correct": ["Read-Access Geo-Redundant Storage (RA-GRS)"],
+    "explanation": "RA-GRS allows reading from the secondary region when the primary is unavailable.",
+    "type": "single"
+  },
+  {
+    "id": 79,
+    "question": "You need to isolate network traffic between development and production environments. What should you implement?",
+    "options": [
+      "NSG rules only",
+      "Separate virtual networks with appropriate routing",
+      "Tags",
+      "Resource Groups"
+    ],
+    "correct": ["Separate virtual networks with appropriate routing"],
+    "explanation": "Separate VNets with controlled routing provides proper network isolation and security.",
+    "type": "single"
+  },
+  {
+    "id": 80,
+    "question": "You need to establish secure communication between applications in different VNets. Which feature should you use?",
+    "options": [
+      "Virtual Network Peering",
+      "VPN Gateway",
+      "Public IP addresses",
+      "Internet connectivity"
+    ],
+    "correct": ["Virtual Network Peering"],
+    "explanation": "VNet peering enables private connectivity between networks without exposing to internet.",
+    "type": "single"
+  },
+  {
+    "id": 81,
+    "question": "You need to connect your on-premises network to multiple Azure regions with high availability. Which VPN configuration should you use?",
+    "options": [
+      "Single VPN Gateway",
+      "Multiple VPN Gateways in Active-Passive mode",
+      "Multiple VPN Gateways in Active-Active mode",
+      "ExpressRoute only"
+    ],
+    "correct": ["Multiple VPN Gateways in Active-Active mode"],
+    "explanation": "Active-Active configuration provides redundancy and load balancing for high availability.",
+    "type": "single"
+  },
+  {
+    "id": 82,
+    "question": "You need to audit and comply with regulations requiring encrypted communication. Which solution should you implement?",
+    "options": [
+      "Network Security Group",
+      "Azure Firewall",
+      "TLS/SSL encryption and Azure Policy",
+      "Service Endpoints"
+    ],
+    "correct": ["TLS/SSL encryption and Azure Policy"],
+    "explanation": "TLS/SSL encryption and policies ensure compliance with encryption requirements.",
+    "type": "single"
+  },
+  {
+    "id": 83,
+    "question": "You need to enable communication between VMs in different subnets of the same VNet. What is required?",
+    "options": [
+      "VPN Gateway",
+      "Virtual Network Peering",
+      "NSG rules allowing traffic",
+      "ExpressRoute"
+    ],
+    "correct": ["NSG rules allowing traffic"],
+    "explanation": "NSG rules must permit traffic between subnets for inter-subnet communication.",
+    "type": "single"
+  },
+  {
+    "id": 84,
+    "question": "Your company needs to segment Azure subscriptions by cost center. Which feature should you use?",
+    "options": [
+      "Resource Groups",
+      "Tags",
+      "Virtual Networks",
+      "Management Groups"
+    ],
+    "correct": ["Tags"],
+    "explanation": "Tags enable organizing and tracking costs by business dimension like cost center.",
+    "type": "single"
+  },
+  {
+    "id": 85,
+    "question": "You need to view aggregated costs across multiple subscriptions. Which tool should you use?",
+    "options": [
+      "Azure Advisor",
+      "Azure Cost Management",
+      "Azure Monitor",
+      "Application Insights"
+    ],
+    "correct": ["Azure Cost Management"],
+    "explanation": "Cost Management provides consolidated billing and cost analysis across subscriptions.",
+    "type": "single"
+  },
+  {
+    "id": 86,
+    "question": "You need to create a reusable deployment for multiple similar environments. Which approach is best?",
+    "options": [
+      "Manual deployment in each environment",
+      "Azure Resource Manager templates",
+      "Copy-paste portal configurations",
+      "Scripting each resource individually"
+    ],
+    "correct": ["Azure Resource Manager templates"],
+    "explanation": "ARM templates enable infrastructure as code for consistent, repeatable deployments.",
+    "type": "single"
+  },
+  {
+    "id": 87,
+    "question": "You need to audit all changes made to Azure resources for compliance. Which service should you implement?",
+    "options": [
+      "Azure Monitor",
+      "Azure Activity Log",
+      "Application Insights",
+      "Network Watcher"
+    ],
+    "correct": ["Azure Activity Log"],
+    "explanation": "Activity Log records all control plane changes to Azure resources for audit trails.",
+    "type": "single"
+  },
+  {
+    "id": 88,
+    "question": "You need to prevent users from accidentally modifying critical infrastructure. Which approach should you use?",
+    "options": [
+      "NSG rules",
+      "Azure Policy",
+      "Resource locks",
+      "RBAC denying permissions"
+    ],
+    "correct": ["Resource locks"],
+    "explanation": "Resource locks prevent accidental modification or deletion while maintaining authorized changes.",
+    "type": "single"
+  },
+  {
+    "id": 89,
+    "question": "You need to implement a solution where users authenticate once and access multiple applications. Which technology should you use?",
+    "options": [
+      "Local user accounts",
+      "Azure AD Single Sign-On (SSO)",
+      "VPN",
+      "Password sharing"
+    ],
+    "correct": ["Azure AD Single Sign-On (SSO)"],
+    "explanation": "SSO enables single authentication for multiple applications using Azure AD.",
+    "type": "single"
+  },
+  {
+    "id": 90,
+    "question": "You need to enable conditional access that requires MFA when users access sensitive resources from unknown locations. What should you configure?",
+    "options": [
+      "RBAC only",
+      "Azure AD Conditional Access policy",
+      "NSG rules",
+      "Azure Policy"
+    ],
+    "correct": ["Azure AD Conditional Access policy"],
+    "explanation": "Conditional Access policies enforce access requirements based on risk and context.",
+    "type": "single"
+  },
+  {
+    "id": 91,
+    "question": "You need to manage secrets and keys used by applications and services. Which secure solution should you use?",
+    "options": [
+      "Store in config files",
+      "Hardcode in application",
+      "Azure Key Vault",
+      "Environment variables in code"
+    ],
+    "correct": ["Azure Key Vault"],
+    "explanation": "Key Vault provides secure storage and management of secrets and cryptographic keys.",
+    "type": "single"
+  },
+  {
+    "id": 92,
+    "question": "You need to rotate encryption keys automatically. Which Azure service supports this?",
+    "options": [
+      "Azure Storage",
+      "Azure SQL Database",
+      "Azure Key Vault",
+      "Azure Backup"
+    ],
+    "correct": ["Azure Key Vault"],
+    "explanation": "Key Vault can be configured with automatic key rotation policies.",
+    "type": "single"
+  },
+  {
+    "id": 93,
+    "question": "You need to implement encryption for data in transit. Which protocol should you enforce?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "TLS/SSL",
+      "Telnet"
+    ],
+    "correct": ["TLS/SSL"],
+    "explanation": "TLS/SSL encrypts data in transit between clients and servers.",
+    "type": "single"
+  },
+  {
+    "id": 94,
+    "question": "You need to ensure data at rest in Azure SQL Database is encrypted. Which feature is enabled by default?",
+    "options": [
+      "Nothing is encrypted by default",
+      "Transparent Data Encryption (TDE)",
+      "Column-level encryption only",
+      "Manual encryption setup"
+    ],
+    "correct": ["Transparent Data Encryption (TDE)"],
+    "explanation": "TDE is enabled by default in Azure SQL Database for encrypting data at rest.",
+    "type": "single"
+  },
+  {
+    "id": 95,
+    "question": "You need to monitor database queries for security and compliance. Which feature should you enable?",
+    "options": [
+      "Azure Backup",
+      "Azure Monitor",
+      "Azure SQL Database Auditing",
+      "Network Watcher"
+    ],
+    "correct": ["Azure SQL Database Auditing"],
+    "explanation": "SQL Database Auditing logs database activities for security and compliance auditing.",
+    "type": "single"
+  },
+  {
+    "id": 96,
+    "question": "You need to protect your web applications against common web vulnerabilities. Which service should you use?",
+    "options": [
+      "NSG",
+      "Azure Firewall",
+      "Azure Web Application Firewall (WAF)",
+      "VPN"
+    ],
+    "correct": ["Azure Web Application Firewall (WAF)"],
+    "explanation": "WAF protects web applications against common exploits and vulnerabilities.",
+    "type": "single"
+  },
+  {
+    "id": 97,
+    "question": "You need to scan images stored in Azure Container Registry for vulnerabilities. Which service should you use?",
+    "options": [
+      "Azure Monitor",
+      "Azure Advisor",
+      "Azure Security Center",
+      "Azure Policy"
+    ],
+    "correct": ["Azure Security Center"],
+    "explanation": "Security Center provides vulnerability scanning for container images in registries.",
+    "type": "single"
+  },
+  {
+    "id": 98,
+    "question": "You need to receive alerts when suspicious activities are detected in your Azure environment. Which service should you configure?",
+    "options": [
+      "Azure Monitor",
+      "Azure Advisor",
+      "Azure Security Center alerts",
+      "Application Insights"
+    ],
+    "correct": ["Azure Security Center alerts"],
+    "explanation": "Security Center provides threat detection and alerting for Azure resources.",
+    "type": "single"
+  },
+  {
+    "id": 99,
+    "question": "You need to ensure your Azure environment complies with industry standards like HIPAA. Which approach should you use?",
+    "options": [
+      "Manual verification",
+      "Azure Policy with compliance definitions",
+      "Azure Advisor only",
+      "Regular audits only"
+    ],
+    "correct": ["Azure Policy with compliance definitions"],
+    "explanation": "Azure Policy provides compliance evaluations against industry standards and regulations.",
+    "type": "single"
+  },
+  {
+    "id": 100,
+    "question": "You need to create separate environments for development, testing, and production with isolated access. What should you implement?",
+    "options": [
+      "Different resource groups in same subscription",
+      "Different subscriptions with Management Groups and RBAC",
+      "Different tags only",
+      "Different regions only"
+    ],
+    "correct": ["Different subscriptions with Management Groups and RBAC"],
+    "explanation": "Separate subscriptions with managed groups provide isolation and granular access control.",
+    "type": "single"
+  }
+]

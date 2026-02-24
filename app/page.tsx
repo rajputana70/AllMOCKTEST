@@ -25,9 +25,9 @@ const courses = [
     questions: 100,
   },
   {
-    id: "azure",
-    title: "Azure",
-    description: "Microsoft Azure Fundamentals",
+    id: "az104",
+    title: "Microsoft Azure Administrator (AZ-104)",
+    description: "Azure Administrator Certification",
     icon: Shield,
     color: "from-blue-500 to-indigo-600",
     bgColor: "bg-blue-500/10",
