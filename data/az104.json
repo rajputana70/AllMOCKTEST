@@ -1,0 +1,14 @@
+{
+  "exam": "Microsoft Azure Administrator (AZ-104)",
+  "totalQuestions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "question": "...",
+      "options": ["...", "...", "...", "..."],
+      "answer": "...",
+      "explanation": "..."
+    },
+    ...
+  ]
+}
